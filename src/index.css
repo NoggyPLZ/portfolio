@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@font-face {
+  font-family:Bigger Display;
+  font-style:normal;
+  font-weight:700;
+  src:url(./assets/fonts/Bigger-Display.woff2) format("woff2");
+  font-display:swap;
+  text-rendering:optimizelegibility
+}
+
+@theme{
+    --color-darkgray-500: oklch(0.2346 0.0083 264.4);
+    --color-palered-500: oklch(0.5822 0.2076 26.59);
+    --color-palegray-500: oklch(0.8945 0 0);
+    --font-bigger: "Bigger Display";
+}
+
+body{
+  @apply bg-darkgray-500;
+}

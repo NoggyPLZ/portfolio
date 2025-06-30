@@ -1,0 +1,20 @@
+
+import { BrowserRouter, Routes, Route } from 'react-router'
+import AppLayout from './layout/AppLayout';
+import Home from './layout/Home';
+
+
+function App() {
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AppLayout />}>
+          <Route index element={<Home />}></Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App;
