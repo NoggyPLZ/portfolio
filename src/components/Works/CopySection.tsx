@@ -2,7 +2,7 @@ import gsap from 'gsap'
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { SplitText, ScrollTrigger } from "gsap/all";
-gsap.registerPlugin(useGSAP, SplitText);
+gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
 
 type Copy = {
     title: string;
