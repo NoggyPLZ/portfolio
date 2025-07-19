@@ -1,7 +1,7 @@
 import projects from "../../data/projects"
-import HeroAlchemySection from "../HeroSection/HeroAlchemySection"
 import CopySection from "./CopySection"
 import WorksImages from "./WorksImages"
+import AlchemySection from "./AlchemySection"
 
 
 export default function WorkSection(){
@@ -21,7 +21,7 @@ export default function WorkSection(){
                         }
                     } />
                 </div>
-                <HeroAlchemySection head={`Dummy Copy`} body={'for now please fix'} />
+                <AlchemySection head={`Dummy Copy`} body={'for now please fix'} section={index} />
             </div>
         ))}
         
