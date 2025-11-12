@@ -25,7 +25,7 @@ export default function HeroSection() {
         { width: "100%", duration: 1.5, ease: "power2.out" }
       ).from(
         split.words,
-        { opacity: 0, duration: 2, ease: "steps.out", stagger: 0.54 },
+        { opacity: 0, duration: 2, ease: "steps.out", stagger: 0.34 },
         "-=0.5"
       );
     },
@@ -37,7 +37,7 @@ export default function HeroSection() {
       <div className="font-bigger text-palegray-500 bg-darkgray-500 p-8 pt-40 z-10">
         <h2
           ref={containerRef}
-          className="xl:text-[9.8rem]/35 text-[3.2rem]/17 inline-block relative md:pl-5 md:pr-5 pl-1 pr-1"
+          className="xl:text-[9.8rem]/35 text-[3.2rem]/17 md:text-[6.8rem]/15 inline-block relative md:pl-5 md:pr-5 pl-1 pr-1"
         >
           <span
             ref={lineRef}

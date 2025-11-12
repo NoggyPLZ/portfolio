@@ -13,6 +13,32 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "BACK.LOG",
+    client: "Gaming Community",
+    skills:
+      "Design, Branding, React, Redux Toolkit, Async Thunks, TypeScript, Tailwind CSS, Netlify Serverless Functions, Steam API",
+    body: "Back.log is a single-page app that helps Steam users rediscover unplayed games in their library. In a time when new releases keep getting pricier, many players already own hidden gems they’ve never touched. This app uses a player’s Steam ID to fetch their library and randomly surface up to three games under a chosen playtime threshold—perfect for finding something new to play. \n\nWith one click, users can launch or install a game directly from the app, turning backlog browsing into an interactive experience. \n\nThe project was built with React, Redux Toolkit, and Async Thunks for state and async management. While Redux was admittedly overkill for the app’s scope, it was a great exercise in structuring API-driven state. Because the Steam API has vague and inconsistent rate limits, I implemented a custom rate-limiting hook to protect users from hitting request caps client-side.",
+    images: {
+      image_1: "./backlog/backlog-site01.webp",
+      image_2: "./backlog/backlog-site02.webp",
+      image_3: "./backlog/backlog-site02.webp",
+    },
+    link: "https://steam-backlog.netlify.app/",
+  },
+  {
+    title: "TECH TRAP",
+    client: "FGC Community",
+    skills:
+      "Design, Branding, HTML, CSS, TS, Next.js, Zod, RHF, Prisma, Postgres, Tailwind CSS",
+    body: "TechTrap is a user-centric community notes application built for the fighting game community. Using Next.js, I developed a multi-page app that supports user authentication, note creation, and community sharing.\n\nEach character has a collective pool of notes contributed by users. When someone likes a note, it’s saved to their personal collection—making it easy to curate useful information. Authentication is handled with JWT session tokens, while all user input is validated on the backend with Zod before being persisted via Prisma to a PostgreSQL database. \n\nThe goal was to create a pseudo-social platform that encourages the organic exchange of strategies and insights—an evolving marketplace of ideas where accuracy and authenticity directly impact competitive performance.",
+    images: {
+      image_1: "./techtrap/techtrap-site01.webp",
+      image_2: "./techtrap/techtrap-site02.webp",
+      image_3: "./techtrap/techtrap-site03.webp",
+    },
+    link: "https://www.techtrap.app/",
+  },
+  {
     title: "RITE AID CAREERS",
     client: "Rite Aid",
     skills: "Design, Branding, Front-End using HTML & CSS",

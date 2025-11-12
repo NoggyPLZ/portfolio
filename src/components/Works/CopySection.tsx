@@ -2,6 +2,8 @@ import gsap from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { SplitText, ScrollTrigger } from "gsap/all";
+import { Link } from "react-router";
+import { ArrowUpRight } from "lucide-react";
 gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
 
 type Copy = {
@@ -10,6 +12,7 @@ type Copy = {
   skills: string;
   body: string;
   even: boolean;
+  link?: string;
 };
 
 type CopyProps = {
@@ -17,7 +20,7 @@ type CopyProps = {
 };
 
 export default function CopySection(props: CopyProps) {
-  const { title, client, skills, body, even } = props.copy;
+  const { title, client, skills, body, even, link } = props.copy;
   const titleRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -25,15 +28,15 @@ export default function CopySection(props: CopyProps) {
     () => {
       let split = SplitText.create(titleRef.current, { type: "words, chars" });
       gsap.from(split.words, {
-        duration: 0.8,
+        duration: 0.6,
         stagger: 0.05,
-        y: -100,
+        y: 100,
         opacity: 0,
         scrollTrigger: {
           trigger: titleRef.current,
           toggleActions: "restart none none none",
         },
-        ease: "expo.in",
+        ease: "power1.in",
       });
     },
     { scope: containerRef }
@@ -46,31 +49,46 @@ export default function CopySection(props: CopyProps) {
     >
       <h3
         ref={titleRef}
-        className="font-bigger text-9xl/27 2xl:text-[18rem]/[14.5rem] 2xl:pt-6 text-palered-500"
+        className="font-bigger text-7xl/15 md:text-9xl/27 2xl:text-[18rem]/[14.5rem] 2xl:pt-6 text-palered-500"
       >
         {title}
       </h3>
       <h4
-        className={`text-2xl ${
+        className={`text-lg md:text-xl ${
           even ? `text-darkgray-500` : `text-palegray-500`
         }`}
       >
         <span className="font-bold">Client:</span> {client}
       </h4>
       <h4
-        className={`text-2xl ${
+        className={`text-lg md:text-xl ${
           even ? `text-darkgray-500` : `text-palegray-500`
         }`}
       >
         <span className="font-bold">Skills:</span> {skills}
       </h4>
       <p
-        className={`text-2xl font-light ${
+        className={`text-md md:text-xl whitespace-pre-wrap ${
           even ? `text-darkgray-500` : `text-palegray-500`
         }`}
       >
         {body}
       </p>
+      {link && (
+        <div className="pt-5">
+          <Link
+            to={link}
+            target="_blank"
+            className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px]  h-40 ${
+              even
+                ? "bg-darkgray-500 text-palegray-500"
+                : "bg-palegray-500 text-darkgray-500"
+            }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
+          >
+            Visit Site <ArrowUpRight size={30} strokeWidth={3} />
+          </Link>
+        </div>
+      )}
     </div>
   );
 }

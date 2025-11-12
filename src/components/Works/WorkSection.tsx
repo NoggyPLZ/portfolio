@@ -24,6 +24,7 @@ export default function WorkSection() {
                 skills: project.skills,
                 body: project.body,
                 even: index % 2 === 0,
+                link: project.link,
               }}
             />
           </div>
