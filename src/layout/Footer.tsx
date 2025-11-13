@@ -36,7 +36,7 @@ export default function Footer() {
     >
       <h1
         ref={questionRef}
-        className="pb-5 uppercase font-bigger 2xl:text-[14rem]/75 xl:text-[12rem]/40 md:text-[12rem]/40 text-[5.5rem]/19 border-b-palegray-500 border-b-1"
+        className="pb-5 uppercase font-bigger 2xl:text-[14rem]/50 xl:text-[12rem]/40 md:text-[12rem]/40 text-[5.5rem]/19 border-b-palegray-500 border-b-1"
       >
         Ready to solve some <span className="text-palered-500">problems</span>?
       </h1>

@@ -21,7 +21,7 @@ const projects: Project[] = [
     images: {
       image_1: "./backlog/backlog-site01.webp",
       image_2: "./backlog/backlog-site02.webp",
-      image_3: "./backlog/backlog-site02.webp",
+      image_3: "./backlog/backlog-site03.webp",
     },
     link: "https://steam-backlog.netlify.app/",
   },

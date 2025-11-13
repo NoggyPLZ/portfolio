@@ -3,6 +3,8 @@ import {
   AlchemyShape2,
   AlchemyShape3,
   AlchemyShape4,
+  AlchemyShape5,
+  AlchemyShape6,
 } from "./AlchemyShapes";
 
 type AlchemyProps = {
@@ -15,8 +17,8 @@ const shapes = [
   AlchemyShape1,
   AlchemyShape2,
   AlchemyShape3,
-  AlchemyShape4,
-  AlchemyShape4,
+  AlchemyShape5,
+  AlchemyShape6,
   AlchemyShape4,
 ];
 
