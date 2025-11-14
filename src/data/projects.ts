@@ -9,6 +9,10 @@ type Project = {
     image_3: string;
   };
   link?: string;
+  quote?: {
+    body: string;
+    author: string;
+  };
 };
 
 const projects: Project[] = [
@@ -59,6 +63,10 @@ const projects: Project[] = [
       image_2: "./surlalune/sur-la-lune02.webp",
       image_3: "./surlalune/sur-la-lune03.webp",
     },
+    quote: {
+      body: "True alchemy lies in this formula: Your memory and your senses are but the nourishment of your creative impulse",
+      author: "Arthur Rimbaud",
+    },
   },
   {
     title: "RYMAN CAREERS",
@@ -69,6 +77,10 @@ const projects: Project[] = [
       image_1: "./ryman/ryman01.webp",
       image_2: "./ryman/ryman02.webp",
       image_3: "./ryman/ryman03.webp",
+    },
+    quote: {
+      body: "As always, this looks awesome ... Thanks for the quick turnaround!",
+      author: "Dennis Borchers, TSC",
     },
   },
   {

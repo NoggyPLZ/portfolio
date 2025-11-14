@@ -1,20 +1,65 @@
 @import "tailwindcss";
 @font-face {
-  font-family:Bigger Display;
-  font-style:normal;
-  font-weight:700;
-  src:url(./assets/fonts/Bigger-Display.woff2) format("woff2");
-  font-display:swap;
-  text-rendering:optimizelegibility
+  font-family: Bigger Display;
+  font-style: normal;
+  font-weight: 700;
+  src: url(./assets/fonts/Bigger-Display.woff2) format("woff2");
+  font-display: swap;
+  text-rendering: optimizelegibility;
 }
 
-@theme{
-    --color-darkgray-500: oklch(0.2346 0.0083 264.4);
-    --color-palered-500: oklch(0.5822 0.2076 26.59);
-    --color-palegray-500: oklch(0.8945 0 0);
-    --font-bigger: "Bigger Display";
+@theme {
+  --color-darkgray-500: oklch(0.2346 0.0083 264.4);
+  --color-palered-500: oklch(0.5822 0.2076 26.59);
+  --color-palegray-500: oklch(0.8945 0 0);
+  --font-bigger: "Bigger Display";
 }
 
-body{
+body {
   @apply bg-darkgray-500;
+}
+
+.quote-section::before {
+  content: "“";
+  font-family: serif;
+  color: oklch(0.2346 0.0083 264.4);
+  font-size: 3.5rem;
+  position: relative;
+  margin-right: -10px;
+  top: 8px;
+  left: -15px;
+}
+
+.quote-section::after {
+  content: "”";
+  font-family: serif;
+  color: oklch(0.2346 0.0083 264.4);
+  font-size: 3.5rem;
+  position: relative;
+  bottom: -25px;
+  right: 0px;
+  line-height: 0px;
+}
+
+@media (min-width: 600px) {
+  .quote-section::before {
+    font-size: 5rem;
+    position: relative;
+    bottom: -45px;
+    right: 8px;
+    line-height: 0px;
+  }
+
+  .quote-section::after {
+    font-size: 5rem;
+    position: relative;
+    bottom: -45px;
+    right: 8px;
+    line-height: 0px;
+  }
+}
+
+.author::before {
+  content: "⸺";
+  padding-right: 5px;
 }

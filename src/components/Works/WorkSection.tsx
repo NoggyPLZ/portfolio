@@ -32,6 +32,7 @@ export default function WorkSection() {
             head={`Dummy Copy`}
             body={"for now please fix"}
             section={index}
+            quote={project.quote}
           />
         </div>
       ))}

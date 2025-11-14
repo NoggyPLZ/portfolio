@@ -385,10 +385,11 @@ export function AlchemyShape4() {
 
   return (
     <>
+      {/* md:left-10/12 xl:left-8/12 */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 408.03 471.15"
-        className="top-1/2 left-10/12 xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-full md:w-8/12 xl:w-1/3 absolute"
+        className="top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-8/12 xl:w-1/3 absolute"
         ref={container}
       >
         <polygon
@@ -526,11 +527,11 @@ export function AlchemyShape5() {
         )
         .from(".white-line", {
           drawSVG: "0%",
-          duration: 2,
+          duration: 1.5,
           ease: "power2.in",
         })
         .from(blackTriangle.current, {
-          duration: 2,
+          duration: 1,
           scale: 0,
           transformOrigin: "center center",
         });
@@ -542,7 +543,7 @@ export function AlchemyShape5() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 664.15 766.85"
-        className="top-1/2 left-10/12 xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-full md:w-8/12 xl:w-1/3 absolute"
+        className="top-60 md:top-1/2 left-10/12 xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-full md:w-8/12 xl:w-1/3 absolute"
         ref={container}
       >
         <polygon
@@ -551,7 +552,7 @@ export function AlchemyShape5() {
           fill="none"
           stroke="#dcdcdc"
           strokeMiterlimit={10}
-          strokeWidth={1}
+          strokeWidth={2}
           ref={polyhedronOuter}
         />
         <polyline
@@ -667,7 +668,7 @@ export function AlchemyShape6() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="-10 -10 746.34 776.13"
         ref={container}
-        className="top-60 lg:top-40 2xl:top-1/2 left-10/12 xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-full md:w-8/12 xl:w-1/2 2xl:w-1/4 absolute"
+        className="top-60 lg:top-40 2xl:top-30 left-10/12 xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-full md:w-8/12 xl:w-1/2 2xl:w-1/3 absolute"
       >
         <polygon
           points="368.17 698.62 668.84 177.86 67.51 177.86 368.17
