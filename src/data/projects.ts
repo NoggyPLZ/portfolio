@@ -78,9 +78,10 @@ const projects: Project[] = [
       image_2: "./ryman/ryman02.webp",
       image_3: "./ryman/ryman03.webp",
     },
+    link: "/sites/ryman/index.html",
     quote: {
       body: "As always, this looks awesome ... Thanks for the quick turnaround!",
-      author: "Dennis Borchers, TSC",
+      author: "Dennis B., TSC",
     },
   },
   {
@@ -93,6 +94,7 @@ const projects: Project[] = [
       image_2: "./tsc-careers/tsc-careers02.webp",
       image_3: "./tsc-careers/tsc-careers03.webp",
     },
+    link: "/sites/tsc/index.html",
   },
 ];
 
