@@ -34,7 +34,7 @@ export default function HeroSection() {
 
   return (
     <>
-      <div className="font-bigger text-palegray-500 bg-darkgray-500 p-8 pt-40 z-10">
+      <div className="font-bigger text-palegray-500 bg-darkgray-500 px-8 pt-30 md:pt-60 z-10">
         <h2
           ref={containerRef}
           className="xl:text-[9.8rem]/35 text-[3.2rem]/17 md:text-[6.8rem]/15 inline-block relative md:pl-5 md:pr-5 pl-1 pr-1"
@@ -55,10 +55,7 @@ export default function HeroSection() {
           </span>
         </h1>
       </div>
-      <HeroAlchemySection
-        head={"15 Years"}
-        body={"in Web Design and Front-end"}
-      />
+      <HeroAlchemySection head={""} body={""} />
     </>
   );
 }
