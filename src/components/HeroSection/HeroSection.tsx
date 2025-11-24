@@ -37,7 +37,7 @@ export default function HeroSection() {
       <div className="font-bigger text-palegray-500 bg-darkgray-500 px-8 pt-30 md:pt-60 z-10">
         <h2
           ref={containerRef}
-          className="xl:text-[9.8rem]/35 text-[3.2rem]/17 md:text-[6.8rem]/15 inline-block relative md:pl-5 md:pr-5 pl-1 pr-1"
+          className="xl:text-[9.8rem]/35 text-[2.8rem]/15 sm:text-[3.2rem]/17 md:text-[6.8rem]/15 inline-block relative md:pl-5 md:pr-5 pl-1 pr-1"
         >
           <span
             ref={lineRef}
@@ -50,12 +50,17 @@ export default function HeroSection() {
           className="2xl:text-[20rem]/75 xl:text-[12rem]/40 md:text-[12rem]/40 text-[7rem]/19 pt-1 md:pt-4 lg:pt-4 xl:pt-0 wrap-break-word"
         >
           VISUAL{" "}
-          <span className="2xl:text-[20rem]/75 xl:text-[12rem]/40 md:text-[12rem]/40 text-[6.5rem]/27">
+          <span className="text-[6.3rem]/25 2xl:text-[20rem]/75 xl:text-[12rem]/40 md:text-[12rem]/40 sm:text-[6.5rem]/27">
             SOLUTIONS
           </span>
         </h1>
       </div>
-      <HeroAlchemySection head={""} body={""} />
+      <HeroAlchemySection
+        head={""}
+        body={
+          "My name is Brett Hicks and I'm a Web Designer and Web Developer based out of TN."
+        }
+      />
     </>
   );
 }

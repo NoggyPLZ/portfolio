@@ -16,6 +16,7 @@ export default function HeroAlchemySection({
   const outerCircle = useRef<SVGCircleElement>(null);
   const secondCircle = useRef<SVGCircleElement>(null);
   const centerCircle = useRef<SVGCircleElement>(null);
+  const bodyCopy = useRef<HTMLParagraphElement>(null);
 
   useGSAP(
     () => {
@@ -26,6 +27,12 @@ export default function HeroAlchemySection({
         transformOrigin: "center center",
         ease: "linear",
       });
+
+      gsap.fromTo(
+        bodyCopy.current,
+        { y: 50, opacity: 0 },
+        { y: 0, opacity: 1, duration: 1.5, ease: "power2.out", delay: 1.8 }
+      );
     },
     { scope: container }
   );
@@ -33,20 +40,27 @@ export default function HeroAlchemySection({
   return (
     <div
       ref={container}
-      className="bg-palered-500 h-120 relative overflow-hidden"
+      className="bg-palered-500 h-80 md:h-120 relative overflow-hidden"
     >
-      <div className="flex h-full gap-2 pl-8 justify-center flex-col items-start">
+      <div className="flex h-full w-[80%] md:w-[60%] gap-2 pl-8 flex-col items-start">
         {head && (
           <h4 className="text-palegray-500 font-bigger text-8xl/[40px]">
             {head.toUpperCase()}
           </h4>
         )}
-        {body && <p className="text-palegray-500 text-xl">{body}</p>}
+        {body && (
+          <p
+            className="text-palegray-500 font-semibold italic text-xl/7 md:text-3xl/10 xl:text-4xl/12 relative d:p-5 lg:pt-10 bg-palered-500 z-100 pt-5"
+            ref={bodyCopy}
+          >
+            {body}
+          </p>
+        )}
       </div>
       <svg
         viewBox="0 0 1010.296 1010.296"
         xmlns="http://www.w3.org/2000/svg"
-        className="top-1/2 left-10/12 xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-full md:w-8/12 xl:w-1/2 absolute"
+        className="left-10/12 xl:left-9/12 -translate-x-1/2 -translate-y-1/2 w-full md:w-8/12 xl:w-1/2 absolute"
       >
         <circle
           ref={outerCircle}

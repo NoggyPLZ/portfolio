@@ -43,7 +43,12 @@ export default function About() {
           </div>
         </div>
         <div className="lg:basis-1/2 basis-full">
-          <div className="lg:h-full lg:w-200 bg-palered-500"></div>
+          <div className="lg:h-full lg:w-200">
+            <img
+              src="images/picture-of-brett.webp"
+              className="mx-auto rounded-2xl"
+            />
+          </div>
         </div>
       </div>
 
