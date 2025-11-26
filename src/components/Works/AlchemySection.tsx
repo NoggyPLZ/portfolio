@@ -27,7 +27,7 @@ const shapes = [
 ];
 
 export default function AlchemySection(props: AlchemyProps) {
-  const { section, head, body, quote } = props;
+  const { section, quote } = props;
 
   const Shape = shapes[section];
   return (

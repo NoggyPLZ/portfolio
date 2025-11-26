@@ -19,7 +19,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="bg-darkgray-500 mt-20">
+    <div className="bg-darkgray-500">
       <div className="flex lg:flex-row flex-col gap-8 p-8 border-t-30 border-b-30 border-darkgray-500">
         <h1 className="font-bigger text-7xl/15 md:text-9xl/27 2xl:text-[13rem]/[10.5rem] 2xl:pt-6 text-palered-500">
           SKILLS<span className="text-palegray-500">/</span>TECH
