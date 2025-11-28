@@ -3,14 +3,14 @@ import { brandLogos } from "../../data/brandLogos";
 export default function Brands() {
   return (
     <div className="bg-darkgray-500 py-15 flex flex-col">
-      <h2 className="text-6xl font-bigger text-palegray-500 uppercase text-center pb-10">
+      <h2 className="text-4xl md:text-6xl font-bigger text-palegray-500 uppercase text-center pt-5 pb-2">
         Brands I've Worked With
       </h2>
-      <div className="flex justify-evenly place-items-center w-full flex-wrap">
+      <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-8 justify-evenly place-items-center w-full flex-wrap p-8 gap-1">
         {brandLogos.map((brand, i) => (
           <div
             key={i}
-            className="w-[50%] md:w-[250px] p-2 bg-neutral-900 rounded-2xl  place-items-center justify-center flex h-[180px]"
+            className="p-5 border-1 border-gray-700 rounded-md  place-items-center justify-center flex h-[180px] w-full"
           >
             {brand.logo}
           </div>

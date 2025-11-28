@@ -33,7 +33,7 @@ export default function AlchemySection(props: AlchemyProps) {
   return (
     <div
       className={`bg-palered-500 ${
-        quote ? "h-200" : "h-100"
+        quote ? "h-175" : "h-100"
       }  md:h-150 relative overflow-hidden`}
     >
       <div className="flex h-full gap-2 p-8 md:pl-8 justify-end md:justify-center flex-col md:items-start md:max-w-[50%]">

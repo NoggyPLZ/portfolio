@@ -28,7 +28,7 @@ export default function Skills() {
           {techNames.map((tech, i) => (
             <div
               key={i}
-              className="bg-palegray-500 py-10 rounded-md flex flex-col place-items-center gap-4"
+              className="bg-palegray-500 py-10 px-2 rounded-md flex flex-col place-items-center gap-4"
             >
               <div className="h-24 w-24">{techSVGS[tech]}</div>
               {tech}

@@ -45,7 +45,7 @@ export default function About() {
         <div className="lg:basis-1/2 basis-full order-1 lg:order-2 ">
           <div className="lg:h-full lg:w-200 w-80 mx-auto md:ml-0">
             <img
-              src="images/picture-of-brett.webp"
+              src="/images/picture-of-brett.webp"
               className="mx-auto rounded-2xl"
               width="600"
               height="634"

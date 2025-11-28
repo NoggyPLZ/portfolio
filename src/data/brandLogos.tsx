@@ -37,7 +37,11 @@ export const brandLogos = [
       </svg>
     ),
   },
-  { name: "Ryman", logo: <img src="logos/ryman-logo.png" width={180} /> },
+  {
+    name: "Petsense",
+    logo: <img src="/logos/petsense-logo.png" width={150} height={71} />,
+  },
+  { name: "Ryman", logo: <img src="/logos/ryman-logo.png" width={180} /> },
   {
     name: "CrunchyRoll",
     logo: (
@@ -58,18 +62,18 @@ export const brandLogos = [
   },
   {
     name: "Rite Aid",
-    logo: <img src="logos/rite-aid-logo.webp" width={150} height={71} />,
+    logo: <img src="/logos/rite-aid-logo.webp" width={150} height={71} />,
   },
   {
     name: "Bulwark",
-    logo: <img src="logos/bulwark-logo.webp" width={87} height={100} />,
+    logo: <img src="/logos/bulwark-logo.webp" width={87} height={100} />,
   },
   {
     name: "Porte Italia",
-    logo: <img src="logos/porte-logo.webp" width={180} height={40} />,
+    logo: <img src="/logos/porte-logo.webp" width={180} height={40} />,
   },
   {
     name: "SurLaLunem",
-    logo: <img src="logos/surlalune-logo.webp" width={180} height={51} />,
+    logo: <img src="/logos/surlalune-logo.webp" width={180} height={51} />,
   },
 ];
