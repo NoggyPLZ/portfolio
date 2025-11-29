@@ -33,7 +33,17 @@ export default function Navbar() {
           </span>
         </div>
       </NavLink>
+
       <nav className="flex flex-row text-palegray-500 font-bold gap-8 text-lg justify-center place-items-center">
+        <NavLink
+          to={"/#works"}
+          onClick={() => {
+            const el = document.getElementById("works");
+            if (el) el.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          works
+        </NavLink>
         <NavLink
           to="/about"
           className={({ isActive }) =>

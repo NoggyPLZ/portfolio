@@ -5,7 +5,7 @@ import AlchemySection from "./AlchemySection";
 
 export default function WorkSection() {
   return (
-    <div className="bg-darkgray-500">
+    <div className="bg-darkgray-500" id="works">
       {projects.map((project, index) => (
         <div
           key={index}
