@@ -72,7 +72,7 @@ const projects: Project[] = [
     title: "RYMAN CAREERS",
     client: "Ryman Hospitality Properties",
     skills: "Design, Branding, Front-End using HTML/CSS/JS",
-    body: "Capturing the rustic typesetting theme of a Nashville printing press, my team at BlueTractor created a careers site for the Ryman properties. Covering around 6 different properties in locations all over Tennessee and even Florida, the site helped RHP reach potential employees in properties such as Ole Red, Grand Ole Opry, Ryman Auditorium, and more.",
+    body: "Capturing the rustic typesetting theme of a Nashville printing press, my team at BlueTractor created a careers site for the Ryman properties. Covering around 6 different brands in locations all over Tennessee and even Florida, the site helped Ryman Hospitality Properties reach potential employees in properties such as Ole Red, Grand Ole Opry, Ryman Auditorium, and more.",
     images: {
       image_1: "/ryman/ryman01.webp",
       image_2: "/ryman/ryman02.webp",
@@ -88,7 +88,7 @@ const projects: Project[] = [
     title: "TSC CAREERS",
     client: "Tractor Supply Co.",
     skills: "Design, Branding, Front-End using HTML/CSS/JS",
-    body: "Write some body copy here please if you would please.",
+    body: "Starting with the day in the life of a Tractor Supply Team Member, the TSC Careers site introduces prospective applicants to the company and its culture. The comprehensive job search function matches the site's design, using API feeds from TSC's third party vendor to offer a cohesive site experience.",
     images: {
       image_1: "/tsc-careers/tsc-careers01.webp",
       image_2: "/tsc-careers/tsc-careers02.webp",

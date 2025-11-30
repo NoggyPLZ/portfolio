@@ -10,9 +10,14 @@ export default function ContactInfo() {
         <Link
           to="https://www.linkedin.com/in/brett-hicks-78740885/"
           target="_blank"
-          className="flex place-items-end font-black text-9xl"
+          className="flex place-items-end font-black text-9xl group"
         >
-          in <ArrowUpRight size={50} strokeWidth={3} />
+          in{" "}
+          <ArrowUpRight
+            size={50}
+            strokeWidth={3}
+            className="group-hover:text-palered-500"
+          />
         </Link>
       </div>
       <div className="flex place-items-end justify-between gap-2">
@@ -21,10 +26,14 @@ export default function ContactInfo() {
         <Link
           to="mailto:bhicksdesigndev@gmail.com"
           target="_blank"
-          className="flex place-items-end font-black text-9xl"
+          className="flex place-items-end font-black text-9xl group"
         >
           <Mail size={100} strokeWidth={3} />{" "}
-          <ArrowUpRight size={50} strokeWidth={3} />
+          <ArrowUpRight
+            size={50}
+            strokeWidth={3}
+            className="group-hover:text-palered-500"
+          />
         </Link>
       </div>
     </div>
