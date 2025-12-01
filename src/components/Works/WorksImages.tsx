@@ -55,16 +55,12 @@ export default function WorksImages(props: WorkImageProps) {
       className="flex flex-col gap-8 basis-8/12 lg:order-1 order-2"
     >
       <img ref={imageOneRef} src={image_1} className="rounded-4xl max-w-full" />
-      <div className="flex flex-col lg:flex-row gap-8">
-        <img
-          ref={imageTwoRef}
-          src={image_2}
-          className="lg:w-1/2  rounded-4xl"
-        />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <img ref={imageTwoRef} src={image_2} className="w-full  rounded-4xl" />
         <img
           ref={imageThreeRef}
           src={image_3}
-          className="lg:w-1/2  rounded-4xl"
+          className="w-full  rounded-4xl"
         />
       </div>
     </div>

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @font-face {
-  font-family: Bigger Display;
+  font-family: "Bigger Display";
   font-style: normal;
   font-weight: 700;
   src: url(./assets/fonts/Bigger-Display.woff2) format("woff2");
@@ -8,11 +8,25 @@
   text-rendering: optimizelegibility;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Bigger Display";
+    src: url(./assets/fonts/Bigger-Display.woff2) format("woff2");
+  }
+}
+
 @theme {
   --color-darkgray-500: oklch(0.2346 0.0083 264.4);
   --color-palered-500: oklch(0.5822 0.2076 26.59);
   --color-palegray-500: oklch(0.8945 0 0);
   --font-bigger: "Bigger Display";
+}
+
+html,
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  text-rendering: optimizeLegibility;
 }
 
 body {

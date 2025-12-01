@@ -10,7 +10,7 @@ export default function FooterLine() {
 
   useGSAP(
     () => {
-      gsap.set(questionRef, { opacity: 1 });
+      gsap.set(questionRef.current, { opacity: 1 });
       let split = SplitText.create(questionRef.current, {
         type: "chars, words",
       });

@@ -10,7 +10,7 @@ export default function ContactInfo() {
         <Link
           to="https://www.linkedin.com/in/brett-hicks-78740885/"
           target="_blank"
-          className="flex place-items-end font-black text-9xl group"
+          className="flex place-items-end font-black text-[105px] group leading-none"
         >
           in{" "}
           <ArrowUpRight
