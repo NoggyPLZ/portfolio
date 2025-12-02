@@ -1,7 +1,8 @@
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
-import { SplitText, ScrollTrigger } from "gsap/all";
+import SplitText from "gsap/SplitText";
+import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
 
 type Images = {

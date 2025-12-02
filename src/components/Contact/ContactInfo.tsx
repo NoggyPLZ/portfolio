@@ -1,4 +1,5 @@
-import { ArrowUpRight, Mail } from "lucide-react";
+import Mail from "lucide-react/icons/mail";
+import ArrowUpRight from "lucide-react/icons/arrow-up-right";
 import { Link } from "react-router";
 
 export default function ContactInfo() {

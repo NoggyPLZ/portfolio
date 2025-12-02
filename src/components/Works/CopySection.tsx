@@ -1,9 +1,10 @@
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
-import { SplitText, ScrollTrigger } from "gsap/all";
+import SplitText from "gsap/SplitText";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import { Link } from "react-router";
-import { ArrowUpRight } from "lucide-react";
+import ArrowUpRight from "lucide-react/icons/arrow-up-right";
 gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
 
 type Copy = {

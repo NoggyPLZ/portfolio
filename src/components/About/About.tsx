@@ -1,7 +1,6 @@
 import Experience from "./Experience";
 import Skills from "./Skills";
-import profileImage from "../../assets/images/picture-of-brett.webp";
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(useGSAP);
@@ -69,7 +68,7 @@ export default function About() {
         <div className="lg:basis-1/2 basis-full order-1 lg:order-2 ">
           <div className="lg:h-full lg:w-200 w-80 mx-auto md:ml-0">
             <img
-              src={profileImage}
+              src="images/picture-of-brett.webp"
               className="mx-auto rounded-2xl"
               width="600"
               height="634"

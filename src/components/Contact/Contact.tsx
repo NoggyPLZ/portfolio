@@ -1,5 +1,5 @@
 import ContactInfo from "./ContactInfo";
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(useGSAP);

@@ -1,9 +1,8 @@
 import HeroAlchemySection from "./HeroAlchemySection";
-
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
-import { SplitText } from "gsap/all";
+import SplitText from "gsap/SplitText";
 gsap.registerPlugin(useGSAP, SplitText);
 
 export default function HeroSection() {
