@@ -13,6 +13,10 @@ type Project = {
     body: string;
     author: string;
   };
+  stats?: {
+    statNum: string;
+    statName: string;
+  };
 };
 
 const projects: Project[] = [
@@ -28,6 +32,10 @@ const projects: Project[] = [
       image_3: "/backlog/backlog-site03.webp",
     },
     link: "https://steam-backlog.netlify.app/",
+    quote: {
+      body: "Just signed up! This is awesome!!",
+      author: 'Thomas "TITO", FGC Memeber',
+    },
   },
   {
     title: "TECH TRAP",
@@ -41,6 +49,10 @@ const projects: Project[] = [
       image_3: "/techtrap/techtrap-site03.webp",
     },
     link: "https://www.techtrap.app/",
+    stats: {
+      statNum: "Over 50+",
+      statName: "Sites + Projects Solved",
+    },
   },
   {
     title: "RITE AID CAREERS",
@@ -51,6 +63,10 @@ const projects: Project[] = [
       image_1: "/riteaid/rite-aid-site01.webp",
       image_2: "/riteaid/rite-aid-site02.webp",
       image_3: "/riteaid/rite-aid-site03.webp",
+    },
+    stats: {
+      statNum: "15 Years",
+      statName: "Professional Web Design and Front-End Development",
     },
   },
   {

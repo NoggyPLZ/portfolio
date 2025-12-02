@@ -55,7 +55,7 @@ export function AlchemyShape1() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 445.04 485.49"
-        className="top-1/2 left-10/12 xl:left-8/12 2xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-full md:w-8/12 xl:w-7/12 2xl:w-1/3 absolute will-change-transform"
+        className="top-1/3 md:top-1/2 left-10/12 xl:left-8/12 2xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-[130%] md:w-8/12 xl:w-7/12 2xl:w-1/3 absolute will-change-transform"
         ref={container}
       >
         <path
@@ -254,7 +254,7 @@ export function AlchemyShape3() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 478.82 444.85"
-        className="top-1/2 left-10/12 xl:left-8/12 2xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-full md:w-8/12 lg:w-6/12 xl:w-12/24 2xl:w-7/24 absolute will-change-transform"
+        className="top-1/3 md:top-1/2 left-10/12 xl:left-8/12 2xl:left-8/12 -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-8/12 lg:w-6/12 xl:w-12/24 2xl:w-7/24 absolute will-change-transform"
         ref={container}
       >
         <polygon

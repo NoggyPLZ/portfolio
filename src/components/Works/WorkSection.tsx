@@ -33,6 +33,7 @@ export default function WorkSection() {
             body={"for now please fix"}
             section={index}
             quote={project.quote}
+            stats={project.stats}
           />
         </div>
       ))}
