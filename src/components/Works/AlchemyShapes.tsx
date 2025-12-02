@@ -47,7 +47,7 @@ export function AlchemyShape1() {
           ease: "power2.in",
         });
     },
-    { scope: container }
+    { scope: container, dependencies: [], revertOnUpdate: true }
   );
 
   return (
@@ -131,7 +131,7 @@ export function AlchemyShape2() {
           stagger: 0.2,
         });
     },
-    { scope: container }
+    { scope: container, dependencies: [], revertOnUpdate: true }
   );
 
   return (
@@ -246,7 +246,7 @@ export function AlchemyShape3() {
           );
       }
     },
-    { scope: container }
+    { scope: container, dependencies: [], revertOnUpdate: true }
   );
 
   return (
@@ -381,7 +381,7 @@ export function AlchemyShape4() {
           ease: "power2.in",
         });
     },
-    { scope: container }
+    { scope: container, dependencies: [], revertOnUpdate: true }
   );
 
   return (
@@ -538,7 +538,7 @@ export function AlchemyShape5() {
           transformOrigin: "center center",
         });
     },
-    { scope: container }
+    { scope: container, dependencies: [], revertOnUpdate: true }
   );
   return (
     <>
@@ -661,7 +661,7 @@ export function AlchemyShape6() {
           ease: "power2.in",
         });
     },
-    { scope: container }
+    { scope: container, dependencies: [], revertOnUpdate: true }
   );
 
   return (
