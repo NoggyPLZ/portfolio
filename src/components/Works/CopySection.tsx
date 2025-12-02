@@ -27,18 +27,26 @@ export default function CopySection(props: CopyProps) {
 
   useGSAP(
     () => {
-      let split = SplitText.create(titleRef.current, { type: "words, chars" });
+      const el = titleRef.current;
+      if (!el) return;
+
+      let split = new SplitText(el, { type: "words, chars" });
       gsap.from(split.words, {
         duration: 0.6,
         stagger: 0.05,
         y: 100,
         opacity: 0,
         scrollTrigger: {
-          trigger: titleRef.current,
-          toggleActions: "restart none none none",
+          trigger: el,
+          start: "top 90%",
+          once: true,
         },
         ease: "power1.in",
       });
+
+      return () => {
+        split.revert();
+      };
     },
     { scope: containerRef }
   );
