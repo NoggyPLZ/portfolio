@@ -6,9 +6,21 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
 
 type Images = {
-  image_1: string;
-  image_2: string;
-  image_3: string;
+  image_1: {
+    path: string;
+    height: string;
+    width: string;
+  };
+  image_2: {
+    path: string;
+    height: string;
+    width: string;
+  };
+  image_3: {
+    path: string;
+    height: string;
+    width: string;
+  };
 };
 
 type WorkImageProps = {
@@ -55,13 +67,27 @@ export default function WorksImages(props: WorkImageProps) {
       ref={containerRef}
       className="flex flex-col gap-8 basis-8/12 lg:order-1 order-2"
     >
-      <img ref={imageOneRef} src={image_1} className="rounded-4xl max-w-full" />
+      <img
+        ref={imageOneRef}
+        src={image_1.path}
+        className="rounded-4xl max-w-full"
+        width={image_1.width}
+        height={image_1.height}
+      />
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <img ref={imageTwoRef} src={image_2} className="w-full  rounded-4xl" />
+        <img
+          ref={imageTwoRef}
+          src={image_2.path}
+          width={image_2.width}
+          height={image_2.height}
+          className="w-full  rounded-4xl"
+        />
         <img
           ref={imageThreeRef}
-          src={image_3}
+          src={image_3.path}
           className="w-full  rounded-4xl"
+          width={image_3.width}
+          height={image_3.height}
         />
       </div>
     </div>
