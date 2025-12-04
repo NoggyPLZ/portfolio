@@ -3,31 +3,10 @@ import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import SplitText from "gsap/SplitText";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import type { Project } from "../../data/projects";
 gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
 
-type Images = {
-  image_1: {
-    path: string;
-    height: string;
-    width: string;
-  };
-  image_2: {
-    path: string;
-    height: string;
-    width: string;
-  };
-  image_3: {
-    path: string;
-    height: string;
-    width: string;
-  };
-};
-
-type WorkImageProps = {
-  images: Images;
-};
-
-export default function WorksImages(props: WorkImageProps) {
+export default function WorksImages(props: Pick<Project, "images">) {
   const { image_1, image_2, image_3 } = props.images;
   const imageOneRef = useRef<HTMLImageElement>(null);
   const imageTwoRef = useRef<HTMLImageElement>(null);
@@ -70,9 +49,10 @@ export default function WorksImages(props: WorkImageProps) {
       <img
         ref={imageOneRef}
         src={image_1.path}
-        className="rounded-4xl max-w-full"
         width={image_1.width}
         height={image_1.height}
+        alt={image_1.alt}
+        className="rounded-4xl max-w-full"
       />
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <img
@@ -80,14 +60,16 @@ export default function WorksImages(props: WorkImageProps) {
           src={image_2.path}
           width={image_2.width}
           height={image_2.height}
-          className="w-full  rounded-4xl"
+          alt={image_2.alt}
+          className="w-full rounded-4xl"
         />
         <img
           ref={imageThreeRef}
           src={image_3.path}
-          className="w-full  rounded-4xl"
           width={image_3.width}
           height={image_3.height}
+          alt={image_3.alt}
+          className="w-full rounded-4xl"
         />
       </div>
     </div>

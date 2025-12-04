@@ -69,7 +69,7 @@ export default function CopySection(props: CopyProps) {
         <span className="font-bold">Skills:</span> {skills}
       </h4>
       <p
-        className={`text-md md:text-xl whitespace-pre-wrap ${
+        className={`text-base md:text-xl whitespace-pre-wrap ${
           even ? `text-darkgray-500` : `text-palegray-500`
         }`}
       >
