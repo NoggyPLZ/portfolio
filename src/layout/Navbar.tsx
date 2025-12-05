@@ -41,23 +41,28 @@ export default function Navbar() {
             const el = document.getElementById("works");
             if (el) el.scrollIntoView({ behavior: "smooth" });
           }}
+          className={"hover:text-palered-500 h-full flex place-items-center"}
         >
           works
         </NavLink>
         <NavLink
           to="/about"
-          className={({ isActive }) =>
-            isActive ? "text-palered-500" : "text-palegray-500"
-          }
+          className={({
+            isActive,
+          }) => `hover:text-palered-500 h-full flex place-items-center
+            ${isActive ? "text-palered-500" : "text-palegray-500"}
+          `}
           viewTransition
         >
           about
         </NavLink>
         <NavLink
           to="/contact"
-          className={({ isActive }) =>
-            isActive ? "text-palered-500" : "text-palegray-500"
-          }
+          className={({
+            isActive,
+          }) => `hover:text-palered-500 h-full flex place-items-center
+            ${isActive ? "text-palered-500" : "text-palegray-500"}
+          `}
           viewTransition
         >
           contact
