@@ -55,10 +55,10 @@ export default function AlchemySection(props: AlchemyProps) {
         )}
         {stats && (
           <>
-            <h4 className="text-palegray-500 font-black uppercase text-5xl leading-none mb-0 md:text-8xl/7 relative md:text-center md:p-5 mx-auto">
+            <h4 className="text-palegray-500 z-10 bg-palered-500 font-black uppercase text-5xl leading-none mb-0 md:text-8xl/20 lg:text-8xl/20 relative md:text-center md:p-5 mx-auto">
               {stats?.statNum}
             </h4>
-            <p className="text-palegray-500 font-light capitalize text-2xl md:text-4xl text-center mx-auto">
+            <p className="text-palegray-500 z-10 bg-palered-500 font-light capitalize text-2xl md:text-4xl text-center mx-auto">
               {stats?.statName}
             </p>
           </>
