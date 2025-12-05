@@ -23,7 +23,11 @@ export default function Navbar() {
     >
       <NavLink to={"/"} viewTransition>
         <div className="flex gap-3 text-2xl sm:text-3xl xl:text-4xl font-bigger uppercase justify-center place-items-center">
-          <img src={"./bh-logo.png"} className="max-w-[30px] md:max-w-[40px]" />{" "}
+          <img
+            src={"./bh-logo.png"}
+            className="max-w-[30px] md:max-w-[40px]"
+            alt="Brett Hicks logo/mark"
+          />{" "}
           <span
             className={`pt-2 hidden ${
               isScrolled && "opacity-0"
