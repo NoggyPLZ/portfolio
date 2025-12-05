@@ -1,3 +1,6 @@
+import { ArrowUpRight, Mail } from "lucide-react";
+import { Link } from "react-router";
+
 export default function Footer() {
   const date: string = new Date().getFullYear().toString();
   return (
@@ -8,17 +11,32 @@ export default function Footer() {
           &copy; {date}
         </div>
         <div className="flex flex-row gap-8 text-xl order-1 sm:order-2">
-          <p className="uppercase">Contact</p>
-          <a className="cursor-pointer" href="mailto:bhicksdesigndev@gmail.com">
-            email
-          </a>
+          <p className="uppercase">Contact ME</p>
+          <Link
+            to="mailto:bhicksdesigndev@gmail.com"
+            target="_blank"
+            className="flex place-items-end font-black text-9xl group"
+          >
+            <Mail size={30} strokeWidth={3} />{" "}
+            <ArrowUpRight
+              size={25}
+              strokeWidth={3}
+              className="group-hover:text-palered-500"
+            />
+          </Link>
           <p className="text-xl">
-            <a
-              href="https://www.linkedin.com/in/brett-hicks-78740885/"
+            <Link
+              to="https://www.linkedin.com/in/brett-hicks-78740885/"
               target="_blank"
+              className="flex place-items-end font-black text-[30px] group leading-none"
             >
-              in
-            </a>
+              in{" "}
+              <ArrowUpRight
+                size={25}
+                strokeWidth={3}
+                className="group-hover:text-palered-500"
+              />
+            </Link>
           </p>
         </div>
       </div>

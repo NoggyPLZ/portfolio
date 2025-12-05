@@ -130,7 +130,7 @@ const projects: Project[] = [
     },
   },
   {
-    title: "SURLALUNE",
+    title: "SUR LA LUNE",
     client: "Heidi Thomas",
     skills: "Design, Branding, Front-End using HTML/CSS/JS",
     body: "The redesign of the SurLaLune site was an enormous challenge, but my team at BlueTractor was able to create a beautiful fairy tale themed site. The site featured a sprawling library of around 50 fairy tales each having 8 pages of annotations, illustrations, and more pages of related tales.",
