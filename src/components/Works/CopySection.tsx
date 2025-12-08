@@ -50,7 +50,7 @@ export default function CopySection(props: CopyProps) {
     >
       <h3
         ref={titleRef}
-        className="font-bigger text-7xl/15 md:text-9xl/27 2xl:text-[13rem]/[10.5rem] 2xl:pt-6 text-palered-500"
+        className="font-bigger text-7xl/15 md:text-9xl/27 2xl:text-[11rem]/[9.5rem] 2xl:pt-3 text-palered-500"
       >
         {title}
       </h3>
