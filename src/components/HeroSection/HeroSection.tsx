@@ -47,10 +47,10 @@ export default function HeroSection() {
         <div className="backface-hidden transform-gpu will-change-transform">
           <h1
             ref={mainLineRef}
-            className="2xl:text-[20rem]/65 2xl:pt-4 xl:text-[12rem]/40 md:text-[12rem]/40 text-[7rem]/19 pt-1 md:pt-4 lg:pt-4 xl:pt-0 wrap-break-word antialiased lg:subpixel-antialiased"
+            className="2xl:text-[17rem]/55 3xl:text-[20rem]/65 2xl:pt-4 xl:text-[12rem]/40 md:text-[12rem]/40 text-[7rem]/19 pt-1 md:pt-4 lg:pt-4 xl:pt-0 wrap-break-word antialiased lg:subpixel-antialiased"
           >
             VISUAL{" "}
-            <span className="text-[6.3rem]/25 2xl:text-[20rem]/65 xl:text-[12rem]/40 md:text-[12rem]/40 sm:text-[6.5rem]/27 antialiased lg:subpixel-antialiased">
+            <span className="text-[6.3rem]/25 2xl:text-[17rem]/55 3xl:text-[20rem]/65 xl:text-[12rem]/40 md:text-[12rem]/40 sm:text-[6.5rem]/27 antialiased lg:subpixel-antialiased">
               SOLUTIONS
             </span>
           </h1>

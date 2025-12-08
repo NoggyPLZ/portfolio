@@ -20,6 +20,7 @@
   --color-palered-500: oklch(0.5822 0.2076 26.59);
   --color-palegray-500: oklch(0.8945 0 0);
   --font-bigger: "Bigger Display";
+  --breakpoint-3xl: 120rem;
 }
 
 html,
