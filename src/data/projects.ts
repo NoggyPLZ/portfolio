@@ -64,7 +64,7 @@ const projects: Project[] = [
     link: "https://steam-backlog.netlify.app/",
     quote: {
       body: "Just signed up! This is awesome!!",
-      author: 'Thomas "TITO", FGC Memeber',
+      author: 'Thomas "TITO", FGC Member',
     },
   },
   {
