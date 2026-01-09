@@ -95,7 +95,7 @@ const projects: Project[] = [
     },
     link: "https://www.techtrap.app/",
     stats: {
-      statNum: "Over 50+",
+      statNum: "Over 250+",
       statName: "Sites + Projects Solved",
     },
   },
