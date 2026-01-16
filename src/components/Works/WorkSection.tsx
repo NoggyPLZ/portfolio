@@ -25,6 +25,7 @@ export default function WorkSection() {
                 body: project.body,
                 even: index % 2 === 0,
                 link: project.link,
+                git: project.git,
               }}
             />
           </div>

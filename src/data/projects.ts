@@ -24,6 +24,7 @@ export type Project = {
     };
   };
   link?: string;
+  git?: string;
   quote?: {
     body: string;
     author: string;
@@ -62,6 +63,7 @@ const projects: Project[] = [
       },
     },
     link: "https://steam-backlog.netlify.app/",
+    git: "https://github.com/NoggyPLZ/steam-roulette",
     quote: {
       body: "Just signed up! This is awesome!!",
       author: 'Thomas "TITO", FGC Member',
@@ -94,6 +96,7 @@ const projects: Project[] = [
       },
     },
     link: "https://www.techtrap.app/",
+    git: "https://github.com/NoggyPLZ/fgc-notes",
     stats: {
       statNum: "Over 250+",
       statName: "Sites + Projects Solved",
