@@ -9,7 +9,7 @@ export default function AboutCopy() {
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
             I have 15 years of professional <strong>web design</strong> and {""}
             <strong>front-end web development</strong> experience focusing on
-            HTML/CSS, UI, and static/marketing sites. Over the last year, I've
+            HTML/CSS, UI, and static/marketing sites. Since 2024, I've
             transitioned into modern JavaScript and TypeScript, building full
             React applications and learning modern tooling.
           </p>
