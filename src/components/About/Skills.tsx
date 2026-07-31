@@ -20,6 +20,10 @@ export default function Skills() {
     "Redux",
     "Zod",
     "Prisma",
+    "Express",
+    "PostgreSQL",
+    "Jest",
+    "Vitest",
     "Visual Studio Code",
     "Adobe Photoshop",
     "Adobe Illustrator",
@@ -39,10 +43,10 @@ export default function Skills() {
             trigger: container.current,
             toggleActions: "restart none none none",
           },
-        }
+        },
       );
     },
-    { scope: container }
+    { scope: container },
   );
 
   return (
