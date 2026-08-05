@@ -62,7 +62,7 @@ const projects: Project[] = [
         alt: "Image of the Cognition store app",
       },
     },
-    link: "https://magical-semifreddo-8f7d7a.netlify.app/",
+    link: "https://cognition-store.netlify.app",
     git: "https://github.com/NoggyPLZ/ca-ecommerce",
     quote: {
       body: "True alchemy lies in this formula: Your memory and your senses are but the nourishment of your creative impulse",
