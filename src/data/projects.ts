@@ -123,6 +123,10 @@ const projects: Project[] = [
       },
     },
     link: "/sites/tsc/index.html",
+    stats: {
+      statNum: "Over 250+",
+      statName: "Sites + Projects Solved",
+    },
   },
   {
     title: "COGNITION STORE",
@@ -218,10 +222,6 @@ const projects: Project[] = [
     },
     link: "https://www.techtrap.app/",
     git: "https://github.com/NoggyPLZ/fgc-notes",
-    stats: {
-      statNum: "Over 250+",
-      statName: "Sites + Projects Solved",
-    },
   },
   
   // {
