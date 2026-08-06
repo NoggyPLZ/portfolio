@@ -21,7 +21,7 @@ export default function Skills() {
     "Zod",
     "Prisma",
     "Express",
-    "PostgreSQL",
+    "Postgresql",
     "Jest",
     "Vitest",
     "Visual Studio Code",
