@@ -7,14 +7,10 @@ export default function AboutCopy() {
       <div className="lg:basis-1/2 text-right basis-full order-2 lg:order-1">
         <div className="lg:max-w-[800px] ml-auto text-xl/10">
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
-            I have 15 years of professional <strong>web design</strong> and {""}
-            <strong>front-end web development</strong> experience focusing on
-            HTML/CSS, UI, and static/marketing sites. Since 2024, I've
-            transitioned into modern JavaScript and TypeScript, building full
-            React applications and learning modern tooling.
+          I have 15 years of <strong>professional design and front-end experience</strong>, creating brand, UI, and web work for national clients. I both design and build — pairing a designer's eye with the ability to bring interfaces to life in React, TypeScript, and modern tooling. I care about work that's clean, considered, and genuinely usable.
           </p>
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
-            When I'm not coding and designing, I enjoy reading scifi novels,
+            When I'm not designing and coding, I enjoy reading scifi novels,
             playing competitive fighting games, and watching horror movies.
           </p>
           <Link
