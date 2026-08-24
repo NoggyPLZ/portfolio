@@ -20,6 +20,7 @@ export default function Navbar() {
       className={`bg-darkgray-500 text-palegray-500 transition-all duration-300 ${
         isScrolled ? "py-2 px-8" : "p-8"
       } flex flex-row justify-between fixed t-0 w-full z-100`}
+      role="banner"
     >
       <NavLink to={"/"} viewTransition>
         <div className="flex gap-3 text-2xl sm:text-3xl xl:text-4xl font-bigger uppercase justify-center place-items-center">
@@ -38,7 +39,10 @@ export default function Navbar() {
         </div>
       </NavLink>
 
-      <nav className="flex flex-row text-palegray-500 font-bold gap-8 text-lg justify-center place-items-center">
+      <nav
+        className="flex flex-row text-palegray-500 font-bold gap-8 text-lg justify-center place-items-center"
+        role="nav"
+      >
         <NavLink
           to={"/#works"}
           onClick={() => {

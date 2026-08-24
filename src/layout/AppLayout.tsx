@@ -7,10 +7,10 @@ export default function AppLayout() {
   return (
     <>
       <Navbar />
-      <div id="main-section" className="pt-30">
+      <main id="main-section" className="pt-30" role="main">
         <ScrollToHash />
         <Outlet />
-      </div>
+      </main>
       <Footer />
     </>
   );

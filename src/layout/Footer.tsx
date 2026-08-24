@@ -4,7 +4,10 @@ import { Link } from "react-router";
 export default function Footer() {
   const date: string = new Date().getFullYear().toString();
   return (
-    <footer className="px-8 pb-8 flex flex-col text-palegray-500 gap-8">
+    <footer
+      className="px-8 pb-8 flex flex-col text-palegray-500 gap-8"
+      role="contentinfo"
+    >
       <div className="pt-8 font-bold flex flex-col md:flex-row justify-between items-center border-t-neutral-500 border-t-1 gap-5">
         <div className="flex flex-col gap-2 items-center text-xs order-2 sm:order-1">
           <img
