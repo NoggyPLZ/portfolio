@@ -50,7 +50,14 @@ export const brandLogos = [
   },
   {
     name: "Ryman",
-    logo: <img src="/logos/ryman-logo.png" width={180} alt="Ryman logo" />,
+    logo: (
+      <img
+        src="/logos/ryman-logo.png"
+        width={180}
+        height={45}
+        alt="Ryman logo"
+      />
+    ),
   },
   {
     name: "CrunchyRoll",
