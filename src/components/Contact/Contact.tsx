@@ -28,7 +28,7 @@ export default function Contact() {
     <>
       <div className="px-8 pt-30 md:pt-40 bg-palered-500" ref={textContainer}>
         <h3
-          className="text-palegray-500 font-bigger uppercase text-[8vw] md:text-[5vw] xl:text-[4vw] pb-1 md:pb-0 -mb-[0.2em] leading-none"
+          className="text-white font-bigger uppercase text-[8vw] md:text-[5vw] xl:text-[4vw] pb-1 md:pb-0 -mb-[0.2em] leading-none"
           ref={contactMeText}
         >
           CONTACT ME
@@ -37,7 +37,7 @@ export default function Contact() {
       <div className="bg-palered-500 px-8 pt-2 pb-5">
         <div className="flex items-center">
           <h2
-            className="text-[22vw]/[19vw] md:text-[12vw] font-bigger text-palegray-500 -mb-[0.2em] md:leading-none uppercase"
+            className="text-[22vw]/[19vw] md:text-[12vw] font-bigger text-white -mb-[0.2em] md:leading-none uppercase"
             ref={solveText}
           >
             LET'S SOLVE PROBLEMS

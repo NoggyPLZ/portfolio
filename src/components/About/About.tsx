@@ -32,7 +32,7 @@ export default function About() {
       <div ref={textContainer}>
         <div className="px-8 pt-30 md:pt-40 bg-palered-500">
           <h3
-            className="text-palegray-500 font-bigger uppercase text-[8vw] md:text-[5vw] 2xl:text-[4vw] pb-1 md:pb-0 -mb-[0.2em] leading-none"
+            className="text-white font-bigger uppercase text-[8vw] md:text-[5vw] 2xl:text-[4vw] pb-1 md:pb-0 -mb-[0.2em] leading-none"
             ref={helloText}
           >
             Hello, my name is
@@ -41,7 +41,7 @@ export default function About() {
         <div className="bg-palered-500 px-8 pt-2 pb-5">
           <div className="flex items-center">
             <h2
-              className="text-[22vw]/[19vw] md:text-[15vw] font-bigger text-palegray-500 -mb-[0.2em] md:leading-none"
+              className="text-[22vw]/[19vw] md:text-[15vw] font-bigger text-white -mb-[0.2em] md:leading-none"
               ref={nameText}
             >
               BRETT HICKS

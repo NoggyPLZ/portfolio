@@ -44,13 +44,13 @@ export default function HeroAlchemySection({
     >
       <div className="flex h-full w-[80%] md:w-[60%] xl:w-[50%] gap-2 pl-8 flex-col items-start">
         {head && (
-          <h4 className="text-palegray-500 font-bigger text-8xl/[40px]">
+          <h4 className="text-white font-bigger text-8xl/[40px]">
             {head.toUpperCase()}
           </h4>
         )}
         {body && (
           <p
-            className="text-palegray-500 font-normal lg:font-light text-xl/7 md:text-3xl/10 xl:text-5xl/12 relative d:p-5 lg:pt-10 bg-palered-500 z-50 pt-5"
+            className="text-white font-normal lg:font-light text-xl/7 md:text-3xl/10 xl:text-5xl/12 relative d:p-5 lg:pt-10 bg-palered-500 z-50 pt-5"
             ref={bodyCopy}
           >
             {body}
