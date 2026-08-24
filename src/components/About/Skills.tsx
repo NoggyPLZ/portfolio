@@ -9,6 +9,9 @@ export default function Skills() {
   const skillsText = useRef<HTMLHeadingElement>(null);
   const container = useRef<HTMLDivElement>(null);
   const techNames: string[] = [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Figma",
     "HTML",
     "CSS",
     "Tailwind CSS",
@@ -25,8 +28,6 @@ export default function Skills() {
     "Jest",
     "Vitest",
     "Visual Studio Code",
-    "Adobe Photoshop",
-    "Adobe Illustrator",
   ];
 
   useGSAP(
@@ -43,10 +44,10 @@ export default function Skills() {
             trigger: container.current,
             toggleActions: "restart none none none",
           },
-        },
+        }
       );
     },
-    { scope: container },
+    { scope: container }
   );
 
   return (

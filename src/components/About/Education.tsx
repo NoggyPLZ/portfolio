@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 pt-20">
       <div>
         <h2 className="text-darkgray-500 text-4xl font-bigger uppercase">
           Education

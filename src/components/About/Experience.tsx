@@ -43,9 +43,8 @@ export default function Experience() {
         </h1>
 
         <div className="flex-col flex pb-10 grow lg:pt-50 gap-5">
-          <Education />
-
           <Work />
+          <Education />
         </div>
       </div>
     </div>
