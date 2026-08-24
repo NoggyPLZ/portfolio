@@ -41,7 +41,7 @@ export default function Navbar() {
 
       <nav
         className="flex flex-row text-palegray-500 font-bold gap-8 text-lg justify-center place-items-center"
-        role="nav"
+        role="navigation"
       >
         <NavLink
           to={"/#works"}
