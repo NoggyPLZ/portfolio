@@ -45,14 +45,20 @@ export default function CaseStudiesHero({
         </h3>
       </div>
       <div className="max-w-[1000px]">
-        <img
-          ref={imageRef}
-          className="max-w-full"
-          src={`/casestudies/${image}`}
-          width={width}
-          height={height}
-          alt={alt}
-        />
+        <picture>
+          <source
+            media="(max-width:800px)"
+            srcSet={`/casestudies/mobile-${image}`}
+          />
+          <img
+            ref={imageRef}
+            className="max-w-full"
+            src={`/casestudies/${image}`}
+            width={width}
+            height={height}
+            alt={alt}
+          />
+        </picture>
       </div>
     </div>
   );

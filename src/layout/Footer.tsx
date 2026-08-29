@@ -15,7 +15,6 @@ export default function Footer() {
             alt="Brett Hicks logo/mark"
           />
           &copy; {date}
-          <a href="case/test">to case</a>
         </div>
         <div className="flex flex-row gap-8 text-xl order-1 sm:order-2">
           <p className="uppercase">Contact ME</p>
