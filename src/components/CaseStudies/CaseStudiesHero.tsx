@@ -22,10 +22,10 @@ export default function CaseStudiesHero({
         titleRef.current,
         { y: 50, opacity: 0 },
         { y: 0, opacity: 1, duration: 0.5 }
-        //   ).fromTo(
-        //     imageRef.current,
-        //     { x: 50, opacity: 0 },
-        //     { x: 0, opacity: 1, duration: 0.2 }
+      ).fromTo(
+        imageRef.current,
+        { x: 50, opacity: 0 },
+        { x: 0, opacity: 1, duration: 0.2 }
       );
     },
     { scope: containerRef }
@@ -44,16 +44,16 @@ export default function CaseStudiesHero({
           {name}
         </h3>
       </div>
-      {/* <div className="max-w-[1000px]">
+      <div className="max-w-[1000px]">
         <img
           ref={imageRef}
-          className="max-w-full object-cover"
+          className="max-w-full"
           src={`/casestudies/${image}`}
           width={width}
           height={height}
           alt={alt}
         />
-      </div> */}
+      </div>
     </div>
   );
 }

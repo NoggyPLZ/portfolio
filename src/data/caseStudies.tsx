@@ -74,7 +74,7 @@ export const caseStudiesArr: CaseStudyType[] = [
             src: "riteaid/riteaid-inherited.webp",
             alt: "The original Rite Aid Careers Site",
             width: 1892,
-            height: 1892,
+            height: 983,
             caption: "Inherited career site, hiding the search below the fold.",
           },
         ],
@@ -183,7 +183,7 @@ export const caseStudiesArr: CaseStudyType[] = [
             src: "tsccareers/tsccareers-inherited.webp",
             alt: "The original TSC Careers Site",
             width: 1892,
-            height: 1892,
+            height: 983,
             caption:
               "A must darker and dated design we were tasked with redesigning.",
           },
@@ -295,7 +295,7 @@ export const caseStudiesArr: CaseStudyType[] = [
             src: "ryman/ryman-inspiration.webp",
             alt: "Ryman inspiration collage",
             width: 1892,
-            height: 1892,
+            height: 982,
             caption:
               "Hatch Show Print type treatment and subtle grunge textures we used as inspiration.",
           },
