@@ -39,10 +39,10 @@ export default function CaseStudiesHero({
           {title}
         </h3>
       </div>
-      <div className="max-w-[1000px] w-full">
+      <div className="max-w-[1000px]">
         <img
           ref={imageRef}
-          className="w-full aspect-[1875/1190]"
+          className="w-full"
           src={`/casestudies/${image}`}
           width={1875}
           height={1190}
