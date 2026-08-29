@@ -1,15 +1,16 @@
 import { gsap } from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
+import type { CaseStudyHero } from "../../data/caseStudies";
 gsap.registerPlugin(useGSAP);
 
 export default function CaseStudiesHero({
-  title,
+  name,
   image,
-}: {
-  title: string;
-  image: string;
-}) {
+  alt,
+  width,
+  height,
+}: CaseStudyHero & { name: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
@@ -21,6 +22,10 @@ export default function CaseStudiesHero({
         titleRef.current,
         { y: 50, opacity: 0 },
         { y: 0, opacity: 1, duration: 0.5 }
+      ).fromTo(
+        imageRef.current,
+        { x: 50, opacity: 0 },
+        { x: 0, opacity: 1, duration: 0.2 }
       );
     },
     { scope: containerRef }
@@ -36,16 +41,17 @@ export default function CaseStudiesHero({
           ref={titleRef}
           className="text-[22vw]/[19vw] md:text-[15vw]/[12vw] font-bigger text-white -mb-[0.2em] uppercase"
         >
-          {title}
+          {name}
         </h3>
       </div>
       <div className="max-w-[1000px]">
         <img
           ref={imageRef}
-          className="w-full aspect-[1691/1092]"
+          className="max-w-full object-cover"
           src={`/casestudies/${image}`}
-          width={1691}
-          height={1092}
+          width={width}
+          height={height}
+          alt={alt}
         />
       </div>
     </div>

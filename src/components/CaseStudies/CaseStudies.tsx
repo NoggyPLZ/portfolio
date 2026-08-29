@@ -16,7 +16,13 @@ export default function CaseStudies() {
 
   return (
     <div>
-      <CaseStudiesHero title={caseobj.hero.name} image={caseobj.hero.image} />
+      <CaseStudiesHero
+        name={caseobj.hero.name}
+        image={caseobj.hero.image}
+        alt={caseobj.hero.alt}
+        width={caseobj.hero.width}
+        height={caseobj.hero.height}
+      />
       <CaseClientRoleYear
         client={caseobj.topFacts.client}
         role={caseobj.topFacts.role}
