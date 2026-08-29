@@ -12,7 +12,7 @@ export default function CaseResults({ header, copy, image }: CaseStudyRowType) {
 
   useGSAP(
     () => {
-      let split = SplitText.create(titleRef.current, { type: "words, chars" });
+      let split = SplitText.create(titleRef.current, { type: "words" });
       gsap.from(split.words, {
         duration: 0.6,
         stagger: 0.05,
