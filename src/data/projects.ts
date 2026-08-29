@@ -23,6 +23,7 @@ export type Project = {
       alt: string;
     };
   };
+  case?: string;
   link?: string;
   git?: string;
   quote?: {
@@ -61,6 +62,7 @@ const projects: Project[] = [
         alt: "Image from the Rite Aid Career site",
       },
     },
+    case: "/case/riteaid",
     stats: {
       statNum: "15 Years",
       statName: "Professional Web Design and Front-End Development",
@@ -91,6 +93,7 @@ const projects: Project[] = [
         alt: "Image from the Ryman Careers site",
       },
     },
+    case: '/case/ryman',
     link: "/sites/ryman/index.html",
     quote: {
       body: "As always, this looks awesome ... Thanks for the quick turnaround!",
@@ -122,6 +125,7 @@ const projects: Project[] = [
         alt: "Image from the TSC Careers site",
       },
     },
+    case: 'case/tsccareers',
     link: "/sites/tsc/index.html",
     stats: {
       statNum: "Over 250+",

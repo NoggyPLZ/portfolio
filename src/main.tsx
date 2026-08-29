@@ -6,6 +6,7 @@ import AppLayout from "./layout/AppLayout.tsx";
 import Home from "./layout/Home.tsx";
 import About from "./components/About/About.tsx";
 import Contact from "./components/Contact/Contact.tsx";
+import CaseStudies from "./components/CaseStudies/CaseStudies.tsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
+      { path: "case/:slug", element: <CaseStudies /> },
     ],
   },
 ]);
