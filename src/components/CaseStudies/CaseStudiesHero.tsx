@@ -35,7 +35,7 @@ export default function CaseStudiesHero({
   return (
     <div
       ref={containerRef}
-      className="px-8 pt-30 md:pt-20 bg-palered-500 flex flex-col md:flex-row"
+      className="px-8 pt-20 bg-palered-500 flex flex-col md:flex-row"
     >
       <div className="flex flex-col justify-end md:pb-10">
         <h3

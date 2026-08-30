@@ -81,7 +81,7 @@ export default function CaseIntroSection({
               alt={image[0].alt}
               height={image[0].height}
               width={image[0].width}
-              className="case-image"
+              className="case-image w-full"
             />
             <p className="text-neutral-400 border-x-1 border-b-1 border-gray-700 p-2">
               {image[0].caption}
