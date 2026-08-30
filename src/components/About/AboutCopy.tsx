@@ -7,7 +7,7 @@ export default function AboutCopy() {
       <div className="lg:basis-1/2 text-right basis-full order-2 lg:order-1">
         <div className="lg:max-w-[800px] ml-auto text-xl/10">
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
-            I'm an Art director with 15 years directing digital design for
+            I'm an Art director with 16 years directing digital design for
             national brands including Tractor Supply Co., Ryman Hospitality
             Properties, Rite Aid, and Crunchyroll. Led design direction and
             front-end delivery across 250+ client websites, specializing in

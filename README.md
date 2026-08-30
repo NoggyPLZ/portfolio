@@ -22,7 +22,7 @@ The visual system draws from surrealist brutalism: heavy typography, intentional
 
 ## About Me
 
-Frontend developer with 15 years of experience translating visual designs into production interfaces. Based in Nashville, relocating to Seattle.
+Frontend developer with 16 years of experience translating visual designs into production interfaces. Based in Nashville, relocating to Seattle.
 
 More work: [github.com/NoggyPLZ](https://github.com/NoggyPLZ)
 Contact: bhicksdesigndev@gmail.com

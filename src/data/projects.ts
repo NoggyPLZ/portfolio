@@ -64,7 +64,7 @@ const projects: Project[] = [
     },
     case: "/case/riteaid",
     stats: {
-      statNum: "15 Years",
+      statNum: "16 years",
       statName: "Professional Web Design and Front-End Development",
     },
   },
