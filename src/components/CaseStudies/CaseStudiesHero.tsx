@@ -10,6 +10,7 @@ export default function CaseStudiesHero({
   alt,
   width,
   height,
+  mobile,
 }: CaseStudyHero & { name: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
@@ -48,7 +49,9 @@ export default function CaseStudiesHero({
         <picture>
           <source
             media="(max-width:800px)"
-            srcSet={`/casestudies/mobile-${image}`}
+            srcSet={`/casestudies/${mobile.image}`}
+            width={mobile.width}
+            height={mobile.height}
           />
           <img
             ref={imageRef}

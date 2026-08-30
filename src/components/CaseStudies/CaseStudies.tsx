@@ -22,6 +22,7 @@ export default function CaseStudies() {
         alt={caseobj.hero.alt}
         width={caseobj.hero.width}
         height={caseobj.hero.height}
+        mobile={caseobj.hero.mobile}
       />
       <CaseClientRoleYear
         client={caseobj.topFacts.client}
