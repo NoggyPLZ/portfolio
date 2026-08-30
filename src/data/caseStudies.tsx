@@ -48,7 +48,7 @@ export const caseStudiesArr: CaseStudyType[] = [
     slug: "riteaid",
     hero: {
       name: "Rite Aid Careers",
-      image: "riteaid/rite-aid-hero2.webp",
+      image: "riteaid/rite-aid-hero.webp",
       alt: "rite aid hero image",
       width: 1691,
       height: 1092,
