@@ -33,6 +33,14 @@ export type CaseStudyHero = {
   alt: string;
   width: number;
   height: number;
+  mobile: CaseStudyHeroMobile;
+};
+
+export type CaseStudyHeroMobile = {
+  image: string;
+  alt: string;
+  width: number;
+  height: number;
 };
 
 export type CaseStudyType = {
@@ -52,6 +60,12 @@ export const caseStudiesArr: CaseStudyType[] = [
       alt: "rite aid hero image",
       width: 1691,
       height: 1092,
+      mobile: {
+        image: "riteaid/rite-aid-hero-mobile.webp",
+        alt: "rite aid hero image",
+        width: 600,
+        height: 387,
+      },
     },
     topFacts: {
       client: "Rite Aid",
@@ -162,6 +176,12 @@ export const caseStudiesArr: CaseStudyType[] = [
       alt: "tsc careers hero image",
       width: 1691,
       height: 1092,
+      mobile: {
+        image: "tsccareers/tsccareers-hero-mobile.webp",
+        alt: "tsc careers hero image",
+        width: 600,
+        height: 387,
+      },
     },
     topFacts: {
       client: "Tractor Supply Co.",
@@ -273,6 +293,12 @@ export const caseStudiesArr: CaseStudyType[] = [
       alt: "ryman hero image",
       width: 1691,
       height: 1092,
+      mobile: {
+        image: "ryman/ryman-hero-mobile.webp",
+        alt: "ryman hero image",
+        width: 600,
+        height: 387,
+      },
     },
     topFacts: {
       client: "Ryman Hospitality Properties",
