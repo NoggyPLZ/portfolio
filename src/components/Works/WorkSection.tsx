@@ -27,6 +27,8 @@ export default function WorkSection() {
                 link: project.link,
                 git: project.git,
                 caseLink: project.case,
+                spotify: project.spotify,
+                bandcamp: project.bandcamp,
               }}
             />
           </div>

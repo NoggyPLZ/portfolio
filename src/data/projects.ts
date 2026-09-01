@@ -24,6 +24,8 @@ export type Project = {
     };
   };
   case?: string;
+  spotify?: string;
+  bandcamp?: string;
   link?: string;
   git?: string;
   quote?: {
@@ -133,6 +135,41 @@ const projects: Project[] = [
     },
   },
   {
+    title: "NJAM",
+    client: "Chris 'N. Justice' Brown",
+    skills:
+      "Art Direction, Packaging Design, Illustration, Branding,",
+    body: "A nostalgic laced illustrative style was called for when designing the album 'NJAM' from award-winning underground Nashville rapper, Chris 'N. Justice' Brown. Using tasteful homages to the 90's era of 16-bit graphic Sega Genesis box art, I was able to create a scene playing across front and back art depicting one of NBA JAM's most iconic mechanics of being on fire from a winning streak.\n\n Using the same burning basketball for the design of the disc cover, was a play on both the tracks and the design being 'fire'.",
+    images: {
+      image_1: {
+        path: "/njam/njam01.webp",
+        height: "1550",
+        width: "1892",
+        alt: "Image of the BACK.LOG app",
+      },
+      image_2: {
+        path: "/njam/njam03.webp",
+        height: "745",
+        width: "916",
+        alt: "Image of the BACK.LOG app",
+      },
+      image_3: {
+        path: "/njam/njam02.webp",
+        height: "745",
+        width: "916",
+        alt: "Image of the BACK.LOG app",
+      },
+    },
+    case: 'case/njam',
+    spotify: "https://open.spotify.com/album/2QS1H1kzzQppbHZzDLCpDP",
+    bandcamp: 'https://njustice.bandcamp.com/album/njam-negro-justice-appreciation-month',
+    quote: {
+      body: "True alchemy lies in this formula: Your memory and your senses are but the nourishment of your creative impulse",
+      author: "Arthur Rimbaud",
+    },
+  },
+  {
+   
     title: "COGNITION STORE",
     client: "Cognition",
     skills:
@@ -158,39 +195,6 @@ const projects: Project[] = [
         alt: "Image of the Cognition store app",
       },
     },
-    link: "https://cognition-store.netlify.app",
-    git: "https://github.com/NoggyPLZ/ca-ecommerce",
-    quote: {
-      body: "True alchemy lies in this formula: Your memory and your senses are but the nourishment of your creative impulse",
-      author: "Arthur Rimbaud",
-    },
-  },
-  {
-    title: "BACK.LOG",
-    client: "Gaming Community",
-    skills:
-      "Design, Branding, React, Redux Toolkit, TypeScript, Tailwind CSS, Netlify Serverless Functions, Steam API",
-    body: "Back.log is an SPA that helps Steam users rediscover unplayed games in their library. This app uses a player’s Steam ID to fetch their library and randomly surface up to three games under a chosen playtime threshold. With one click, users can launch or install a game directly from the app, turning backlog browsing into an interactive experience. \n\nThe project was built with React, Redux Toolkit, though Redux was admittedly overkill for the app’s scope, it was a great exercise in structuring API-driven state. Because the Steam API has vague and inconsistent rate limits, I implemented a custom rate-limiting hook to protect users from hitting request caps client-side.",
-    images: {
-      image_1: {
-        path: "/backlog/backlog-site01.webp",
-        height: "1225",
-        width: "1892",
-        alt: "Image of the BACK.LOG app",
-      },
-      image_2: {
-        path: "/backlog/backlog-site02.webp",
-        height: "1225",
-        width: "1892",
-        alt: "Image of the BACK.LOG app",
-      },
-      image_3: {
-        path: "/backlog/backlog-site03.webp",
-        height: "1225",
-        width: "1892",
-        alt: "Image of the BACK.LOG app",
-      },
-    },
     link: "https://steam-backlog.netlify.app/",
     git: "https://github.com/NoggyPLZ/steam-roulette",
     quote: {
@@ -198,6 +202,39 @@ const projects: Project[] = [
       author: 'Thomas "TITO", FGC Member',
     },
   },
+  // {
+  //   title: "BACK.LOG",
+  //   client: "Gaming Community",
+  //   skills:
+  //     "Design, Branding, React, Redux Toolkit, TypeScript, Tailwind CSS, Netlify Serverless Functions, Steam API",
+  //   body: "Back.log is an SPA that helps Steam users rediscover unplayed games in their library. This app uses a player’s Steam ID to fetch their library and randomly surface up to three games under a chosen playtime threshold. With one click, users can launch or install a game directly from the app, turning backlog browsing into an interactive experience. \n\nThe project was built with React, Redux Toolkit, though Redux was admittedly overkill for the app’s scope, it was a great exercise in structuring API-driven state. Because the Steam API has vague and inconsistent rate limits, I implemented a custom rate-limiting hook to protect users from hitting request caps client-side.",
+  //   images: {
+  //     image_1: {
+  //       path: "/backlog/backlog-site01.webp",
+  //       height: "1225",
+  //       width: "1892",
+  //       alt: "Image of the BACK.LOG app",
+  //     },
+  //     image_2: {
+  //       path: "/backlog/backlog-site02.webp",
+  //       height: "1225",
+  //       width: "1892",
+  //       alt: "Image of the BACK.LOG app",
+  //     },
+  //     image_3: {
+  //       path: "/backlog/backlog-site03.webp",
+  //       height: "1225",
+  //       width: "1892",
+  //       alt: "Image of the BACK.LOG app",
+  //     },
+  //   },
+  //   link: "https://steam-backlog.netlify.app/",
+  //   git: "https://github.com/NoggyPLZ/steam-roulette",
+  //   quote: {
+  //     body: "Just signed up! This is awesome!!",
+  //     author: 'Thomas "TITO", FGC Member',
+  //   },
+  // },
   {
     title: "TECH TRAP",
     client: "FGC Community",

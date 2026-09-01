@@ -16,10 +16,11 @@ export type CaseStudyRowType = {
 export type CaseStudyTopFacts = {
   client: string;
   role: string;
-  years: {
+  years?: {
     start: string;
     end: string;
   };
+  year?: string;
 };
 
 export type CaseStudyBottomFactsType = {
@@ -28,6 +29,7 @@ export type CaseStudyBottomFactsType = {
 };
 
 export type CaseStudyHero = {
+  minorName?: string;
   name: string;
   image: string;
   alt: string;
@@ -400,6 +402,124 @@ export const caseStudiesArr: CaseStudyType[] = [
       { metric: "9", description: "entertainment properties" },
       { metric: "4", description: "years in service" },
       { metric: "1,500", description: "open roles at any given time" },
+    ],
+  },
+  {
+    slug: "njam",
+    hero: {
+      minorName: "N. Justice's",
+      name: "NJAM",
+      image: "njam/njam-hero.webp",
+      alt: "njam hero image",
+      width: 1691,
+      height: 1092,
+      mobile: {
+        image: "njam/njam-hero-mobile.webp",
+        alt: "njam hero image",
+        width: 600,
+        height: 387,
+      },
+    },
+    topFacts: {
+      client: "Chris 'N. Justice' Brown",
+      role: "Art Director",
+      year: "2025",
+    },
+    rows: [
+      {
+        header: "He's on FIRE!",
+        copy: [
+          "Chris 'N.Justice' Brown was releasing a new album and wanted cover art that felt like Sega Genesis box art, specifically NBA Jam. Not a parody of it and not a filtered photo, but the real thing: that particular flavor of 16-bit era packaging where the illustration is loud, the motion is exaggerated, and the whole composition is engineered to grab you from across a store aisle.",
+          "The trap with nostalgia work is that it collapses into pastiche. Reproduce the reference too faithfully and you have a costume rather than a cover, something about NBA Jam instead of something about his record.",
+          "So, the problem became, how do I pay homage to the package design of that 90's era, while weaving a custom thread all through out? I set out to make something at first glance would spark that memory with a dose of nostalgia and the hint of something new.",
+        ],
+        image: [
+          {
+            src: "njam/njam-inspiration.webp",
+            alt: "Njam inspiration collage",
+            width: 1892,
+            height: 982,
+            caption:
+              "Inspiration was 90's era sega box art and burning basketball, and rim.",
+          },
+        ],
+      },
+      {
+        header: "Drawing from inspiration",
+        copy: [
+          "Chris and I had already worked together on multiple albums at this point, and he knew my illustration style, allowing the design to be familiar and distinct. I used the illustrated version of Chris I'd developed for his collaboration with KiT, Kumite in Tennessee, a regional fighting game tournament, so the figure at the center of that in-your-face motion was already his visual identity rather than a generic player dropped into a template.",
+          "I used similar fonts to the genesis box art without taking exactly. The 'N' in his name was a creation of mine based off the Sega font, and NJAM brand was inspired by one of the 'NBA JAM' brands. I gave the NJAM a unique type treatment while borrowing the red and blue from NBA JAM.",
+          "I used a few illustrator tricks to create a few characters of a single color and group them all together to form a crowd of descending dark to simulate depth, and then set out illustrating a dynamically posed version of the KiT collab illustration of Chris. Lastly, an image of a burning rim to be the after-scene on the back cover.",
+        ],
+        image: [
+          {
+            src: "njam/njam-assets01.webp",
+            alt: "First comp for the njam",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "njam/njam-assets02.webp",
+            alt: "The client accepted comp of the njam site",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+        beforeAndAfter: false,
+      },
+      {
+        header: "From Concept to Concept Album",
+        copy: [
+          "The left side with striped red and Genesis style of type treatment, replacing the 'Sega' at the top with an enlarged 'N' at the bottom. To the right, a scene depicting Chris soaring through the air with the iconic NBA JAM mechanic of the basketball on fire.",
+          "The back cover extends the front into a single moment across two panels: the same scene a beat later, rim still burning, crowd behind it, track list below. Separating the burning rim from the background crowd echoed how box art of that era staged action in discrete panels, which meant the format decision and the reference were doing the same job at once.",
+          "Last was the disc. The burning basketball works alone there, and it needed to. The disc being fire was a pretty apt description and visual design.",
+        ],
+        image: [
+          {
+            src: "njam/front-example.webp",
+            alt: "xample of the Lula Cafe page",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "njam/back-example.webp",
+            alt: "Example of the Ole Red page",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "njam/disc-example.webp",
+            alt: "xample of the Opry page",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+      },
+      {
+        header: "A rim that's still burning",
+        copy: [
+          "The cover landed with his audience and generated real response on release, and the record contributed to the 500,000+ streams across his catalog. The result was an exciting design to match a record of NJAM's caliber, and that would work to snare in eyes of new listeners to one of Nashville's best award winning underground rappers.",
+          "Since the release, Chris and I have collaborated on more albums, ensuring a artistic partnership bringing bars to ears, and design to eyes.",
+        ],
+        image: [
+          {
+            src: "njam/njam-bottom01.webp",
+            alt: "Image of the finished design for Rite Aid",
+            width: 1892,
+            height: 1030,
+          },
+          {
+            src: "njam/njam-bottom02.webp",
+            alt: "Image of the finished mobile design for Rite Aid",
+            width: 828,
+            height: 1030,
+          },
+        ],
+      },
+    ],
+    bottomFacts: [
+      { metric: "500,000+", description: "streams across the catalog" },
+      { metric: "6", description: "years of collaboration" },
     ],
   },
 ];

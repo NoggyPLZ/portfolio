@@ -47,9 +47,13 @@ export default function Navbar() {
       >
         <NavLink
           to={"/#works"}
-          onClick={() => {
+          onClick={(e) => {
             const el = document.getElementById("works");
-            if (el) el.scrollIntoView({ behavior: "smooth" });
+
+            if (el) {
+              e.preventDefault();
+              el.scrollIntoView({ behavior: "smooth" });
+            }
           }}
           className={"hover:text-palered-500 h-full flex place-items-center"}
         >

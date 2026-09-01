@@ -16,6 +16,8 @@ type Copy = {
   link?: string;
   git?: string;
   caseLink?: string;
+  spotify?: string;
+  bandcamp?: string;
 };
 
 type CopyProps = {
@@ -23,7 +25,18 @@ type CopyProps = {
 };
 
 export default function CopySection(props: CopyProps) {
-  const { title, client, skills, body, even, link, git, caseLink } = props.copy;
+  const {
+    title,
+    client,
+    skills,
+    body,
+    even,
+    link,
+    git,
+    caseLink,
+    bandcamp,
+    spotify,
+  } = props.copy;
   const titleRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -77,6 +90,7 @@ export default function CopySection(props: CopyProps) {
       >
         {body}
       </p>
+
       {caseLink && (
         <div className="pt-5">
           <Link
@@ -88,6 +102,34 @@ export default function CopySection(props: CopyProps) {
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
           >
             Learn More <ArrowUpRight size={30} strokeWidth={3} />
+          </Link>
+        </div>
+      )}
+      {spotify && (
+        <div className="pt-5">
+          <Link
+            to={spotify}
+            className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px]  h-40 ${
+              even
+                ? "bg-darkgray-500 text-palegray-500"
+                : "bg-palegray-500 text-darkgray-500"
+            }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
+          >
+            Spotify <ArrowUpRight size={30} strokeWidth={3} />
+          </Link>
+        </div>
+      )}
+      {bandcamp && (
+        <div className="pt-5">
+          <Link
+            to={bandcamp}
+            className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px]  h-40 ${
+              even
+                ? "bg-darkgray-500 text-palegray-500"
+                : "bg-palegray-500 text-darkgray-500"
+            }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
+          >
+            Bandcamp <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
         </div>
       )}
