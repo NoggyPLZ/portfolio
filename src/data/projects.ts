@@ -138,8 +138,8 @@ const projects: Project[] = [
     title: "NJAM",
     client: "Chris 'N. Justice' Brown",
     skills:
-      "Art Direction, Packaging Design, Illustration, Branding,",
-    body: "A nostalgic laced illustrative style was called for when designing the album 'NJAM' from award-winning underground Nashville rapper, Chris 'N. Justice' Brown. Using tasteful homages to the 90's era of 16-bit graphic Sega Genesis box art, I was able to create a scene playing across front and back art depicting one of NBA JAM's most iconic mechanics of being on fire from a winning streak.\n\n Using the same burning basketball for the design of the disc cover, was a play on both the tracks and the design being 'fire'.",
+      "Art Direction, Illustration, Packaging Design, Branding,",
+    body: "A nostalgic laced illustrative style was called for when designing the album 'NJAM' from award-winning underground Nashville rapper, Chris 'N. Justice' Brown. Using tasteful homages to the 90's era of 16-bit graphic Sega Genesis box art, I was able to create a scene playing across front and back art depicting one of NBA JAM's most iconic mechanics of being on fire from a winning streak.\n\nUsing the same burning basketball for the design of the disc cover, was a play on both the tracks and the design being 'fire'.",
     images: {
       image_1: {
         path: "/njam/njam01.webp",
