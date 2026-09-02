@@ -90,7 +90,6 @@ export default function CopySection(props: CopyProps) {
       >
         {body}
       </p>
-
       {caseLink && (
         <div className="pt-5">
           <Link
@@ -109,6 +108,7 @@ export default function CopySection(props: CopyProps) {
         <div className="pt-5">
           <Link
             to={spotify}
+            target="_blank"
             className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px]  h-40 ${
               even
                 ? "bg-darkgray-500 text-palegray-500"
@@ -123,6 +123,7 @@ export default function CopySection(props: CopyProps) {
         <div className="pt-5">
           <Link
             to={bandcamp}
+            target="_blank"
             className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px]  h-40 ${
               even
                 ? "bg-darkgray-500 text-palegray-500"
