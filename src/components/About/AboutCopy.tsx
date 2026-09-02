@@ -1,10 +1,10 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Download } from "lucide-react";
 import { Link } from "react-router";
 
 export default function AboutCopy() {
   return (
     <div className="p-8 flex lg:flex-row flex-col gap-8 md:py-30 pt-15 bg-darkgray-500">
-      <div className="lg:basis-1/2 text-right basis-full order-2 lg:order-1">
+      <div className="lg:basis-1/2 text-left basis-full order-2 lg:order-1">
         <div className="lg:max-w-[800px] ml-auto text-xl/10">
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
             I'm an Art director with 16 years directing digital design for
@@ -12,23 +12,38 @@ export default function AboutCopy() {
             Properties, Rite Aid, and Crunchyroll. Led design direction and
             front-end delivery across 250+ client websites, specializing in
             employer brand systems, digital marketing campaigns and recruitment
-            platforms serving workforces of 50,000+. Rare design-to-code
-            capability: I direct the work and ship it, so intent survives
-            implementation. Experienced mentoring designers, presenting to
-            enterprise stakeholders, and building systems that stay maintainable
-            by non-designers long after launch.
+            platforms serving workforces of 50,000+.
+          </p>
+          <h3 className="text-palered-500 text-5xl md:text-6xl font-bigger uppercase">
+            Rare design-to-code capability
+          </h3>
+          <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
+            I direct the work and ship it, so intent survives implementation.
+            Experienced mentoring designers, presenting to enterprise
+            stakeholders, and building systems that stay maintainable by
+            non-designers long after launch.
           </p>
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
             When I'm not designing and coding, I enjoy reading scifi novels,
             playing competitive fighting games, and watching horror movies.
           </p>
-          <Link
-            to={"https://github.com/NoggyPLZ"}
-            target="_blank"
-            className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px] h-40 bg-palegray-500 text-darkgray-500 p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500 ml-auto`}
-          >
-            Visit My Github <ArrowUpRight size={30} strokeWidth={3} />
-          </Link>
+          <div className="flex gap-4 justify-start">
+            <Link
+              to={"https://github.com/NoggyPLZ"}
+              target="_blank"
+              className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px] h-40 bg-palegray-500 text-darkgray-500 p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500 `}
+            >
+              Visit My Github <ArrowUpRight size={30} strokeWidth={3} />
+            </Link>
+            <a
+              href={"docs/BrettHicks_AD_Resume.pdf"}
+              target="_blank"
+              className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px] h-40 bg-palegray-500 text-darkgray-500 p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500 `}
+              rel="noopener noreferrer"
+            >
+              See my Resume <Download size={30} strokeWidth={3} />
+            </a>
+          </div>
         </div>
       </div>
       <div className="lg:basis-1/2 basis-full order-1 lg:order-2 ">

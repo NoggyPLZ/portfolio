@@ -17,7 +17,7 @@ export default function FooterLine() {
       });
       gsap.from(split.chars, {
         opacity: 0,
-        duration: 2,
+        duration: 0.9,
         ease: "steps.out",
         stagger: 0.05,
         scrollTrigger: {

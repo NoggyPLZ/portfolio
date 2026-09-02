@@ -16,14 +16,14 @@ export default function Footer() {
           />
           &copy; {date}
         </div>
-        <div className="flex flex-row gap-8 text-xl order-1 sm:order-2">
+        <div className="flex flex-row items-center gap-8 text-xl order-1 sm:order-2">
           <p className="uppercase">Contact ME</p>
           <a
             href="mailto:bhicksdesigndev@gmail.com"
             target="_blank"
             className="flex place-items-end font-black text-9xl group"
           >
-            <Mail size={30} strokeWidth={3} aria-hidden="true" />{" "}
+            <Mail size={50} strokeWidth={3} aria-hidden="true" />{" "}
             <ArrowUpRight
               size={25}
               strokeWidth={3}
@@ -37,7 +37,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/brett-hicks-78740885/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex place-items-end font-black text-[30px] group leading-none"
+              className="flex place-items-end font-black text-[50px] group leading-none"
             >
               <span aria-hidden="true">in</span>{" "}
               <ArrowUpRight

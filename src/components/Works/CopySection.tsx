@@ -114,6 +114,7 @@ export default function CopySection(props: CopyProps) {
                 ? "bg-darkgray-500 text-palegray-500"
                 : "bg-palegray-500 text-darkgray-500"
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
+            rel="noopener noreferrer"
           >
             Spotify <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
@@ -129,6 +130,7 @@ export default function CopySection(props: CopyProps) {
                 ? "bg-darkgray-500 text-palegray-500"
                 : "bg-palegray-500 text-darkgray-500"
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
+            rel="noopener noreferrer"
           >
             Bandcamp <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
@@ -144,6 +146,7 @@ export default function CopySection(props: CopyProps) {
                 ? "bg-darkgray-500 text-palegray-500"
                 : "bg-palegray-500 text-darkgray-500"
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
+            rel="noopener noreferrer"
           >
             Visit Site <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
