@@ -359,7 +359,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         image: [
           {
             src: "ryman/lula-example.webp",
-            alt: "xample of the Lula Cafe page",
+            alt: "Example of the Lula Cafe page",
             width: 1892,
             height: 1550,
           },
@@ -371,7 +371,7 @@ export const caseStudiesArr: CaseStudyType[] = [
           },
           {
             src: "ryman/opry-example.webp",
-            alt: "xample of the Opry page",
+            alt: "Example of the Opry page",
             width: 1892,
             height: 1550,
           },
@@ -385,13 +385,13 @@ export const caseStudiesArr: CaseStudyType[] = [
         image: [
           {
             src: "ryman/ryman-bottom01.webp",
-            alt: "Image of the finished design for Rite Aid",
+            alt: "Image of the finished design for Ryman",
             width: 1892,
             height: 1030,
           },
           {
             src: "ryman/ryman-bottom02.webp",
-            alt: "Image of the finished mobile design for Rite Aid",
+            alt: "Image of the finished mobile design for Ryman",
             width: 828,
             height: 1030,
           },
@@ -454,13 +454,13 @@ export const caseStudiesArr: CaseStudyType[] = [
         image: [
           {
             src: "njam/njam-assets01.webp",
-            alt: "First comp for the njam",
+            alt: "First collection of created assets for NJAM",
             width: 1892,
             height: 1550,
           },
           {
             src: "njam/njam-assets02.webp",
-            alt: "The client accepted comp of the njam site",
+            alt: "Second collection of created assets for NJAM",
             width: 1892,
             height: 1550,
           },
@@ -477,19 +477,19 @@ export const caseStudiesArr: CaseStudyType[] = [
         image: [
           {
             src: "njam/front-example.webp",
-            alt: "xample of the Lula Cafe page",
+            alt: "Example of the front of NJAM",
             width: 1892,
             height: 1550,
           },
           {
             src: "njam/back-example.webp",
-            alt: "Example of the Ole Red page",
+            alt: "Example of the back of NJAM",
             width: 1892,
             height: 1550,
           },
           {
             src: "njam/disc-example.webp",
-            alt: "xample of the Opry page",
+            alt: "Example of the disc cover for NJAM",
             width: 1892,
             height: 1550,
           },
@@ -504,13 +504,13 @@ export const caseStudiesArr: CaseStudyType[] = [
         image: [
           {
             src: "njam/njam-bottom01.webp",
-            alt: "Image of the finished design for Rite Aid",
+            alt: "Image of the finished design for NJAM",
             width: 1892,
             height: 1030,
           },
           {
             src: "njam/njam-bottom02.webp",
-            alt: "Image of the finished mobile design for Rite Aid",
+            alt: "Image of the finished mobile design for NJAM",
             width: 828,
             height: 1030,
           },
@@ -520,6 +520,134 @@ export const caseStudiesArr: CaseStudyType[] = [
     bottomFacts: [
       { metric: "500,000+", description: "streams across the catalog" },
       { metric: "6", description: "years of collaboration" },
+    ],
+  },
+
+  {
+    slug: "surlalune",
+    hero: {
+      name: "SURLALUNE",
+      image: "surlalune/surlalune-hero.webp",
+      alt: "surlalune hero image",
+      width: 1691,
+      height: 1092,
+      mobile: {
+        image: "surlalune/surlalune-hero-mobile.webp",
+        alt: "njam hero image",
+        width: 600,
+        height: 387,
+      },
+    },
+    topFacts: {
+      client: "Heidi Anne Heiner",
+      role: "Art Director",
+      year: "2016",
+    },
+    rows: [
+      {
+        header: "Once upon a time...",
+        copy: [
+          "SurLaLune is one of the oldest fairy tale reference sites on the internet, and it looked it. The design was eighteen years old, built when the web was tables and background tiles, and the content had long outgrown it. Forty-nine annotated tales, each with its own history, annotations, illustration gallery, related tales, bibliography, and modern interpretations. Thousands more folktales in a searchable database. A blog, a bookstore, a discussion board.",
+
+          "All of it lived in a narrow center column flanked by link lists and ad blocks, which is how you end up with a scholarly resource that reads like a directory.",
+
+          "The ads were not optional. They pay the hosting bill and return something to Heidi for two decades of work, so any redesign that treated them as an afterthought would either break her revenue or get overridden later. Most redesigns push ads to the outer columns and let them squeeze the content inward. On a text-heavy reference site, that is exactly the wrong trade.",
+        ],
+        image: [
+          {
+            src: "surlalune/surlalune-inherited.webp",
+            alt: "SurLaLune inherited site",
+            width: 1892,
+            height: 982,
+            caption:
+              "Original SurLaLune site built before mobile responsiveness and small screens.",
+          },
+        ],
+      },
+      {
+        header: "Pumpkins become coaches",
+        copy: [
+          "I set the direction toward clarity: charcoal headers to anchor hierarchy, an off-white page against white content areas so the body copy sits forward instead of floating, and a wider container that gave the tales room to breathe.",
+
+          "The ad decision drove the layout. Rather than letting advertising compress the content from the outside, I widened the main content area and brought the ad column inside it, on the right. The reading column stays generous, the ads stay visible and profitable, and the page never narrows to accommodate them. Revenue became a layout input rather than a layout casualty.",
+
+          "For character, we let the containers break uniformity. A strict grid would have been correct and lifeless, and this is a site about fairy tales. The looser structure gives the pages a whimsy that matches the material without undermining the scholarship.",
+        ],
+        image: [
+          {
+            src: "surlalune/surlalune-adspace01.webp",
+            alt: "First comp for the SurLaLune",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "surlalune/surlalune-adspace02.webp",
+            alt: "The client accepted comp of the SurLaLune",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+        beforeAndAfter: true,
+      },
+      {
+        header: "Spinning Straw into Gold",
+        copy: [
+          "The site already held a deep archive of public domain fairy tale art from Rackham, Dulac, and others, all of it living in each tale's illustration gallery. Rather than pull from that for the page banners, which would have duplicated content already on the page, I tapped Aaron to stretch into original illustration and build a unique banner for every tale.",
+
+          "He had shown a distinctive flat, graphic style on earlier projects, and this was a far better use of it than production assets. The result is the strongest visual layer on the site: the five ghost wives flanking Bluebeard with the key held between them, Red small against a forest of red pines, Cinderella's carriage under a canopy of pink. Each tale gets its own image while the system holds them together.",
+
+          "The technical reality was forty-nine tales at eight pages each, plus the introduction section, the folklore database, the bookstore, and everything around them. Several hundred pages, all static. I was learning Handlebars at the time and brought Heidi a case for moving the site onto a template library with a database behind it, which is what a site that size should be. The budget could not carry database and backend hosting, so the answer was no.",
+
+          "So we built it by hand, and I taught Aaron to write HTML and CSS so there were two of us doing it.",
+        ],
+        image: [
+          {
+            src: "surlalune/surlalune-example01.webp",
+            alt: "Example of the surlalune tale, Sleeping Beauty",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "surlalune/surlalune-example02.webp",
+            alt: "Example of the illustration Modal",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "surlalune/surlalune-example03.webp",
+            alt: "Example of the surlalune tale, The Gingerbread Man",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+      },
+      {
+        header: "They lived happily ever after",
+        copy: [
+          "A reference site that reads like one. Decades of fairy tale scholarship restructured into a clear hierarchy, with original illustration on every tale, and an ad layout that funds the site without taking the page apart to do it.",
+
+          "Aaron came out of it with front-end skills he did not have going in, and a body of illustration work that is the best thing on the site.",
+        ],
+        image: [
+          {
+            src: "surlalune/surlalune-bottom01.webp",
+            alt: "Image of the finished design for SurLaLune",
+            width: 1892,
+            height: 1030,
+          },
+          {
+            src: "surlalune/surlalune-bottom02.webp",
+            alt: "Image of the finished mobile design for SurLaLune",
+            width: 828,
+            height: 1030,
+          },
+        ],
+      },
+    ],
+    bottomFacts: [
+      { metric: "48", description: "catalogued fairy tales" },
+      { metric: "1,500", description: "fairy tale illustrations" },
+      { metric: "5,000+", description: "folktales in the database" },
     ],
   },
 ];

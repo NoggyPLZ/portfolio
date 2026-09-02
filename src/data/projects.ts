@@ -42,7 +42,7 @@ const projects: Project[] = [
   {
     title: "RITE AID CAREERS",
     client: "Rite Aid",
-    skills: "Design, Branding, Front-End using HTML & CSS",
+    skills: "Design, Branding, Front-End Development",
     body: "Through my team at BlueTractor and in communication with the client Rite-Aid, we used the branding standard of Rite-Aid to bring their careers site into a more modern design. Keeping a clean aesthetic, I was able to accent items using their green brand color while letting the blue act as a more dominant color. Included on pages was an input field to search for Jobs using job title and search location as params.",
     images: {
       image_1: {
@@ -73,7 +73,7 @@ const projects: Project[] = [
   {
     title: "RYMAN CAREERS",
     client: "Ryman Hospitality Properties",
-    skills: "Design, Branding, Front-End using HTML/CSS/JS",
+    skills: "Design, Branding, Front-End Development",
     body: "Capturing the rustic typesetting theme of a Nashville printing press, my team at BlueTractor created a careers site for the Ryman properties. Covering around 6 different brands in locations all over Tennessee and even Florida, the site helped Ryman Hospitality Properties reach potential employees in properties such as Ole Red, Grand Ole Opry, Ryman Auditorium, and more.",
     images: {
       image_1: {
@@ -105,7 +105,7 @@ const projects: Project[] = [
   {
     title: "TSC CAREERS",
     client: "Tractor Supply Co.",
-    skills: "Design, Branding, Front-End using HTML/CSS/JS",
+    skills: "Design, Branding, Front-End Development",
     body: "Starting with the day in the life of a Tractor Supply Team Member, the TSC Careers site introduces prospective applicants to the company and its culture. The comprehensive job search function matches the site's design, using API feeds from TSC's third party vendor to offer a cohesive site experience.",
     images: {
       image_1: {
@@ -169,34 +169,56 @@ const projects: Project[] = [
     },
   },
   {
-   
-    title: "COGNITION STORE",
-    client: "Cognition",
-    skills:
-      "Design, Branding, React, TypeScript, Tailwind CSS, Express, PostgreSQL, SQL, Tanstack Router, Tanstack Query, Jest, JWT/Authentication, CI/CD, Zod, Docker",
-    body: "Cognition a full-stack e-commerce application for a fictional parody company selling AI-generated products. A React frontend, an Express API backend, and a PostgreSQL database, structured as a monorepo and deployed across three separate hosting services (Netlify, Render, and Supabase). \n\nThe project was built to demonstrate constructing a storefront from the ground up with minimal library assistance: raw SQL with no ORM, and session authentication built directly on JWTs in httpOnly cookies rather than an auth provider like Auth0 or Clerk. Money is handled as integer cents to avoid floating-point errors, and order history uses a snapshot pattern so past orders survive product changes. \n\nIntegration tested with Jest against an ephemeral PostgreSQL database, with tables truncated between tests so each test stands on its own. It has no payment processing by design the point was to build the hard parts, not to wire up Stripe. Deploying across three services surfaced the genuinely fiddly problems a single-host tutorial never exposes you to: cross-site session cookies, database connection pooling, and TLS certificate verification.",
-    images: {
-      image_1: {
-        path: "/cognition/cognition01.webp",
-        height: "1225",
-        width: "1892",
-        alt: "Image of the Cognition store app",
+    title: "SUR LA LUNE",
+      client: "Heidi Thomas",
+      skills: "Art Direction, Design, Branding, Front-End Development",
+      body: "The redesign of the SurLaLune site was an enormous challenge, but my team at BlueTractor was able to create a beautiful fairy tale themed site. The site featured a sprawling library of around 50 fairy tales each having 8 pages of annotations, illustrations, and more pages of related tales.",
+      images: {
+        image_1: {
+          path: "/surlalune/sur-la-lune01.webp",
+          height: "1550",
+          width: "1892",
+          alt: "Image from the SurLaLune site",
+        },
+        image_2: {
+          path: "/surlalune/sur-la-lune02.webp",
+          height: "745",
+          width: "916",
+          alt: "Image from the SurLaLune site",
+        },
+        image_3: {
+          path: "/surlalune/sur-la-lune03.webp",
+          height: "745",
+          width: "916",
+          alt: "Image from the SurLaLune site",
+        },
       },
-      image_2: {
-        path: "/cognition/cognition02.webp",
-        height: "1225",
-        width: "1892",
-        alt: "Image of the Cognition store app",
-      },
-      image_3: {
-        path: "/cognition/cognition03.webp",
-        height: "1225",
-        width: "1892",
-        alt: "Image of the Cognition store app",
-      },
-    },
-    link: "https://steam-backlog.netlify.app/",
-    git: "https://github.com/NoggyPLZ/steam-roulette",
+    // title: "COGNITION STORE",
+    // client: "Cognition",
+    // skills:
+    //   "Design, Branding, React, TypeScript, Tailwind CSS, Express, PostgreSQL, SQL, Tanstack Router, Tanstack Query, Jest, JWT/Authentication, CI/CD, Zod, Docker",
+    // body: "Cognition a full-stack e-commerce application for a fictional parody company selling AI-generated products. A React frontend, an Express API backend, and a PostgreSQL database, structured as a monorepo and deployed across three separate hosting services (Netlify, Render, and Supabase). \n\nThe project was built to demonstrate constructing a storefront from the ground up with minimal library assistance: raw SQL with no ORM, and session authentication built directly on JWTs in httpOnly cookies rather than an auth provider like Auth0 or Clerk. Money is handled as integer cents to avoid floating-point errors, and order history uses a snapshot pattern so past orders survive product changes. \n\nIntegration tested with Jest against an ephemeral PostgreSQL database, with tables truncated between tests so each test stands on its own. It has no payment processing by design the point was to build the hard parts, not to wire up Stripe. Deploying across three services surfaced the genuinely fiddly problems a single-host tutorial never exposes you to: cross-site session cookies, database connection pooling, and TLS certificate verification.",
+    // images: {
+    //   image_1: {
+    //     path: "/cognition/cognition01.webp",
+    //     height: "1225",
+    //     width: "1892",
+    //     alt: "Image of the Cognition store app",
+    //   },
+    //   image_2: {
+    //     path: "/cognition/cognition02.webp",
+    //     height: "1225",
+    //     width: "1892",
+    //     alt: "Image of the Cognition store app",
+    //   },
+    //   image_3: {
+    //     path: "/cognition/cognition03.webp",
+    //     height: "1225",
+    //     width: "1892",
+    //     alt: "Image of the Cognition store app",
+    //   },
+    // },
+    case: "case/surlalune",
     quote: {
       body: "Just signed up! This is awesome!!",
       author: 'Thomas "TITO", FGC Member',
@@ -268,7 +290,7 @@ const projects: Project[] = [
   // {
   //   title: "SUR LA LUNE",
   //   client: "Heidi Thomas",
-  //   skills: "Design, Branding, Front-End using HTML/CSS/JS",
+  //   skills: "Art Direction, Design, Branding, Front-End Development",
   //   body: "The redesign of the SurLaLune site was an enormous challenge, but my team at BlueTractor was able to create a beautiful fairy tale themed site. The site featured a sprawling library of around 50 fairy tales each having 8 pages of annotations, illustrations, and more pages of related tales.",
   //   images: {
   //     image_1: {

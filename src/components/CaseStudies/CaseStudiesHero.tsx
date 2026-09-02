@@ -36,7 +36,7 @@ export default function CaseStudiesHero({
   return (
     <div
       ref={containerRef}
-      className="px-8 pt-20 bg-palered-500 flex flex-col md:flex-row"
+      className="px-8 pt-20 bg-palered-500 justify-between flex flex-col md:flex-row"
     >
       <div className="flex flex-col justify-end md:pb-10 xl:min-w-[500px]">
         {minorName && (
@@ -46,7 +46,13 @@ export default function CaseStudiesHero({
         )}
         <h3
           ref={titleRef}
-          className="title-copy text-[22vw]/[19vw] md:text-[15vw]/[12vw] font-bigger text-white -mb-[0.2em] uppercase"
+          className={`title-copy 
+            ${
+              name === "SURLALUNE"
+                ? "md:text-[11.5vw]/[9vw]"
+                : "md:text-[15vw]/[12vw]"
+            }
+            text-[22vw]/[19vw]  font-bigger text-white -mb-[0.2em] uppercase`}
         >
           {name}
         </h3>
