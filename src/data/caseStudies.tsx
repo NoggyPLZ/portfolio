@@ -260,7 +260,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         ],
       },
       {
-        header: "Wide, Bright, and Mobile",
+        header: "Welcome to Life Out Here",
         copy: [
           "Mobile drove most of the decisions. Banners had to hold up at small sizes without pushing content off the screen, and navigation became collapsible and modern instead of a desktop pattern crammed into a phone. I designed the mobile pages almost exclusively, directed and reviewed another designer's work to keep it consistent with the system, and wrote the HTML and CSS.",
           "The site went from a fixed narrow column to a layout that filled a desktop screen and fit a phone. It stayed in service for six years while the company grew from roughly 1,685 to 2,216 stores, and we kept it current with TSC's branding as that standard matured around it.",
