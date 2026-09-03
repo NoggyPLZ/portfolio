@@ -152,14 +152,14 @@ export const caseStudiesArr: CaseStudyType[] = [
           {
             src: "riteaid/riteaid-bottom01.webp",
             alt: "Image of the finished design for Rite Aid",
-            width: 1892,
-            height: 1550,
+            width: 1641,
+            height: 1030,
           },
           {
             src: "riteaid/riteaid-bottom02.webp",
             alt: "Image of the finished mobile design for Rite Aid",
-            width: 1892,
-            height: 1550,
+            width: 828,
+            height: 1030,
           },
         ],
       },
@@ -270,7 +270,7 @@ export const caseStudiesArr: CaseStudyType[] = [
             src: "tsccareers/tsccareers-bottom01.webp",
             alt: "Image of the finished design for TSC Careers",
             width: 1892,
-            height: 1030,
+            height: 1550,
           },
           {
             src: "tsccareers/tsccareers-bottom02.webp",
@@ -387,7 +387,7 @@ export const caseStudiesArr: CaseStudyType[] = [
             src: "ryman/ryman-bottom01.webp",
             alt: "Image of the finished design for Ryman",
             width: 1892,
-            height: 1030,
+            height: 1550,
           },
           {
             src: "ryman/ryman-bottom02.webp",
@@ -506,7 +506,7 @@ export const caseStudiesArr: CaseStudyType[] = [
             src: "njam/njam-bottom01.webp",
             alt: "Image of the finished design for NJAM",
             width: 1892,
-            height: 1030,
+            height: 1550,
           },
           {
             src: "njam/njam-bottom02.webp",
@@ -558,7 +558,7 @@ export const caseStudiesArr: CaseStudyType[] = [
             src: "surlalune/surlalune-inherited.webp",
             alt: "SurLaLune inherited site",
             width: 1892,
-            height: 982,
+            height: 983,
             caption:
               "Original SurLaLune site built before mobile responsiveness and small screens.",
           },
@@ -633,7 +633,7 @@ export const caseStudiesArr: CaseStudyType[] = [
             src: "surlalune/surlalune-bottom01.webp",
             alt: "Image of the finished design for SurLaLune",
             width: 1892,
-            height: 1030,
+            height: 1550,
           },
           {
             src: "surlalune/surlalune-bottom02.webp",
