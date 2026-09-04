@@ -7,12 +7,15 @@ export default function AboutCopy() {
       <div className="lg:basis-1/2 text-left basis-full order-2 lg:order-1">
         <div className="lg:max-w-[800px] ml-auto text-xl/10">
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
-            I'm an Art director with 16 years directing digital design for
-            national brands including Tractor Supply Co., Ryman Hospitality
-            Properties, Rite Aid, and Crunchyroll. Led design direction and
-            front-end delivery across 250+ client websites, specializing in
-            employer brand systems, digital marketing campaigns and recruitment
-            platforms serving workforces of 50,000+.
+            Art Director with 16 years leading creative direction and brand
+            design for national brands including Tractor Supply Co., Ryman
+            Hospitality Properties, Rite Aid, and Crunchyroll. Directed concept
+            development, design teams, and creative execution across 250+ client
+            websites and campaigns, specializing in employer brand systems and
+            recruitment platforms serving workforces of 50,000+. Experienced
+            leading and mentoring design teams, presenting creative direction to
+            enterprise stakeholders, and building brand systems that remain in
+            service for years after launch.
           </p>
           <h3 className="text-palered-500 text-5xl md:text-6xl font-bigger uppercase">
             Rare design-to-code capability

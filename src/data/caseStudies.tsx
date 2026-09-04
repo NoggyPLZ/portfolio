@@ -592,13 +592,13 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "Spinning Straw into Gold",
         copy: [
-          "The site already held a deep archive of public domain fairy tale art from Rackham, Dulac, and others, all of it living in each tale's illustration gallery. Rather than pull from that for the page banners, which would have duplicated content already on the page, I tapped Aaron to stretch into original illustration and build a unique banner for every tale.",
+          "The site already held a deep archive of public domain fairy tale art from Rackham, Dulac, and others, all of it living in each tale's illustration gallery. Rather than pull from that for the page banners, which would have duplicated content already on the page, I tapped designer I was mentoring to stretch into original illustration and build a unique banner for every tale.",
 
           "He had shown a distinctive flat, graphic style on earlier projects, and this was a far better use of it than production assets. The result is the strongest visual layer on the site: the five ghost wives flanking Bluebeard with the key held between them, Red small against a forest of red pines, Cinderella's carriage under a canopy of pink. Each tale gets its own image while the system holds them together.",
 
           "The technical reality was forty-nine tales at eight pages each, plus the introduction section, the folklore database, the bookstore, and everything around them. Several hundred pages, all static. I was learning Handlebars at the time and brought Heidi a case for moving the site onto a template library with a database behind it, which is what a site that size should be. The budget could not carry database and backend hosting, so the answer was no.",
 
-          "So we built it by hand, and I taught Aaron to write HTML and CSS so there were two of us doing it.",
+          "So we built it by hand, and I taught the designer I mentored to write HTML and CSS so the task could be managed in a reasonable time frame.",
         ],
         image: [
           {
@@ -626,7 +626,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         copy: [
           "A reference site that reads like one. Decades of fairy tale scholarship restructured into a clear hierarchy, with original illustration on every tale, and an ad layout that funds the site without taking the page apart to do it.",
 
-          "Aaron came out of it with front-end skills he did not have going in, and a body of illustration work that is the best thing on the site.",
+          "The designer I brought up came out of it with front-end skills he did not have going in, and a body of illustration work that is the best thing on the site.",
         ],
         image: [
           {

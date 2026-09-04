@@ -83,8 +83,10 @@ export default function Work() {
           single approach.
         </li>
         <li>
-          Mentored junior designers in visual craft and front-end best
-          practices, improving code quality and team efficiency.
+          Directed and mentored designers on a rotating basis across concurrent
+          client accounts, reviewing creative work and setting visual craft
+          standards, while collaborating with a creative director, copywriter,
+          and full-stack developer to deliver campaigns end to end.
         </li>
         <li>
           Managed concurrent delivery across multiple active client accounts,
@@ -120,7 +122,7 @@ export default function Work() {
         </li>
         <li>
           Mentored interns and junior designers on design and front-end
-          development
+          development, reviewing work and providing creative feedback
         </li>
         <li>Redesigned, and maintained Nashville River Front site</li>
         <li>
