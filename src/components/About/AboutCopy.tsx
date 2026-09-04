@@ -36,7 +36,7 @@ export default function AboutCopy() {
               Visit My Github <ArrowUpRight size={30} strokeWidth={3} />
             </Link>
             <a
-              href={"docs/BrettHicks_AD_Resume.pdf"}
+              href={"docs/Brett_Hicks_ArtDirector_Resume.pdf"}
               target="_blank"
               className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px] h-40 bg-palegray-500 text-darkgray-500 p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500 `}
               rel="noopener noreferrer"
