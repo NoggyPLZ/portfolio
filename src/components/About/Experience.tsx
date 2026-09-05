@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import Awards from "./Awards";
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function Experience() {
@@ -44,6 +45,7 @@ export default function Experience() {
 
         <div className="flex-col flex pb-10 grow lg:pt-50 gap-5">
           <Work />
+          <Awards />
           <Education />
         </div>
       </div>
