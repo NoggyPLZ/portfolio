@@ -23,41 +23,33 @@ export default function CaseStudiesHero({
       tl.fromTo(
         ".title-copy",
         { y: 50, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.5 }
+        { y: 0, opacity: 1, duration: 0.5 },
       ).fromTo(
         imageRef.current,
         { x: 50, opacity: 0 },
-        { x: 0, opacity: 1, duration: 0.2 }
+        { x: 0, opacity: 1, duration: 0.2 },
       );
     },
-    { scope: containerRef }
+    { scope: containerRef },
   );
 
   return (
     <div
       ref={containerRef}
-      className="px-8 pt-20 bg-palered-500 justify-between flex flex-col md:flex-row"
+      className="px-8 pt-20 bg-palered-500  xl:justify-center flex flex-col md:flex-row gap-4"
     >
-      <div className="flex flex-col justify-end md:pb-10 xl:min-w-[500px]">
+      <div className="flex flex-col justify-end">
         {minorName && (
           <h3 className="title-copy text-white font-bigger uppercase text-[8vw]/[10vw] md:text-[5vw]/[8vw] 2xl:text-[5vw]/[8vw] pb-1 md:pb-0 -mb-[0.2em] ">
             {minorName}
           </h3>
         )}
-        <h3
-          ref={titleRef}
-          className={`title-copy 
-            ${
-              name === "SURLALUNE"
-                ? "md:text-[11.5vw]/[9vw]"
-                : "md:text-[15vw]/[12vw]"
-            }
-            text-[22vw]/[19vw]  font-bigger text-white -mb-[0.2em] uppercase`}
-        >
+        <h3 className="text-[22vw]/[19vw] md:text-[15vw]/[12vw] xl:text-[12vw]/[10vw] md:pb-10 font-bigger text-white -mb-[0.2em] uppercase">
           {name}
         </h3>
       </div>
-      <div className="max-w-[1000px]">
+      <div className="max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1500px]">
+        {" "}
         <picture>
           <source
             media="(max-width:800px)"
