@@ -82,7 +82,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         header: "Four brands, one frame",
         copy: [
           "Rite Aid, Elixir, Health Dialog and Bartell were four companies hiring on four separate sites with nothing tying them together. A candidate had no way to tell they were looking at one employer.",
-          "The previous Rite Aid career site had the color somewhat, but it was being replaced by a slate off brand blue on various CTA boxes on pages. On top of that the structure of the site components was a mess. Logo way too large, a bloated navigation, banners with type lacking any sort of hierarchy or composition, and severely lacking in photography.",
+          "The previous Rite Aid career site had the color somewhat, but it was being replaced by a slate off brand blue on various call to action buttons on pages. On top of that, the structure of the site components was a mess. For example: logo way too large, a bloated navigation, banners with type lacking any sort of hierarchy or composition, and severely lacking in photography.",
           "However, the worst offender, the search bar was below the fold. This was a lesson hard come by through TSC Careers and the Ryman, but thoroughly learned.",
         ],
         image: [
@@ -98,7 +98,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "Restoring Structure",
         copy: [
-          "I took the various elements of the site and rebuilt them as structured components. Bringing the logo to heel, separating the secondary nav with Rite Aid brand blue, and creating hierarchy in the navigation reclaimed a lot of wasted real estate.",
+          "I took the various elements of the site and rebuilt them as structured components. Bringing the logo to heel, separating the secondary navigation with Rite Aid brand blue, and creating hierarchy in the navigation reclaimed a lot of wasted real estate.",
           "The banner had no composition, just stacked blocks of type. I gave it hierarchy and made it a cohesive unit.",
         ],
         image: [
@@ -592,7 +592,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "Spinning Straw into Gold",
         copy: [
-          "The site already held a deep archive of public domain fairy tale art from Rackham, Dulac, and others, all of it living in each tale's illustration gallery. Rather than pull from that for the page banners, which would have duplicated content already on the page, I tapped designer I was mentoring to stretch into original illustration and build a unique banner for every tale.",
+          "The site already held a deep archive of public domain fairy tale art from Rackham, Dulac, and others, all of it living in each tale's illustration gallery. Rather than pull from that for the page banners, which would have duplicated content already on the page, I tapped a designer I was mentoring to stretch into original illustration and build a unique banner for every tale.",
 
           "He had shown a distinctive flat, graphic style on earlier projects, and this was a far better use of it than production assets. The result is the strongest visual layer on the site: the five ghost wives flanking Bluebeard with the key held between them, Red small against a forest of red pines, Cinderella's carriage under a canopy of pink. Each tale gets its own image while the system holds them together.",
 
