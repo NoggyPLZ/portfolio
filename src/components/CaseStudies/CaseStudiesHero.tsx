@@ -14,7 +14,6 @@ export default function CaseStudiesHero({
   mobile,
 }: CaseStudyHero & { name: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const titleRef = useRef<HTMLHeadingElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
 
   useGSAP(
