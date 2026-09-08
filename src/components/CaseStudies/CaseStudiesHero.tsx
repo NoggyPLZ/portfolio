@@ -40,14 +40,11 @@ export default function CaseStudiesHero({
     >
       <div className="flex flex-col justify-end">
         {minorName && (
-          <h3 className="title-copy text-white font-bigger uppercase text-[8vw]/[10vw] md:text-[5vw]/[8vw] 2xl:text-[5vw]/[8vw] pb-1 md:pb-0 -mb-[0.2em] ">
+          <h3 className="title-copy text-white font-bigger uppercase text-[8vw]/[10vw] md:text-[5vw]/[8vw] 2xl:text-[5vw]/[8vw] pb-1 md:pb-0 -mb-[0.2em] title-copy">
             {minorName}
           </h3>
         )}
-        <h3
-          ref={titleRef}
-          className="text-[22vw]/[19vw] md:text-[15vw]/[12vw] xl:text-[12vw]/[10vw] md:pb-10 font-bigger text-white -mb-[0.2em] uppercase"
-        >
+        <h3 className="text-[22vw]/[19vw] md:text-[15vw]/[12vw] xl:text-[12vw]/[10vw] md:pb-10 font-bigger text-white -mb-[0.2em] uppercase title-copy">
           {name}
         </h3>
       </div>
