@@ -44,7 +44,10 @@ export default function CaseStudiesHero({
             {minorName}
           </h3>
         )}
-        <h3 className="text-[22vw]/[19vw] md:text-[15vw]/[12vw] xl:text-[12vw]/[10vw] md:pb-10 font-bigger text-white -mb-[0.2em] uppercase">
+        <h3
+          ref={titleRef}
+          className="text-[22vw]/[19vw] md:text-[15vw]/[12vw] xl:text-[12vw]/[10vw] md:pb-10 font-bigger text-white -mb-[0.2em] uppercase"
+        >
           {name}
         </h3>
       </div>
