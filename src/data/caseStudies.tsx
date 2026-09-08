@@ -171,123 +171,6 @@ export const caseStudiesArr: CaseStudyType[] = [
     ],
   },
   {
-    slug: "tsccareers",
-    hero: {
-      name: "TSC Careers",
-      image: "tsccareers/tsccareers-hero.webp",
-      alt: "tsc careers hero image",
-      width: 1691,
-      height: 1092,
-      mobile: {
-        image: "tsccareers/tsccareers-hero-mobile.webp",
-        alt: "tsc careers hero image",
-        width: 600,
-        height: 387,
-      },
-    },
-    topFacts: {
-      client: "Tractor Supply Co.",
-      role: "Art Director",
-      years: {
-        start: "2017",
-        end: "2023",
-      },
-    },
-    rows: [
-      {
-        header: "A new dawn for TSC",
-        copy: [
-          "Tractor Supply's careers site was built before the company's branding was, and it showed. The colors that define TSC today were simply absent. Navigation ran down the left side instead of across the top, with no collapse on mobile, and the whole thing was capped at 1170px. Combined with a dark theme, the effect was claustrophobic: a company built around open land and outdoor work, presenting itself through a narrow dark column.",
-          "Underneath the aesthetic problem was a structural one. TSC hires into three genuinely different worlds. Store, Store Support, and Distribution are different jobs, different environments, and different candidates, and the site treated them as one undifferentiated audience.",
-        ],
-        image: [
-          {
-            src: "tsccareers/tsccareers-inherited.webp",
-            alt: "The original TSC Careers Site",
-            width: 1892,
-            height: 983,
-            caption:
-              "A must darker and dated design we were tasked with redesigning.",
-          },
-        ],
-      },
-      {
-        header: "New Day, New Tractor",
-        copy: [
-          "I directed the redesign as TSC's new branding was taking shape, which meant designing against a standard that was still being written and staying in step with it as it developed over six years.",
-          "We dropped the dark theme for a clean white base, with off-white textures holding the rugged outdoor feel at low volume rather than shouting it.",
-        ],
-        image: [
-          {
-            src: "tsccareers/tsccareers-problem.webp",
-            alt: "The original TSC Careers Site",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "tsccareers/tsccareers-after.webp",
-            alt: "The new TSC Careers design",
-            width: 1892,
-            height: 1550,
-          },
-        ],
-        beforeAndAfter: true,
-      },
-      {
-        header: "Identity By Color",
-        copy: [
-          "The new palette did structural work: red, blue, and green each assigned to one of the three employment branches, so a candidate knew which world they were in before reading a word. Photographic banners showed more than just actual team members, it showed the culture of the area of employment. This give candidates something concrete to picture themselves inside of.",
-        ],
-        image: [
-          {
-            src: "tsccareers/distro-example.webp",
-            alt: "Example of the distribution section of TSC Careers",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "tsccareers/store-support-example.webp",
-            alt: "Example of the store support section of TSC Careers",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "tsccareers/store-example.webp",
-            alt: "Example of the store section of TSC Careers",
-            width: 1892,
-            height: 1550,
-          },
-        ],
-      },
-      {
-        header: "Welcome to Life Out Here",
-        copy: [
-          "Mobile drove most of the decisions. Banners had to hold up at small sizes without pushing content off the screen, and navigation became collapsible and modern instead of a desktop pattern crammed into a phone. I designed the mobile pages almost exclusively, directed and reviewed another designer's work to keep it consistent with the system, and wrote the HTML and CSS.",
-          "The site went from a fixed narrow column to a layout that filled a desktop screen and fit a phone. It stayed in service for six years while the company grew from roughly 1,685 to 2,216 stores, and we kept it current with TSC's branding as that standard matured around it.",
-        ],
-        image: [
-          {
-            src: "tsccareers/tsccareers-bottom01.webp",
-            alt: "Image of the finished design for TSC Careers",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "tsccareers/tsccareers-bottom02.webp",
-            alt: "Image of the finished mobile design for TSC Careers",
-            width: 828,
-            height: 1030,
-          },
-        ],
-      },
-    ],
-    bottomFacts: [
-      { metric: "2,100+", description: "stores" },
-      { metric: "49", description: "states" },
-      { metric: "4,500", description: "positions at any given time" },
-    ],
-  },
-  {
     slug: "ryman",
     hero: {
       name: "Ryman Careers",
@@ -404,6 +287,124 @@ export const caseStudiesArr: CaseStudyType[] = [
       { metric: "1,500", description: "open roles at any given time" },
     ],
   },
+  {
+    slug: "tsccareers",
+    hero: {
+      name: "TSC Careers",
+      image: "tsccareers/tsccareers-hero.webp",
+      alt: "tsc careers hero image",
+      width: 1691,
+      height: 1092,
+      mobile: {
+        image: "tsccareers/tsccareers-hero-mobile.webp",
+        alt: "tsc careers hero image",
+        width: 600,
+        height: 387,
+      },
+    },
+    topFacts: {
+      client: "Tractor Supply Co.",
+      role: "Art Director",
+      years: {
+        start: "2017",
+        end: "2023",
+      },
+    },
+    rows: [
+      {
+        header: "A new dawn for TSC",
+        copy: [
+          "Tractor Supply's careers site was built before the company's branding was, and it showed. The colors that define TSC today were simply absent. Navigation ran down the left side instead of across the top, with no collapse on mobile, and the whole thing was capped at 1170px. Combined with a dark theme, the effect was claustrophobic: a company built around open land and outdoor work, presenting itself through a narrow dark column.",
+          "Underneath the aesthetic problem was a structural one. TSC hires into three genuinely different worlds. Store, Store Support, and Distribution are different jobs, different environments, and different candidates, and the site treated them as one undifferentiated audience.",
+        ],
+        image: [
+          {
+            src: "tsccareers/tsccareers-inherited.webp",
+            alt: "The original TSC Careers Site",
+            width: 1892,
+            height: 983,
+            caption:
+              "A must darker and dated design we were tasked with redesigning.",
+          },
+        ],
+      },
+      {
+        header: "New Day, New Tractor",
+        copy: [
+          "I directed the redesign as TSC's new branding was taking shape, which meant designing against a standard that was still being written and staying in step with it as it developed over six years.",
+          "We dropped the dark theme for a clean white base, with off-white textures holding the rugged outdoor feel at low volume rather than shouting it.",
+        ],
+        image: [
+          {
+            src: "tsccareers/tsccareers-problem.webp",
+            alt: "The original TSC Careers Site",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "tsccareers/tsccareers-after.webp",
+            alt: "The new TSC Careers design",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+        beforeAndAfter: true,
+      },
+      {
+        header: "Identity By Color",
+        copy: [
+          "The new palette did structural work: red, blue, and green each assigned to one of the three employment branches, so a candidate knew which world they were in before reading a word. Photographic banners showed more than just actual team members, it showed the culture of the area of employment. This give candidates something concrete to picture themselves inside of.",
+        ],
+        image: [
+          {
+            src: "tsccareers/distro-example.webp",
+            alt: "Example of the distribution section of TSC Careers",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "tsccareers/store-support-example.webp",
+            alt: "Example of the store support section of TSC Careers",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "tsccareers/store-example.webp",
+            alt: "Example of the store section of TSC Careers",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+      },
+      {
+        header: "Welcome to Life Out Here",
+        copy: [
+          "Mobile drove most of the decisions. Banners had to hold up at small sizes without pushing content off the screen, and navigation became collapsible and modern instead of a desktop pattern crammed into a phone. I designed the mobile pages almost exclusively, directed and reviewed another designer's work to keep it consistent with the system, and wrote the HTML and CSS.",
+          "The site went from a fixed narrow column to a layout that filled a desktop screen and fit a phone. It stayed in service for six years while the company grew from roughly 1,685 to 2,216 stores, and we kept it current with TSC's branding as that standard matured around it.",
+        ],
+        image: [
+          {
+            src: "tsccareers/tsccareers-bottom01.webp",
+            alt: "Image of the finished design for TSC Careers",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "tsccareers/tsccareers-bottom02.webp",
+            alt: "Image of the finished mobile design for TSC Careers",
+            width: 828,
+            height: 1030,
+          },
+        ],
+      },
+    ],
+    bottomFacts: [
+      { metric: "2,100+", description: "stores" },
+      { metric: "49", description: "states" },
+      { metric: "4,500", description: "positions at any given time" },
+    ],
+  },
+
   {
     slug: "njam",
     hero: {
