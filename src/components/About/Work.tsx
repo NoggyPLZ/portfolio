@@ -21,6 +21,16 @@ export default function Work() {
           and design through build and ongoing maintenance.
         </li>
         <li>
+          Used AI-assisted design tooling, including Claude Design, to produce
+          interface elements and layout components across client and personal
+          builds, shortening the path from concept to working front-end.
+        </li>
+        <li>
+          Continued as design partner on Tractor Supply's internal benefits
+          platform, delivering interface updates and digital assets supporting
+          communication to 54,000+ team members.
+        </li>
+        <li>
           Restructured and redesigned the website for Sera Business Advisors, a
           business consulting and corporate training firm, reorganizing a
           multi-service offering into a clear information architecture and
@@ -32,9 +42,9 @@ export default function Work() {
           appearing on projects that have accumulated 500,000+ combined streams.
         </li>
         <li>
-          Continued as design partner on Tractor Supply's internal benefits
-          platform, delivering interface updates and digital assets supporting
-          communication to 54,000+ team members.
+          Advised recording artist N. Justice on AI guardrails for visual and
+          brand work, defining where generative tools fit the process and where
+          original artwork and human authorship stayed non-negotiable.
         </li>
       </ul>
       <h3 className="text-palered-500 pt-10 text-7xl md:text-8xl font-bigger">
