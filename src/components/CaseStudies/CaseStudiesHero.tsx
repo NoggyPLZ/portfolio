@@ -22,20 +22,20 @@ export default function CaseStudiesHero({
       tl.fromTo(
         ".title-copy",
         { y: 50, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.5 },
+        { y: 0, opacity: 1, duration: 0.5 }
       ).fromTo(
         imageRef.current,
         { x: 50, opacity: 0 },
-        { x: 0, opacity: 1, duration: 0.2 },
+        { x: 0, opacity: 1, duration: 0.2 }
       );
     },
-    { scope: containerRef },
+    { scope: containerRef }
   );
 
   return (
     <div
       ref={containerRef}
-      className="px-8 pt-20 bg-palered-500  xl:justify-center flex flex-col md:flex-row gap-4"
+      className="px-8 pt-20 xl:pt-10 bg-palered-500  xl:justify-center flex flex-col md:flex-row gap-4"
     >
       <div className="flex flex-col justify-end">
         {minorName && (
@@ -43,7 +43,13 @@ export default function CaseStudiesHero({
             {minorName}
           </h3>
         )}
-        <h3 className="text-[22vw]/[19vw] md:text-[15vw]/[12vw] xl:text-[12vw]/[10vw] md:pb-10 font-bigger text-white -mb-[0.2em] uppercase title-copy">
+        <h3
+          className={`${
+            name === "NJAM"
+              ? "text-[22vw]/[19vw] md:text-[15vw]/[12vw] xl:text-[17vw]/[15vw]"
+              : "text-[22vw]/[19vw] md:text-[15vw]/[12vw] xl:text-[12vw]/[10vw]"
+          }  md:pb-10 font-bigger text-white -mb-[0.2em] uppercase title-copy`}
+        >
           {name}
         </h3>
       </div>
