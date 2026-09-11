@@ -42,7 +42,7 @@ const projects: Project[] = [
   {
     title: "RITE AID CAREERS",
     client: "Rite Aid",
-    skills: "Design, Branding, Front-End Development",
+    skills: "Art Direction, Design, Branding, Front-End Development",
     body: "Through my team at BlueTractor and in communication with the client Rite-Aid, we used the branding standard of Rite-Aid to bring their careers site into a more modern design. Keeping a clean aesthetic, I was able to accent items using their green brand color while letting the blue act as a more dominant color. Included on pages was an input field to search for Jobs using job title and search location as params.",
     images: {
       image_1: {
@@ -73,7 +73,7 @@ const projects: Project[] = [
   {
     title: "RYMAN CAREERS",
     client: "Ryman Hospitality Properties",
-    skills: "Design, Branding, Front-End Development",
+    skills: "Art Direction, Design, Branding, Front-End Development",
     body: "Capturing the rustic typesetting theme of a Nashville printing press, my team at BlueTractor created a careers site for the Ryman properties. Covering around 6 different brands in locations all over Tennessee and even Florida, the site helped Ryman Hospitality Properties reach potential employees in properties such as Ole Red, Grand Ole Opry, Ryman Auditorium, and more.",
     images: {
       image_1: {
@@ -105,7 +105,7 @@ const projects: Project[] = [
   {
     title: "TSC CAREERS",
     client: "Tractor Supply Co.",
-    skills: "Design, Branding, Front-End Development",
+    skills: "Art Direction, Design, Branding, Front-End Development",
     body: "Starting with the day in the life of a Tractor Supply Team Member, the TSC Careers site introduces prospective applicants to the company and its culture. The comprehensive job search function matches the site's design, using API feeds from TSC's third party vendor to offer a cohesive site experience.",
     images: {
       image_1: {
