@@ -380,7 +380,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         header: "Welcome to Life Out Here",
         copy: [
           "Mobile drove most of the decisions. Banners had to hold up at small sizes without pushing content off the screen, and navigation became collapsible and modern instead of a desktop pattern crammed into a phone. I designed the mobile pages almost exclusively, directed and reviewed another designer's work to keep it consistent with the system, and wrote the HTML and CSS.",
-          "The site went from a fixed narrow column to a layout that filled a desktop screen and fit a phone. It stayed in service for six years while the company grew from roughly 1,685 to 2,000+ stores, and we kept it current with TSC's branding as that standard matured around it.",
+          "The site went from a fixed narrow column to a layout that filled a desktop screen and fit a phone. It stayed in service for six years while the company grew from roughly 1,685 to 2,100+ stores, and we kept it current with TSC's branding as that standard matured around it.",
         ],
         image: [
           {
@@ -399,7 +399,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       },
     ],
     bottomFacts: [
-      { metric: "2,000+", description: "stores" },
+      { metric: "2,100+", description: "stores" },
       { metric: "49", description: "states" },
       { metric: "4,500", description: "positions at any given time" },
     ],
@@ -548,7 +548,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "Once upon a time...",
         copy: [
-          "SurLaLune is one of the oldest fairy tale reference sites on the internet, and it looked it. The design was eighteen years old, built when the web was tables and background tiles, and the content had long outgrown it. Forty-nine annotated tales, each with its own history, annotations, illustration gallery, related tales, bibliography, and modern interpretations. Thousands more folktales in a searchable database. A blog, a bookstore, a discussion board.",
+          "SurLaLune is one of the oldest fairy tale reference sites on the internet, and it looked it. The design was eighteen years old, built when the web was tables and background tiles, and the content had long outgrown it. Forty-eight annotated tales, each with its own history, annotations, illustration gallery, related tales, bibliography, and modern interpretations. Thousands more folktales in a searchable database. A blog, a bookstore, a discussion board.",
 
           "All of it lived in a narrow center column flanked by link lists and ad blocks, which is how you end up with a scholarly resource that reads like a directory.",
 
