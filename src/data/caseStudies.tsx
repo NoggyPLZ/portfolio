@@ -221,7 +221,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         image: [
           {
             src: "ryman/ryman-firstcomp.webp",
-            alt: "First comp for the ryman",
+            alt: "First comp for the Ryman",
             width: 1892,
             height: 1550,
           },
@@ -242,7 +242,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         image: [
           {
             src: "ryman/lula-example.webp",
-            alt: "Example of the Lula Cafe page",
+            alt: "Example of the Cafe Lula page",
             width: 1892,
             height: 1550,
           },
@@ -529,12 +529,12 @@ export const caseStudiesArr: CaseStudyType[] = [
     hero: {
       name: "SURLALUNE",
       image: "surlalune/surlalune-hero.webp",
-      alt: "surlalune hero image",
+      alt: "SurLaLune hero image",
       width: 1691,
       height: 1092,
       mobile: {
         image: "surlalune/surlalune-hero-mobile.webp",
-        alt: "surlalune mobile hero image",
+        alt: "SurLaLune mobile hero image",
         width: 600,
         height: 387,
       },
@@ -604,7 +604,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         image: [
           {
             src: "surlalune/surlalune-example01.webp",
-            alt: "Example of the surlalune tale, Sleeping Beauty",
+            alt: "Example of the SurLaLune tale, Sleeping Beauty",
             width: 1892,
             height: 1550,
           },
@@ -616,7 +616,7 @@ export const caseStudiesArr: CaseStudyType[] = [
           },
           {
             src: "surlalune/surlalune-example03.webp",
-            alt: "Example of the surlalune tale, The Gingerbread Man",
+            alt: "Example of the SurLaLune tale, The Gingerbread Man",
             width: 1892,
             height: 1550,
           },
