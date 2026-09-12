@@ -165,8 +165,8 @@ export const caseStudiesArr: CaseStudyType[] = [
       },
     ],
     bottomFacts: [
-      { metric: "2,400", description: "locations" },
-      { metric: "17", description: "states" },
+      { metric: "1,250", description: "locations at project close" },
+      { metric: "15", description: "states at project close" },
       { metric: "1,500", description: "open roles" },
     ],
   },
@@ -263,7 +263,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "All together now, Ryman",
         copy: [
-          "I directed the design and reviewed another designer's work to keep it aligned to the system, while designing the mobile experience myself and writing the HTML and CSS. The result was a fully responsive platform that gathered the initial six then three more, entertainment properties under one identity and let each one keep its character, with the texture and section work carrying the culture of the place without ever getting loud enough to fight the content.",
+          "I directed the design and reviewed another designer's work to keep it aligned to the system, while designing the mobile experience myself and writing the HTML and CSS. The result was a fully responsive platform that gathered six and later nine entertainment properties under one identity and let each one keep its character, with the texture and section work carrying the culture of the place without ever getting loud enough to fight the content.",
         ],
         image: [
           {
@@ -380,7 +380,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         header: "Welcome to Life Out Here",
         copy: [
           "Mobile drove most of the decisions. Banners had to hold up at small sizes without pushing content off the screen, and navigation became collapsible and modern instead of a desktop pattern crammed into a phone. I designed the mobile pages almost exclusively, directed and reviewed another designer's work to keep it consistent with the system, and wrote the HTML and CSS.",
-          "The site went from a fixed narrow column to a layout that filled a desktop screen and fit a phone. It stayed in service for six years while the company grew from roughly 1,685 to 2,216 stores, and we kept it current with TSC's branding as that standard matured around it.",
+          "The site went from a fixed narrow column to a layout that filled a desktop screen and fit a phone. It stayed in service for six years while the company grew from roughly 1,685 to 2,000+ stores, and we kept it current with TSC's branding as that standard matured around it.",
         ],
         image: [
           {
@@ -399,7 +399,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       },
     ],
     bottomFacts: [
-      { metric: "2,216", description: "stores" },
+      { metric: "2,000+", description: "stores" },
       { metric: "49", description: "states" },
       { metric: "4,500", description: "positions at any given time" },
     ],
