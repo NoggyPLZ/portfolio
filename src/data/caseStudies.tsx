@@ -199,7 +199,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         copy: [
           "Ryman Hospitality Properties owns some of the most recognizable names in American music: WSM 650 AM, the Grand Ole Opry, the Ryman Auditorium, Ole Red, Cafe Lula. Every one of them ran its own hiring portal. A candidate looking at the Opry had no way of knowing the Ryman was the same employer, and the company had no unified way to recruit across any of it.",
           "The brief was harder than consolidation. They wanted one platform with a genuine Nashville character, where each property kept an identity of its own without any of them breaking away from the whole. Flatten these brands into a corporate template and you destroy the thing that makes them worth working for. Leave them fully separate and you have the same problem you started with.",
-          "This project was the perfect opportunity to let a junior designer I was mentoring, test his mettle with creating key assets for the design. Using supplied inspiration, they were able to create a really intersting Hatch Show Print influenced type treatment that would be the center of most of the banners.",
+          "This project was the perfect opportunity to let a junior designer I was mentoring, test his mettle with creating key assets for the design. Using supplied inspiration, they were able to create a really interesting Hatch Show Print influenced type treatment that would be the center of most of the banners.",
         ],
         image: [
           {
@@ -216,7 +216,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         header: "Less is often More",
         copy: [
           "My Team and I first created a design that was almost there. Some of the assets were a little less subtle than needed. The logos still retained whatever color they brought, textures had images of figures that were visible enough to compete with real content, and banners were almost ethereal in color.",
-          "We tightened the design after feedback from the client. Images of people replaced with low opacity building renders that didn't compete, the banners were now filled with real photopgraphy from each venue, the logos were replaced with a version that placed them all in equal importance of color on the grunge texture background.",
+          "We tightened the design after feedback from the client. Images of people replaced with low opacity building renders that didn't compete, the banners were now filled with real photography from each venue, the logos were replaced with a version that placed them all in equal importance of color on the grunge texture background.",
         ],
         image: [
           {
@@ -324,7 +324,7 @@ export const caseStudiesArr: CaseStudyType[] = [
             width: 1892,
             height: 983,
             caption:
-              "A must darker and dated design we were tasked with redesigning.",
+              "A much darker and dated design we were tasked with redesigning.",
           },
         ],
       },
@@ -449,7 +449,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         header: "Drawing from inspiration",
         copy: [
           "Chris and I had already worked together on multiple albums at this point, and he knew my illustration style, allowing the design to be familiar and distinct. I used the illustrated version of Chris I'd developed for his collaboration with KiT, Kumite in Tennessee, a regional fighting game tournament, so the figure at the center of that in-your-face motion was already his visual identity rather than a generic player dropped into a template.",
-          "I used similar fonts to the genesis box art without taking exactly. The 'N' in his name was a creation of mine based off the Sega font, and NJAM brand was inspired by one of the 'NBA JAM' brands. I gave the NJAM a unique type treatment while borrowing the red and blue from NBA JAM.",
+          "I used similar fonts to the Genesis box art without taking exactly. The 'N' in his name was a creation of mine based off the Sega font, and NJAM brand was inspired by one of the 'NBA JAM' brands. I gave the NJAM a unique type treatment while borrowing the red and blue from NBA JAM.",
           "I used a few illustrator tricks to create a few characters of a single color and group them all together to form a crowd of descending dark to simulate depth, and then set out illustrating a dynamically posed version of the KiT collab illustration of Chris. Lastly, an image of a burning rim to be the after-scene on the back cover.",
         ],
         image: [
