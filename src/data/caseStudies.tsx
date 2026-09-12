@@ -165,8 +165,8 @@ export const caseStudiesArr: CaseStudyType[] = [
       },
     ],
     bottomFacts: [
-      { metric: "1,250", description: "locations" },
-      { metric: "15", description: "states" },
+      { metric: "2,400", description: "locations" },
+      { metric: "17", description: "states" },
       { metric: "1,500", description: "open roles" },
     ],
   },
@@ -263,7 +263,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "All together now, Ryman",
         copy: [
-          "I directed the design and reviewed another designer's work to keep it aligned to the system, while designing the mobile experience myself and writing the HTML and CSS. The result was a fully responsive platform that gathered six entertainment properties under one identity and let each one keep its character, with the texture and section work carrying the culture of the place without ever getting loud enough to fight the content.",
+          "I directed the design and reviewed another designer's work to keep it aligned to the system, while designing the mobile experience myself and writing the HTML and CSS. The result was a fully responsive platform that gathered the initial six then three more, entertainment properties under one identity and let each one keep its character, with the texture and section work carrying the culture of the place without ever getting loud enough to fight the content.",
         ],
         image: [
           {
@@ -399,7 +399,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       },
     ],
     bottomFacts: [
-      { metric: "2,100+", description: "stores" },
+      { metric: "2,216", description: "stores" },
       { metric: "49", description: "states" },
       { metric: "4,500", description: "positions at any given time" },
     ],
