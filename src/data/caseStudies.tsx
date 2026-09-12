@@ -83,7 +83,7 @@ export const caseStudiesArr: CaseStudyType[] = [
         copy: [
           "Rite Aid, Elixir, Health Dialog and Bartell were four companies hiring on four separate sites with nothing tying them together. A candidate had no way to tell they were looking at one employer.",
           "The previous Rite Aid career site had the color somewhat, but it was being replaced by a slate off brand blue on various call to action buttons on pages. On top of that, the structure of the site components was a mess. For example: logo way too large, a bloated navigation, banners with type lacking any sort of hierarchy or composition, and severely lacking in photography.",
-          "However, the worst offender, the search bar was below the fold. This was a lesson hard come by through TSC Careers and the Ryman, but thoroughly learned.",
+          "However, the worst offender, the search bar was below the fold. This was a lesson hard won through TSC Careers and the Ryman, but thoroughly learned.",
         ],
         image: [
           {
@@ -110,7 +110,7 @@ export const caseStudiesArr: CaseStudyType[] = [
           },
           {
             src: "riteaid/rite-aid-after.webp",
-            alt: "The original Rite Aid Careers Site",
+            alt: "The new Rite Aid Careers Site",
             width: 1892,
             height: 1550,
           },
@@ -125,19 +125,19 @@ export const caseStudiesArr: CaseStudyType[] = [
         image: [
           {
             src: "riteaid/health-dialog-example.webp",
-            alt: "The original Rite Aid Careers Site",
+            alt: "The new Health Dialog page",
             width: 1892,
             height: 1550,
           },
           {
             src: "riteaid/elixir-example.webp",
-            alt: "The original Rite Aid Careers Site",
+            alt: "The new Elixir page",
             width: 1892,
             height: 1550,
           },
           {
             src: "riteaid/bartell-example.webp",
-            alt: "The original Rite Aid Careers Site",
+            alt: "The new Bartell page",
             width: 1892,
             height: 1550,
           },
@@ -215,7 +215,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "Less is often More",
         copy: [
-          "My Team and I first created a design that was almost there. Some of the assets were a little less subtle than needed. The logos still retained whatever color they brought, textures had images of figures that were visible enough to compete with real content, and banners were almost ethereal in color.",
+          "My team and I first created a design that was almost there. Some of the assets were a little less subtle than needed. The logos still retained whatever color they brought, textures had images of figures that were visible enough to compete with real content, and banners were almost ethereal in color.",
           "We tightened the design after feedback from the client. Images of people replaced with low opacity building renders that didn't compete, the banners were now filled with real photography from each venue, the logos were replaced with a version that placed them all in equal importance of color on the grunge texture background.",
         ],
         image: [
@@ -237,7 +237,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "Preserving Identity",
         copy: [
-          "Each property expressed itself through its banner and photography while the frame stayed constant underneath. Each venue got the chance to express it's unique identity, while being a part of a greater Ryman culture through the structure of their pages and the overarching theme of color and HTML elements.",
+          "Each property expressed itself through its banner and photography while the frame stayed constant underneath. Each venue got the chance to express its unique identity, while being a part of a greater Ryman culture through the structure of their pages and the overarching theme of color and HTML elements.",
         ],
         image: [
           {
@@ -353,7 +353,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "Identity By Color",
         copy: [
-          "The new palette did structural work: red, blue, and green each assigned to one of the three employment branches, so a candidate knew which world they were in before reading a word. Photographic banners showed more than just actual team members, it showed the culture of the area of employment. This give candidates something concrete to picture themselves inside of.",
+          "The new palette did structural work: red, blue, and green each assigned to one of the three employment branches, so a candidate knew which world they were in before reading a word. Photographic banners showed more than just actual team members, it showed the culture of the area of employment. This gives candidates something concrete to picture themselves inside of.",
         ],
         image: [
           {
@@ -449,8 +449,8 @@ export const caseStudiesArr: CaseStudyType[] = [
         header: "Drawing from inspiration",
         copy: [
           "Chris and I had already worked together on multiple albums at this point, and he knew my illustration style, allowing the design to be familiar and distinct. I used the illustrated version of Chris I'd developed for his collaboration with KiT, Kumite in Tennessee, a regional fighting game tournament, so the figure at the center of that in-your-face motion was already his visual identity rather than a generic player dropped into a template.",
-          "I used similar fonts to the Genesis box art without taking exactly. The 'N' in his name was a creation of mine based off the Sega font, and NJAM brand was inspired by one of the 'NBA JAM' brands. I gave the NJAM a unique type treatment while borrowing the red and blue from NBA JAM.",
-          "I used a few illustrator tricks to create a few characters of a single color and group them all together to form a crowd of descending dark to simulate depth, and then set out illustrating a dynamically posed version of the KiT collab illustration of Chris. Lastly, an image of a burning rim to be the after-scene on the back cover.",
+          "I used similar fonts to the Genesis box art without taking them exactly. The 'N' in his name was a creation of mine based off the Sega font, and the NJAM brand was inspired by one of the 'NBA JAM' logos. I gave the NJAM a unique type treatment while borrowing the red and blue from NBA JAM.",
+          "I used a few illustrator tricks to create a few characters of a single color and group them all together to form a crowd of descending tones to simulate depth, and then set out illustrating a dynamically posed version of the KiT collab illustration of Chris. Lastly, an image of a burning rim to be the after-scene on the back cover.",
         ],
         image: [
           {
@@ -499,8 +499,8 @@ export const caseStudiesArr: CaseStudyType[] = [
       {
         header: "A rim that's still burning",
         copy: [
-          "The cover landed with his audience and generated real response on release, and the record contributed to the 500,000+ streams across his catalog. The result was an exciting design to match a record of NJAM's caliber, and that would work to snare in eyes of new listeners to one of Nashville's best award winning underground rappers.",
-          "Since the release, Chris and I have collaborated on more albums, ensuring a artistic partnership bringing bars to ears, and design to eyes.",
+          "The cover landed with his audience and generated real response on release, and the record contributed to the 500,000+ streams across his catalog. The result was an exciting design to match a record of NJAM's caliber, and that would work to snare in eyes of new listeners to one of Nashville's best award-winning underground rappers.",
+          "Since the release, Chris and I have collaborated on more albums, ensuring an artistic partnership bringing bars to ears, and design to eyes.",
         ],
         image: [
           {
@@ -511,7 +511,7 @@ export const caseStudiesArr: CaseStudyType[] = [
           },
           {
             src: "njam/njam-bottom02.webp",
-            alt: "Image of the finished mobile design for NJAM",
+            alt: "Image of fan reactions to the artwork",
             width: 828,
             height: 1030,
           },
@@ -534,7 +534,7 @@ export const caseStudiesArr: CaseStudyType[] = [
       height: 1092,
       mobile: {
         image: "surlalune/surlalune-hero-mobile.webp",
-        alt: "njam hero image",
+        alt: "surlalune mobile hero image",
         width: 600,
         height: 387,
       },
