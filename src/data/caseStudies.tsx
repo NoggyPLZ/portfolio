@@ -165,8 +165,8 @@ export const caseStudiesArr: CaseStudyType[] = [
       },
     ],
     bottomFacts: [
-      { metric: "1,250", description: "locations at project close" },
-      { metric: "15", description: "states at project close" },
+      { metric: "2,400+", description: "locations" },
+      { metric: "17", description: "states" },
       { metric: "1,500", description: "open roles" },
     ],
   },
