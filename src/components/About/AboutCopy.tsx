@@ -30,7 +30,7 @@ export default function AboutCopy() {
             When I'm not designing and coding, I enjoy reading scifi novels,
             playing competitive fighting games, and watching horror movies.
           </p>
-          <div className="flex md:flex-col flex-row gap-4 justify-start">
+          <div className="flex flex-col md:flex-row gap-4 justify-start">
             <a
               href={"docs/Brett_Hicks_ArtDirector_Resume.pdf"}
               target="_blank"
