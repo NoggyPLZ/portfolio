@@ -5,7 +5,7 @@ export default function AboutCopy() {
   return (
     <div className="p-8 flex lg:flex-row flex-col gap-8 md:pt-30 md:pb-15 pt-15 bg-darkgray-500">
       <div className="lg:basis-1/2 text-left basis-full order-2 lg:order-1">
-        <div className="lg:max-w-[800px] ml-auto text-xl/10">
+        <div className="lg:max-w-[800px] xl:max-w-full ml-auto text-xl/10">
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
             Art Director with 16 years leading creative direction and brand
             design for national brands including Tractor Supply Co., Ryman
@@ -20,7 +20,7 @@ export default function AboutCopy() {
           <h3 className="text-palered-500 text-5xl md:text-6xl font-bigger uppercase">
             Rare design-to-code capability
           </h3>
-          <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
+          <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 xl:pb-2 md:mb-5">
             I direct the work and ship it, so intent survives implementation.
             Experienced mentoring designers, presenting to enterprise
             stakeholders, and building systems that stay maintainable by
@@ -50,10 +50,10 @@ export default function AboutCopy() {
         </div>
       </div>
       <div className="lg:basis-1/2 basis-full order-1 lg:order-2 ">
-        <div className="lg:h-full  w-full mx-auto md:ml-0">
+        <div className="lg:h-full w-full mx-auto md:ml-0">
           <img
             src="images/picture-of-brett.webp"
-            className="mx-auto rounded-2xl"
+            className="mx-auto rounded-2xl w-full xl:max-w-[800px]"
             width="600"
             height="634"
             alt="picture of me, Brett Hicks"
