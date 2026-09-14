@@ -30,14 +30,7 @@ export default function AboutCopy() {
             When I'm not designing and coding, I enjoy reading scifi novels,
             playing competitive fighting games, and watching horror movies.
           </p>
-          <div className="flex gap-4 justify-start">
-            <Link
-              to={"https://github.com/NoggyPLZ"}
-              target="_blank"
-              className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px] h-40 bg-palegray-500 text-darkgray-500 p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500 `}
-            >
-              Visit My Github <ArrowUpRight size={30} strokeWidth={3} />
-            </Link>
+          <div className="flex md:flex-col flex-row gap-4 justify-start">
             <a
               href={"docs/Brett_Hicks_ArtDirector_Resume.pdf"}
               target="_blank"
@@ -46,6 +39,13 @@ export default function AboutCopy() {
             >
               See my Resume <Download size={30} strokeWidth={3} />
             </a>
+            <Link
+              to={"https://github.com/NoggyPLZ"}
+              target="_blank"
+              className={`text-xl font-bold uppercase flex flex-row gap-2 max-w-[300px] h-40 bg-palegray-500 text-darkgray-500 p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500 `}
+            >
+              Visit My Github <ArrowUpRight size={30} strokeWidth={3} />
+            </Link>
           </div>
         </div>
       </div>
