@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 export default function AboutCopy() {
   return (
-    <div className="p-8 flex lg:flex-row flex-col gap-8 md:py-30 pt-15 bg-darkgray-500">
+    <div className="p-8 flex lg:flex-row flex-col gap-8 md:pt-30 md:pb-15 pt-15 bg-darkgray-500">
       <div className="lg:basis-1/2 text-left basis-full order-2 lg:order-1">
         <div className="lg:max-w-[800px] ml-auto text-xl/10">
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
@@ -30,7 +30,7 @@ export default function AboutCopy() {
             When I'm not designing and coding, I enjoy reading scifi novels,
             playing competitive fighting games, and watching horror movies.
           </p>
-          <div className="flex flex-col md:flex-row gap-4 justify-start">
+          <div className="flex flex-col md:flex-row gap-4 justify-start pb-10">
             <a
               href={"docs/Brett_Hicks_ArtDirector_Resume.pdf"}
               target="_blank"
@@ -50,7 +50,7 @@ export default function AboutCopy() {
         </div>
       </div>
       <div className="lg:basis-1/2 basis-full order-1 lg:order-2 ">
-        <div className="lg:h-full lg:w-200 w-80 mx-auto md:ml-0">
+        <div className="lg:h-full  w-full mx-auto md:ml-0">
           <img
             src="images/picture-of-brett.webp"
             className="mx-auto rounded-2xl"

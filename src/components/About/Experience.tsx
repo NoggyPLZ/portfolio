@@ -37,7 +37,7 @@ export default function Experience() {
         ref={container}
       >
         <h1
-          className="font-bigger text-7xl/15 md:text-9xl/27 2xl:text-[13rem]/[10.5rem] 2xl:pt-6 text-palered-500"
+          className="font-bigger text-8xl/24 md:text-9xl/27 2xl:text-[13rem]/[10.5rem] 2xl:pt-6 text-palered-500"
           ref={expText}
         >
           EXPERIENCE
