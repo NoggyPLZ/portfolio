@@ -100,7 +100,7 @@ export default function CopySection(props: CopyProps) {
                 : "bg-palegray-500 text-darkgray-500"
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
           >
-            Learn More <ArrowUpRight size={30} strokeWidth={3} />
+            Read the Case Study <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
         </div>
       )}
