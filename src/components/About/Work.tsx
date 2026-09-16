@@ -72,6 +72,11 @@ export default function Work() {
           architecture, visual systems, and shipped interfaces.
         </li>
         <li>
+          Directed integrated campaigns for Tractor Supply Co., including Pet
+          Appreciation Week and Market Day, carrying a single concept across
+          social media, email, and web applications
+        </li>
+        <li>
           Built and maintained design systems that outlasted their launches: one
           recruitment platform scaled from roughly 1,685 to 2,105 stores across
           four years without a redesign, and an internal benefits platform has
