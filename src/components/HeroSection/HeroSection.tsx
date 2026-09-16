@@ -59,7 +59,7 @@ export default function HeroSection() {
       <HeroAlchemySection
         head={""}
         body={
-          "My name is Brett Hicks. I'm an art director who ships his own code."
+          "My name is Brett Hicks. I'm a designer and art director who ships his own code."
         }
       />
     </>
