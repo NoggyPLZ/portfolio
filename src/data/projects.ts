@@ -99,7 +99,7 @@ const projects: Project[] = [
     link: "/sites/ryman/index.html",
     quote: {
       body: "As always, this looks awesome ... Thanks for the quick turnaround!",
-      author: "Dennis B., TSC",
+      author: "TSC",
     },
   },
   {
