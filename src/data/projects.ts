@@ -40,37 +40,6 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "RITE AID CAREERS",
-    client: "Rite Aid",
-    skills: "Art Direction, Design, Branding, Front-End Development",
-    body: "Through my team at BlueTractor and in communication with the client Rite-Aid, we used the branding standard of Rite-Aid to bring their careers site into a more modern design. Keeping a clean aesthetic, I was able to accent items using their green brand color while letting the blue act as a more dominant color. Included on pages was an input field to search for Jobs using job title and search location as params.",
-    images: {
-      image_1: {
-        path: "/riteaid/rite-aid-site01.webp",
-        height: "1550",
-        width: "1892",
-        alt: "Image from the Rite Aid Career site",
-      },
-      image_2: {
-        path: "/riteaid/rite-aid-site02.webp",
-        height: "745",
-        width: "916",
-        alt: "Image from the Rite Aid Career site",
-      },
-      image_3: {
-        path: "/riteaid/rite-aid-site03.webp",
-        height: "745",
-        width: "916",
-        alt: "Image from the Rite Aid Career site",
-      },
-    },
-    case: "/case/riteaid",
-    stats: {
-      statNum: "16 years",
-      statName: "Professional Web Design and Front-End Development",
-    },
-  },
-  {
     title: "RYMAN CAREERS",
     client: "Ryman Hospitality Properties",
     skills: "Art Direction, Design, Branding, Front-End Development",
@@ -97,11 +66,44 @@ const projects: Project[] = [
     },
     case: '/case/ryman',
     link: "/sites/ryman/index.html",
+    stats: {
+      statNum: "16 years",
+      statName: "Professional Web Design and Front-End Development",
+    },
+  },
+  {
+    title: "RITE AID CAREERS",
+    client: "Rite Aid",
+    skills: "Art Direction, Design, Branding, Front-End Development",
+    body: "Through my team at BlueTractor and in communication with the client Rite-Aid, we used the branding standard of Rite-Aid to bring their careers site into a more modern design. Keeping a clean aesthetic, I was able to accent items using their green brand color while letting the blue act as a more dominant color. Included on pages was an input field to search for Jobs using job title and search location as params.",
+    images: {
+      image_1: {
+        path: "/riteaid/rite-aid-site01.webp",
+        height: "1550",
+        width: "1892",
+        alt: "Image from the Rite Aid Career site",
+      },
+      image_2: {
+        path: "/riteaid/rite-aid-site02.webp",
+        height: "745",
+        width: "916",
+        alt: "Image from the Rite Aid Career site",
+      },
+      image_3: {
+        path: "/riteaid/rite-aid-site03.webp",
+        height: "745",
+        width: "916",
+        alt: "Image from the Rite Aid Career site",
+      },
+    },
+    case: "/case/riteaid",
+    
     quote: {
       body: "As always, this looks awesome ... Thanks for the quick turnaround!",
       author: "TSC",
     },
   },
+  
   {
     title: "TSC CAREERS",
     client: "Tractor Supply Co.",

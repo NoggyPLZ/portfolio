@@ -55,122 +55,6 @@ export type CaseStudyType = {
 
 export const caseStudiesArr: CaseStudyType[] = [
   {
-    slug: "riteaid",
-    hero: {
-      name: "Rite Aid Careers",
-      image: "riteaid/rite-aid-hero.webp",
-      alt: "rite aid hero image",
-      width: 1691,
-      height: 1092,
-      mobile: {
-        image: "riteaid/rite-aid-hero-mobile.webp",
-        alt: "rite aid hero image",
-        width: 600,
-        height: 387,
-      },
-    },
-    topFacts: {
-      client: "Rite Aid",
-      role: "Art Director",
-      years: {
-        start: "2022",
-        end: "2024",
-      },
-    },
-    rows: [
-      {
-        header: "Four brands, one frame",
-        copy: [
-          "Rite Aid, Elixir, Health Dialog and Bartell were four companies hiring on four separate sites with nothing tying them together. A candidate had no way to tell they were looking at one employer.",
-          "The previous Rite Aid career site had the color somewhat, but it was being replaced by a slate off brand blue on various call to action buttons on pages. On top of that, the structure of the site components was a mess. For example: logo way too large, a bloated navigation, banners with type lacking any sort of hierarchy or composition, and severely lacking in photography.",
-          "However, the worst offender, the search bar was below the fold. This was a lesson hard won through TSC Careers and the Ryman, but thoroughly learned.",
-        ],
-        image: [
-          {
-            src: "riteaid/riteaid-inherited.webp",
-            alt: "The original Rite Aid Careers Site",
-            width: 1892,
-            height: 983,
-            caption: "Inherited career site, hiding the search below the fold.",
-          },
-        ],
-      },
-      {
-        header: "Restoring Structure",
-        copy: [
-          "I took the various elements of the site and rebuilt them as structured components. Bringing the logo to heel, separating the secondary navigation with Rite Aid brand blue, and creating hierarchy in the navigation reclaimed a lot of wasted real estate.",
-          "The banner had no composition, just stacked blocks of type. I gave it hierarchy and made it a cohesive unit.",
-        ],
-        image: [
-          {
-            src: "riteaid/rite-aid-problem.webp",
-            alt: "The original Rite Aid Careers Site",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "riteaid/rite-aid-after.webp",
-            alt: "The new Rite Aid Careers Site",
-            width: 1892,
-            height: 1550,
-          },
-        ],
-        beforeAndAfter: true,
-      },
-      {
-        header: "One page per brand",
-        copy: [
-          "Each brand got its own page with the banner carrying that brand's identity, an approach I brought over from Ryman Careers. Bartell was the exception, keeping its red at the client's request.",
-        ],
-        image: [
-          {
-            src: "riteaid/health-dialog-example.webp",
-            alt: "The new Health Dialog page",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "riteaid/elixir-example.webp",
-            alt: "The new Elixir page",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "riteaid/bartell-example.webp",
-            alt: "The new Bartell page",
-            width: 1892,
-            height: 1550,
-          },
-        ],
-      },
-      {
-        header: "Recognizably Rite Aid",
-        copy: [
-          "A fully responsive platform where four companies finally share a front door with renewed structure, hierarchy, and a search bar that's never more than a glance away. Consistent enough across brands that an applicant can tell at a glance they're on a real Rite Aid property, which matters more than it sounds when recruitment scams are as common as they are.",
-        ],
-        image: [
-          {
-            src: "riteaid/riteaid-bottom01.webp",
-            alt: "Image of the finished design for Rite Aid",
-            width: 1641,
-            height: 1030,
-          },
-          {
-            src: "riteaid/riteaid-bottom02.webp",
-            alt: "Image of the finished mobile design for Rite Aid",
-            width: 828,
-            height: 1030,
-          },
-        ],
-      },
-    ],
-    bottomFacts: [
-      { metric: "2,400+", description: "locations" },
-      { metric: "17", description: "states" },
-      { metric: "1,500", description: "open roles" },
-    ],
-  },
-  {
     slug: "ryman",
     hero: {
       name: "Ryman Careers",
@@ -285,6 +169,122 @@ export const caseStudiesArr: CaseStudyType[] = [
       { metric: "9", description: "entertainment properties" },
       { metric: "4", description: "years in service" },
       { metric: "1,500", description: "open roles at any given time" },
+    ],
+  },
+  {
+    slug: "riteaid",
+    hero: {
+      name: "Rite Aid Careers",
+      image: "riteaid/rite-aid-hero.webp",
+      alt: "rite aid hero image",
+      width: 1691,
+      height: 1092,
+      mobile: {
+        image: "riteaid/rite-aid-hero-mobile.webp",
+        alt: "rite aid hero image",
+        width: 600,
+        height: 387,
+      },
+    },
+    topFacts: {
+      client: "Rite Aid",
+      role: "Art Director",
+      years: {
+        start: "2022",
+        end: "2024",
+      },
+    },
+    rows: [
+      {
+        header: "Four brands, one frame",
+        copy: [
+          "Rite Aid, Elixir, Health Dialog and Bartell were four companies hiring on four separate sites with nothing tying them together. A candidate had no way to tell they were looking at one employer.",
+          "The previous Rite Aid career site had the color somewhat, but it was being replaced by a slate off brand blue on various call to action buttons on pages. On top of that, the structure of the site components was a mess. For example: logo way too large, a bloated navigation, banners with type lacking any sort of hierarchy or composition, and severely lacking in photography.",
+          "However, the worst offender, the search bar was below the fold. This was a lesson hard won through TSC Careers and the Ryman, but thoroughly learned.",
+        ],
+        image: [
+          {
+            src: "riteaid/riteaid-inherited.webp",
+            alt: "The original Rite Aid Careers Site",
+            width: 1892,
+            height: 983,
+            caption: "Inherited career site, hiding the search below the fold.",
+          },
+        ],
+      },
+      {
+        header: "Restoring Structure",
+        copy: [
+          "I took the various elements of the site and rebuilt them as structured components. Bringing the logo to heel, separating the secondary navigation with Rite Aid brand blue, and creating hierarchy in the navigation reclaimed a lot of wasted real estate.",
+          "The banner had no composition, just stacked blocks of type. I gave it hierarchy and made it a cohesive unit.",
+        ],
+        image: [
+          {
+            src: "riteaid/rite-aid-problem.webp",
+            alt: "The original Rite Aid Careers Site",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "riteaid/rite-aid-after.webp",
+            alt: "The new Rite Aid Careers Site",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+        beforeAndAfter: true,
+      },
+      {
+        header: "One page per brand",
+        copy: [
+          "Each brand got its own page with the banner carrying that brand's identity, an approach I brought over from Ryman Careers. Bartell was the exception, keeping its red at the client's request.",
+        ],
+        image: [
+          {
+            src: "riteaid/health-dialog-example.webp",
+            alt: "The new Health Dialog page",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "riteaid/elixir-example.webp",
+            alt: "The new Elixir page",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "riteaid/bartell-example.webp",
+            alt: "The new Bartell page",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+      },
+      {
+        header: "Recognizably Rite Aid",
+        copy: [
+          "A fully responsive platform where four companies finally share a front door with renewed structure, hierarchy, and a search bar that's never more than a glance away. Consistent enough across brands that an applicant can tell at a glance they're on a real Rite Aid property, which matters more than it sounds when recruitment scams are as common as they are.",
+        ],
+        image: [
+          {
+            src: "riteaid/riteaid-bottom01.webp",
+            alt: "Image of the finished design for Rite Aid",
+            width: 1641,
+            height: 1030,
+          },
+          {
+            src: "riteaid/riteaid-bottom02.webp",
+            alt: "Image of the finished mobile design for Rite Aid",
+            width: 828,
+            height: 1030,
+          },
+        ],
+      },
+    ],
+    bottomFacts: [
+      { metric: "2,400+", description: "locations" },
+      { metric: "17", description: "states" },
+      { metric: "1,500", description: "open roles" },
     ],
   },
   {
