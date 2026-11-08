@@ -21,26 +21,25 @@ export default function HeroAlchemySection({
   useGSAP(
     () => {
       gsap.to(secondCircle.current, {
-        repeat: -1,
-        duration: 16,
-        rotation: 360,
+        duration: 4,
+        rotation: 90,
         transformOrigin: "center center",
-        ease: "linear",
+        ease: "power3.out",
       });
 
       gsap.fromTo(
         bodyCopy.current,
         { y: 50, opacity: 0 },
-        { y: 0, opacity: 1, duration: 1.5, ease: "power2.out", delay: 1.8 }
+        { y: 0, opacity: 1, duration: 1.5, ease: "power2.out", delay: 1.8 },
       );
     },
-    { scope: container }
+    { scope: container },
   );
 
   return (
     <div
       ref={container}
-      className="bg-palered-500 h-80 md:h-120 relative overflow-hidden"
+      className="bg-palered-500 h-80 md:h-110 relative overflow-hidden"
     >
       <div className="flex h-full w-[80%] md:w-[60%] xl:w-[50%] gap-2 pl-8 flex-col items-start">
         {head && (
@@ -50,7 +49,7 @@ export default function HeroAlchemySection({
         )}
         {body && (
           <p
-            className="text-white font-normal lg:font-light text-xl/7 md:text-3xl/10 xl:text-5xl/12 relative d:p-5 lg:pt-10 bg-palered-500 z-50 pt-5"
+            className="text-white font-normal lg:font-light text-2xl md:text-3xl/10 xl:text-5xl/12 relative d:p-5 lg:pt-10 bg-palered-500 z-50 pt-5"
             ref={bodyCopy}
           >
             {body}
