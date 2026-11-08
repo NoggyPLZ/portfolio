@@ -46,7 +46,7 @@ export default function CaseSecondarySection({
         });
       }
     },
-    { scope: containerRef }
+    { scope: containerRef },
   );
 
   return (
@@ -59,8 +59,12 @@ export default function CaseSecondarySection({
       >
         <div className="flex flex-col gap-8">
           <div className="flex flex-col">
-            <h4 className="pb-4 flex gap-4 text-gray-500 uppercase">
-              <span className="text-palered-500">{light ? "02" : "03"}</span>
+            <h4
+              className={`${light ? "text-gray-600" : "text-gray-400"} pb-4 flex gap-4  uppercase`}
+            >
+              <span className={`${light ? "text-red-700" : "text-red-400"}`}>
+                {light ? "02" : "03"}
+              </span>
               {light ? "The Solution" : "The System"}
             </h4>
             <div className="flex flex-col md:flex-row gap-4">
