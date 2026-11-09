@@ -49,7 +49,7 @@ export default function HeroAlchemySection({
         )}
         {body && (
           <p
-            className="text-white font-normal lg:font-light text-2xl md:text-3xl/10 xl:text-5xl/12 relative d:p-5 lg:pt-10 bg-palered-500 z-50 pt-5"
+            className="text-white font-normal lg:font-light text-2xl md:text-3xl/10 xl:text-5xl/12 relative d:p-5 lg:pt-10 md:bg-palered-500 z-50 pt-5"
             ref={bodyCopy}
           >
             {body}
