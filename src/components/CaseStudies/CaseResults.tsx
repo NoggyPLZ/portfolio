@@ -71,18 +71,20 @@ export default function CaseResults({ header, copy, image }: CaseStudyRowType) {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-2 md:aspect-[16/7]">
+          <div className="grid grid-cols-1 md:grid-cols-12 md:grid-rows-1 gap-2 md:aspect-[16/7] md:min-h-0">
             {image?.map((el, i) => (
               <figure
                 key={el.src}
-                className={`${i === 0 ? "md:col-span-8" : "md:col-span-4"}`}
+                className={`relative min-w-0 min-h-0 overflow-hidden ${
+                  i === 0 ? "md:col-span-8" : "md:col-span-4"
+                }`}
               >
                 <img
                   src={`/casestudies/${el.src}`}
                   alt={el.alt}
                   width={el.width}
                   height={el.height}
-                  className={`case-image block h-full w-full object-cover ${
+                  className={`case-image block w-full h-auto md:absolute md:inset-0 md:h-full object-cover ${
                     i === 0 ? "object-top" : ""
                   }`}
                 />

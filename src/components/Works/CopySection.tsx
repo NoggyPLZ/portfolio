@@ -55,7 +55,7 @@ export default function CopySection(props: CopyProps) {
         ease: "power1.in",
       });
     },
-    { scope: containerRef }
+    { scope: containerRef },
   );
 
   return (
@@ -106,7 +106,8 @@ export default function CopySection(props: CopyProps) {
                 : "bg-palegray-500 text-darkgray-500"
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
           >
-            Read the Case Study <ArrowUpRight size={30} strokeWidth={3} />
+            Read the <span className="sr-only">{title}</span> Case Study{" "}
+            <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
         </div>
       )}
@@ -122,7 +123,8 @@ export default function CopySection(props: CopyProps) {
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
             rel="noopener noreferrer"
           >
-            Spotify <ArrowUpRight size={30} strokeWidth={3} />
+            Listen <span className="sr-only">to {title}</span> on Spotify{" "}
+            <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
         </div>
       )}
@@ -138,7 +140,8 @@ export default function CopySection(props: CopyProps) {
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
             rel="noopener noreferrer"
           >
-            Bandcamp <ArrowUpRight size={30} strokeWidth={3} />
+            Listen <span className="sr-only">to {title}</span> on Bandcamp{" "}
+            <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
         </div>
       )}
@@ -154,7 +157,8 @@ export default function CopySection(props: CopyProps) {
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
             rel="noopener noreferrer"
           >
-            Visit Site <ArrowUpRight size={30} strokeWidth={3} />
+            Visit <span className="sr-only"> the {title}</span> Site{" "}
+            <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
         </div>
       )}
@@ -169,7 +173,8 @@ export default function CopySection(props: CopyProps) {
                 : "bg-palegray-500 text-darkgray-500"
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
           >
-            Visit Git Repo <ArrowUpRight size={30} strokeWidth={3} />
+            Visit <span className="sr-only"> the {title}</span> Git Repo{" "}
+            <ArrowUpRight size={30} strokeWidth={3} />
           </Link>
         </div>
       )}

@@ -21,14 +21,14 @@ export default function HeroSection() {
       tl.fromTo(
         lineRef.current,
         { width: 0 },
-        { width: "100%", duration: 1.5, ease: "power2.out" }
+        { width: "100%", duration: 1.5, ease: "power2.out" },
       ).from(
         split.words,
         { opacity: 0, duration: 2, ease: "steps.out", stagger: 0.34 },
-        "-=0.5"
+        "-=0.5",
       );
     },
-    { scope: containerRef }
+    { scope: containerRef },
   );
 
   return (
