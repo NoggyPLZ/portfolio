@@ -1,0 +1,669 @@
+/* overrides.css: loaded after app.css (which bundles Bootstrap 3.3.7 unchanged).
+   Accessibility and portfolio-demo adjustments only. */
+
+/* ---------- Base / reflow ---------- */
+html {
+  scroll-padding-top: 16px;
+}
+body {
+  overflow-wrap: break-word;
+}
+h1,
+h2,
+h3,
+h4,
+.h1,
+.h2,
+.h3,
+.h4 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.carousel-inner > .item > img {
+  width: 100%;
+}
+
+/* ---------- Skip link ---------- */
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -100px;
+  z-index: 1000;
+  padding: 12px 16px;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+}
+.skip-link:focus {
+  top: 8px;
+  color: #fff;
+}
+#main:focus {
+  outline: none;
+}
+
+/* ---------- Visible focus (two-tone ring works on light and dark backgrounds) ---------- */
+a:focus,
+button:focus,
+summary:focus,
+[tabindex]:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: none;
+}
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+[tabindex="0"]:focus-visible,
+.btn:focus-visible,
+.btn:active:focus-visible {
+  outline: 3px solid #fff !important;
+  outline-offset: 0;
+  box-shadow: 0 0 0 6px #000 !important;
+  position: relative;
+  z-index: 2;
+}
+/* Fallback for browsers without :focus-visible */
+@supports not selector(:focus-visible) {
+  a:focus,
+  button:focus,
+  summary:focus {
+    outline: 3px solid #000;
+    outline-offset: 2px;
+  }
+}
+
+/* ---------- Demo banner (static, never sticky, so it cannot hide focus) ---------- */
+.demo-banner {
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 15px;
+  border-bottom: 4px solid #a02817;
+}
+.demo-banner p {
+  margin: 0;
+}
+.demo-status:not(:empty) {
+  margin-top: 6px;
+  color: #ffe08a;
+  font-weight: bold;
+}
+.demo-msg:not(:empty) {
+  display: block;
+  margin: 8px auto;
+  max-width: 32em;
+  font-weight: bold;
+  color: inherit;
+}
+.sample-tag {
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+/* ---------- Navbar ---------- */
+.navbar-default .navbar-nav > li > a,
+.navbar-nav > li > button.dropdown-toggle,
+.navbar-nav > li > button.nav-demo {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background: transparent;
+  border: 0;
+  padding: 10px 15px;
+  line-height: 20px;
+  min-height: 44px;
+  width: 100%;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > button.dropdown-toggle,
+  .navbar-nav > li > button.nav-demo {
+    padding: 15px;
+    width: auto;
+  }
+  .dropdown-menu {
+    background-color: #fff;
+  }
+}
+.navbar-nav > li > button:hover,
+.navbar-nav > .open > button {
+  color: #000;
+  background: #e0e0e0;
+}
+.navbar-default .navbar-brand {
+  color: #555;
+  height: auto;
+  padding: 10px 15px;
+}
+.navbar-default .navbar-toggle {
+  min-width: 44px;
+  min-height: 44px;
+}
+.dropdown-menu > li > a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu > li > a {
+    background-color: #fff;
+  }
+}
+.dropdown-menu > li > a[aria-current="page"],
+.navbar-brand[aria-current="page"] {
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  /* app.css gives the open mobile menu white text (.navbar-default ... > a { color:#FFF })
+     but the items have a white background here, so match its specificity. */
+  .navbar-nav .open .dropdown-menu,
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #fff;
+  }
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    padding: 10px 15px 10px 30px;
+    color: #333;
+    border-top-color: #b3b3b3;
+  }
+}
+/* Dropdown item hover/focus, same on desktop and mobile: white on #313131 (13.0:1) */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #fff;
+  background-color: #313131;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    background-color: #b3b3b3;
+  }
+}
+
+/* ---------- Section sub-navigation ---------- */
+.red-subnav .container {
+  padding-top: 0;
+}
+ul.second-subnav {
+  margin: 0;
+}
+ul.second-subnav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul.second-subnav li a {
+  min-height: 32px;
+  padding: 7px 15px;
+  color: #595959;
+}
+ul.second-subnav li.active a,
+ul.second-subnav a[aria-current="page"] {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+
+/* ---------- TSC brand colours ----------
+   Every red, green and blue on the site uses the TSC palette:
+     TSC Red          #A02817  white text 7.47:1, on #ebebeb 6.27:1
+     TSC Bright Red   #DA3832  white text 4.57:1 (hover state of red buttons / mobile menu)
+     TSC Green        #576446  white text 6.33:1, on #ebebeb 5.31:1
+     TSC Bright Green #7D9C29  white text 3.15:1 (large text only: the 64px .number-circle)
+     TSC Blue         #4B7582  white text 5.04:1, on #ebebeb 4.23:1 (large text only there)
+   app.css has been remapped to the same values; the rules below restate them where
+   overrides.css previously carried its own contrast replacements. */
+.blue-section,
+#sec-blue {
+  background-color: #4b7582;
+}
+.blue-head h1,
+.blue-head .h1,
+.s-sup-cols h3 {
+  color: #4b7582;
+}
+.green-section,
+.green-section2,
+#sec-green {
+  background-color: #576446;
+}
+.green-head h1,
+.green-head .h1,
+.dist-cols h3 {
+  color: #576446;
+}
+.blue-but {
+  background-color: #4b7582 !important;
+  color: #fff;
+}
+.red-but,
+.green-but {
+  color: #fff;
+}
+/* .btn-default: white on rgba(0,0,0,.52) is ~4.3:1 over white -> .65 alpha (~7:1 over white) */
+.btn-default {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.btn-default.red-but {
+  background-color: #a02817;
+}
+.btn-default.red-but:hover {
+  background-color: #da3832;
+  color: #fff;
+}
+.btn-default.carousel-pick[aria-current="true"] {
+  background-color: #000;
+}
+.recruiters-sec .btn-default {
+  background-color: #fff;
+  color: #333;
+}
+/* TSC Blue links: 5.04:1 on white */
+.blue-links a {
+  color: #4b7582;
+  text-decoration: underline;
+}
+/* store_support "Nashville rankings" section: no TSC blue reaches 4.5:1 on the #ebebeb
+   light grey (Blue 4.23, Bright Blue 2.57, Light Blue 1.18), so this one section uses
+   TSC Gray instead, where TSC Blue is 4.68:1. */
+.light-grey.s-sup-cols {
+  background-color: #f9f6f2;
+}
+/* #666 on #ccc (3.58:1) -> #444 (6.06:1) */
+.darker-grey,
+.darker-grey.white-lower {
+  color: #444;
+}
+/* Modal headers/bodies: the original two-tone gradients had no second TSC shade
+   that keeps white text at 4.5:1, so they are solid TSC colours. */
+.red-modal .modal-content,
+.index-red-modal .modal-header {
+  background: #a02817;
+}
+.blue-modal .modal-content,
+.index-blue-modal .modal-header {
+  background: #4b7582;
+}
+.green-modal .modal-content,
+.index-green-modal .modal-header {
+  background: #576446;
+}
+/* White text on photographs: add a dark scrim so contrast doesn't depend on the photo */
+.sustain-sec01-img,
+.sustain-sec02-img,
+.board-section,
+.red-board,
+.wood-img-bg,
+.grey-img-bg,
+.red-img-bg {
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.55);
+}
+.section01 .banner-copy h2,
+.section01 .banner-copy .h1 {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 0.1em 0.4em;
+}
+/* Links inside coloured sections must not rely on colour alone */
+.red-section a,
+.blue-section a,
+.green-section a,
+.white-section-copy a,
+.copy p a {
+  text-decoration: underline;
+}
+.btn,
+.btn:hover {
+  text-decoration: none !important;
+}
+
+/* Headings demoted for a single-h1 outline keep the look of their original level */
+.red-head .h1,
+.white-section2 .h1,
+.light-grey-section2 .h1,
+.index-logo-ach .h1,
+.sustain-icons .h3 {
+  font-family: "stymie_lt_btbold";
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.red-head .h1 {
+  color: #a02817;
+}
+.white-section2 .h1,
+.light-grey-section2 .h1,
+.index-logo-ach .h1 {
+  color: #a02817;
+}
+.blue-section .h1,
+.red-section .h1,
+.green-section .h1,
+.grey-section .h1,
+.sustain-sec02-img .h1,
+.section01 .h1 {
+  color: #fff;
+  font-family: "stymie_lt_btbold";
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.white-section2 .h1,
+.light-grey-section2 .h1 {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+.index-logo-ach .h1 {
+  margin-bottom: 50px;
+}
+.section01 .h1 {
+  text-shadow: 0 0 19px rgba(0, 0, 0, 0.71);
+  font-size: 5em;
+}
+@media (max-width: 992px) {
+  .section01 .h1 {
+    font-size: 2.5em;
+  }
+}
+.honored-text {
+  margin: 45px 20px 0 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+.testimonial-name,
+.team-name {
+  font-family: "stymie_lt_btbold";
+  margin-top: -5px;
+}
+.testimonial-photo {
+  padding: 15px;
+}
+.team-photo {
+  max-width: 250px;
+}
+.vet-thanks {
+  margin-top: 0;
+}
+
+/* ---------- Buttons: target size (2.5.8) ---------- */
+.btn {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35em;
+  white-space: normal;
+}
+.btn-block {
+  display: flex;
+}
+.btn-xs {
+  min-height: 32px;
+  padding: 4px 10px;
+  font-size: 14px;
+}
+.position-name {
+  padding: 10px 12px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background: #fff;
+  color: #333;
+  font-weight: bold;
+}
+
+/* ---------- Native dialogs (replace Bootstrap modals) ---------- */
+dialog.demo-dialog {
+  position: fixed;
+  inset: 0;
+  top: 0;
+  margin: auto; /* app.css sets .index-*-modal { top: 20% } */
+  padding: 0;
+  border: 0;
+  background: transparent;
+  width: calc(100% - 20px);
+  max-width: 600px;
+  max-height: calc(100% - 20px);
+  overflow: auto;
+}
+dialog.demo-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+html.dialog-open {
+  overflow: hidden;
+}
+dialog.demo-dialog .modal-header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  gap: 10px;
+}
+dialog.demo-dialog .modal-title {
+  flex: 1;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.1;
+}
+dialog.index-red-modal .modal-title,
+dialog.index-blue-modal .modal-title,
+dialog.index-green-modal .modal-title {
+  font-size: 24px;
+  font-family: "stymie_lt_btbold";
+  padding-top: 8px;
+}
+dialog.demo-dialog .modal-header {
+  color: #fff;
+}
+dialog.demo-dialog .close {
+  float: none;
+  opacity: 1;
+  color: #fff;
+  text-shadow: none;
+  font-size: 36px;
+  min-width: 44px;
+  min-height: 44px;
+  line-height: 1;
+}
+dialog.demo-dialog.index-red-modal .modal-content,
+dialog.demo-dialog.index-blue-modal .modal-content {
+  color: #222;
+}
+@media (max-width: 480px) {
+  .blue-modal .modal-header,
+  .red-modal .modal-header,
+  .green-modal .modal-header {
+    font-size: 2em;
+  }
+  .blue-modal .copy,
+  .red-modal .copy,
+  .green-modal .copy {
+    padding: 16px;
+  }
+}
+
+/* ---------- Carousel ---------- */
+.demo-carousel {
+  position: relative;
+}
+.carousel-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.demo-carousel .carousel-inner > .item {
+  transition: none;
+}
+.slide-caption {
+  background: #fff;
+  color: #333;
+  padding: 15px 20px;
+  text-align: left;
+}
+.slide-caption h2,
+.slide-caption h3 {
+  margin-top: 0;
+  font-family: "stymie_lt_btbold";
+  color: #a02817;
+  font-size: 1.4em;
+}
+ul.carousel-picker {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+ul.carousel-picker .btn {
+  min-width: 88px;
+}
+.carousel-pick[aria-current="true"] {
+  background: #000;
+  outline: 3px solid #a02817;
+  outline-offset: 2px;
+}
+
+/* ---------- Video placeholder (third-party embeds removed) ---------- */
+.video-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+}
+.video-placeholder .glyphicon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.video-placeholder p {
+  margin: 0;
+}
+
+/* ---------- FAQ (native details/summary) ---------- */
+.faq-list details {
+  margin-bottom: 8px;
+}
+.faq-list summary {
+  display: list-item;
+  cursor: pointer;
+  list-style-position: inside;
+  color: #fff;
+  background-color: #576446;
+  padding: 12px 15px;
+  font-weight: bold;
+  font-size: 1.1em;
+  min-height: 44px;
+}
+.faq-list .panel-body {
+  background: #fff;
+  color: #333;
+}
+
+/* ---------- Misc ---------- */
+.index-logo-ach img {
+  max-width: min(150px, 100%);
+}
+.event-list {
+  text-align: left;
+  max-width: 40em;
+  margin: 0 auto 20px;
+  font-size: 1.1em;
+}
+.event-list li {
+  margin-bottom: 8px;
+}
+.career-path {
+  text-align: left;
+  display: inline-block;
+  padding-left: 1.2em;
+}
+.sample-quote {
+  border-left-color: #a02817;
+  font-size: 1.1em;
+}
+.light-grey .sample-quote {
+  border-left-color: #666;
+}
+.unmatched-link {
+  text-decoration: underline dotted;
+}
+.footer p {
+  margin: 10px 0 0;
+}
+
+/* Reflow at 320px: stop absolutely positioned banner text overlapping later content */
+@media (max-width: 767px) {
+  .section01 .banner-copy {
+    position: static;
+    background: #333;
+    padding: 15px;
+  }
+  .section01 h1,
+  .section01 h2,
+  .section01 .h1 {
+    font-size: 2em;
+  }
+  .sec-head {
+    font-size: 2em;
+  }
+  .recruiters-sec .col-sm-3 {
+    min-height: 0;
+  }
+  .growth-headed [class*="col-"] {
+    padding: 10px 15px;
+  }
+  .sustain-sec01-img,
+  .sustain-sec02-img {
+    margin: 0 -15px;
+    padding: 2em 1em;
+    min-height: 0;
+  }
+  .t-row [class*="col-"] {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+  }
+  .red-section,
+  .blue-section,
+  .green-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .culture-sml-heading {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

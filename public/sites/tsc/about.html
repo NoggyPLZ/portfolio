@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>About TSC | TSC Careers (portfolio demo)</title>
+    <link href="assets/css/app.css" rel="stylesheet" />
+    <link href="assets/css/overrides.css" rel="stylesheet" />
+    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
+    <script src="assets/js/bootstrap.min.js" defer></script>
+    <script src="assets/js/site.js" defer></script>
+    <noscript
+      ><style>
+        .navbar-collapse.collapse {
+          display: block !important;
+        }
+        .navbar .dropdown-menu {
+          display: block;
+          position: static;
+          float: none;
+          box-shadow: none;
+          border: 0;
+        }
+        .navbar-toggle,
+        .dropdown-toggle .caret {
+          display: none;
+        }
+      </style></noscript
+    >
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="demo-banner">
+        <p>
+          <strong>Portfolio demo, not accepting applications.</strong> This is a
+          static rebuild of a retired careers site. Job search and apply buttons
+          are turned off.
+        </p>
+        <p id="demo-status" class="demo-status" role="status"></p>
+      </div>
+      <nav class="navbar navbar-default" aria-label="Main">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              aria-expanded="false"
+              aria-controls="main-nav"
+            >
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar" aria-hidden="true"></span
+              ><span class="icon-bar" aria-hidden="true"></span
+              ><span class="icon-bar" aria-hidden="true"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"
+              ><img
+                src="assets/images/logo.gif"
+                alt="Tractor Supply Co. careers home"
+                class="img-responsive"
+                width="155"
+                height="43"
+            /></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <button
+                  type="button"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  aria-controls="menu-careers"
+                >
+                  Careers <span class="caret" aria-hidden="true"></span>
+                </button>
+                <ul class="dropdown-menu" id="menu-careers">
+                  <li><a href="store.html">Store</a></li>
+                  <li><a href="store_support.html">Store Support (HQ)</a></li>
+                  <li><a href="distribution.html">Distribution Center</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <button
+                  type="button"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  aria-controls="menu-who"
+                >
+                  Who we are <span class="caret" aria-hidden="true"></span>
+                </button>
+                <ul class="dropdown-menu" id="menu-who">
+                  <li>
+                    <a href="about.html" aria-current="page">About TSC</a>
+                  </li>
+                  <li><a href="culture.html">Our Culture</a></li>
+                  <li><a href="benefits.html">Our Benefits</a></li>
+                  <li><a href="de_and_i.html">DE&amp;I</a></li>
+                </ul>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="nav-demo"
+                  data-demo-apply
+                  data-demo-target="demo-status"
+                >
+                  Job search
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <div class="red-subnav" aria-hidden="true"></div>
+      <div class="white-section red-head">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>About TSC</h1>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/images/about-banner-2021.jpg"
+          alt="Your Opportunity Is Out Here"
+          class="img-responsive full-img hidden-xs hidden-sm"
+        />
+        <img
+          src="assets/images/about-banner-mobile-2021c.jpg"
+          alt="Your Opportunity Is Out Here"
+          class="img-responsive full-img hidden-md hidden-lg"
+        />
+      </div>
+
+      <div class="white-section-copy text-center">
+        <div class="container">
+          <p>
+            From Tractor Supply's start as a mail order catalog business in
+            1938, we've grown to become the largest operator of rural lifestyle
+            retail stores in the United States.
+          </p>
+          <p>
+            We don't just sell tractor parts anymore though. Now our customers
+            find everything they need to maintain their farms, ranches, homes
+            and animals.
+          </p>
+          <p>
+            Our "secret sauce" however, is our culture. Combined with our
+            Mission and Values, our Team Members are empowered to serve our
+            customers and achieve our goals.
+          </p>
+        </div>
+      </div>
+
+      <section
+        class="demo-carousel"
+        aria-roledescription="carousel"
+        aria-label="Company history timeline"
+        data-carousel
+        data-interval="7000"
+      >
+        <div class="carousel-toolbar container">
+          <button
+            type="button"
+            class="btn btn-default carousel-pause"
+            data-pause
+          >
+            <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+            <span class="label-text">Pause slideshow</span>
+          </button>
+          <button type="button" class="btn btn-default" data-prev>
+            <span
+              class="glyphicon glyphicon-chevron-left"
+              aria-hidden="true"
+            ></span>
+            Previous slide
+          </button>
+          <button type="button" class="btn btn-default" data-next>
+            Next slide
+            <span
+              class="glyphicon glyphicon-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </div>
+        <div class="carousel-inner" aria-live="off">
+          <div
+            class="item active"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="1 of 8: 1938"
+          >
+            <img
+              src="assets/images/1938-slider.jpg"
+              alt="1938 timeline panel with archival photos"
+              class="hidden-xs hidden-sm"
+            />
+            <img
+              src="assets/images/1938-slider-mobile-new.jpg"
+              alt="1938 timeline panel with archival photos"
+              class="hidden-md hidden-lg"
+            />
+            <div class="slide-caption">
+              <h2 class="h3">1938: The Early History of TSC</h2>
+              <p>
+                It may surprise you to discover that America&#x27;s No. 1 Farm
+                and Ranch Store began in 1938 on the dining room table of a
+                26-year-old Chicago brokerage house worker, the company&#x27;s
+                founder. From the beginning, Tractor Supply&#x27;s success was
+                based on its ability to serve customers&#x27; needs. The founder
+                believed America&#x27;s frugal farmers would rather buy fairly
+                priced replacement parts for their tractors than pay a premium
+                to the dealer or manufacturer. He was right, and Tractor Supply
+                was born.
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="2 of 8: 1946"
+          >
+            <img
+              src="assets/images/1946-slider.jpg"
+              alt="1946 timeline panel with archival photos"
+              class="hidden-xs hidden-sm"
+            />
+            <img
+              src="assets/images/1946-slider-mobile-new.jpg"
+              alt="1946 timeline panel with archival photos"
+              class="hidden-md hidden-lg"
+            />
+            <div class="slide-caption">
+              <h2 class="h3">1946: Tractor Supply Co. Growth</h2>
+              <p>
+                By 1946, after eight years of operation, Tractor Supply was
+                doing just shy of $1 million in business through mail-order
+                sales and seven stores. By the end of the 1950s, business was
+                booming at nearly $10 million and Tractor Supply was serving
+                400,000 customers in 49 states and Canada. What accounted for
+                this unprecedented growth? Tractor Supply connected with the
+                people it served in a personal way.
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="3 of 8: 1960"
+          >
+            <img
+              src="assets/images/1960-slider.jpg"
+              alt="1960 timeline panel with archival photos"
+              class="hidden-xs hidden-sm"
+            />
+            <img
+              src="assets/images/1960-slider-mobile-new.jpg"
+              alt="1960 timeline panel with archival photos"
+              class="hidden-md hidden-lg"
+            />
+            <div class="slide-caption">
+              <h2 class="h3">1960: Uninterrupted Increases</h2>
+              <p>
+                On March 21, 1960, Tractor Supply Company&#x27;s success
+                propelled it to the New York Stock Exchange. Shares of its stock
+                quickly advanced from $12 to $22. A year later, the
+                company&#x27;s stock was selling at a record high of $62 per
+                share. In 1963, among the 1,188 corporations listed on the New
+                York Stock Exchange, Tractor Supply Company had achieved the
+                longest history of uninterrupted year-to-year increase in net
+                income since its founding.
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="4 of 8: 1969"
+          >
+            <img
+              src="assets/images/1969-slider.jpg"
+              alt="1969 timeline panel with archival photos"
+              class="hidden-xs hidden-sm"
+            />
+            <img
+              src="assets/images/1969-slider-mobile-new.jpg"
+              alt="1969 timeline panel with archival photos"
+              class="hidden-md hidden-lg"
+            />
+            <div class="slide-caption">
+              <h2 class="h3">1969: TSC&#x27;s Uncertain Direction</h2>
+              <p>
+                In December 1969, National Industries, a Louisville
+                conglomerate, purchased the founder&#x27;s stock in Tractor
+                Supply for a reported $35 million. The company sale was a
+                surprise to many. Worried about the dwindling number of family
+                farms, TSC had expanded beyond its traditional farm and ranch
+                customers with purchases of other retail names. It was a move
+                that proved unprofitable. In the wake of the uncertain direction
+                and sale, many longtime people in leadership left. Under the
+                control of a conglomerate, TSC lost its “family feel,” customer
+                focus and long-held values.
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="5 of 8: 1982"
+          >
+            <img
+              src="assets/images/1982-slider.jpg"
+              alt="1982 timeline panel with archival photos"
+              class="hidden-xs hidden-sm"
+            />
+            <img
+              src="assets/images/1982-slider-mobile-new.jpg"
+              alt="1982 timeline panel with archival photos"
+              class="hidden-md hidden-lg"
+            />
+            <div class="slide-caption">
+              <h2 class="h3">1982: Return to Success</h2>
+              <p>
+                Tractor Supply&#x27;s eventual return to success began the day
+                its conglomerate owner was acquired by another conglomerate,
+                which quickly sold off the failing assets. The new owner sent an
+                executive to see if anything was worth salvaging at Tractor
+                Supply. He learned by listening, and his approach sent a
+                powerful message to the people on the floor and in leadership.
+                It inspired them, and he came to believe Tractor Supply was
+                worth saving.
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="6 of 8: 1994"
+          >
+            <img
+              src="assets/images/1994-slider.jpg"
+              alt="1994 timeline panel with archival photos"
+              class="hidden-xs hidden-sm"
+            />
+            <img
+              src="assets/images/1994-slider-mobile-new.jpg"
+              alt="1994 timeline panel with archival photos"
+              class="hidden-md hidden-lg"
+            />
+            <div class="slide-caption">
+              <h2 class="h3">1994: TSC&#x27;s Greatest Resource</h2>
+              <p>
+                The stability, expertise and ethics brought to Tractor Supply in
+                the 1980s were the foundation from which the new Chairman and
+                CEO propelled the company in the 1990s. In 1994, TSC returned to
+                the New York Stock Exchange. The public offering generated the
+                resources needed for Tractor Supply&#x27;s accelerated growth.
+                Still, the company&#x27;s greatest resource was its people.
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="7 of 8: 2001"
+          >
+            <img
+              src="assets/images/2001-slider.jpg"
+              alt="2001 timeline panel with archival photos"
+              class="hidden-xs hidden-sm"
+            />
+            <img
+              src="assets/images/2001-slider-mobile-new.jpg"
+              alt="2001 timeline panel with archival photos"
+              class="hidden-md hidden-lg"
+            />
+            <div class="slide-caption">
+              <h2 class="h3">2001: A Bold Plan</h2>
+              <p>
+                The first decade of the new millennium began with a glimpse of
+                the unprecedented growth, change and success that awaited TSC.
+                In 2001, Tractor Supply acquired its largest competitor and
+                unveiled Project 110, a bold plan to reopen all 87 quality
+                stores within 110 days. It was an ambitious task that required
+                new levels of discipline and sophistication. The success of the
+                conversion was only the beginning.
+              </p>
+            </div>
+          </div>
+          <div
+            class="item"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="8 of 8: 2013"
+          >
+            <img
+              src="assets/images/2013-slider.jpg"
+              alt="2013 timeline panel with archival photos"
+              class="hidden-xs hidden-sm"
+            />
+            <img
+              src="assets/images/2013-slider-mobile-new.jpg"
+              alt="2013 timeline panel with archival photos"
+              class="hidden-md hidden-lg"
+            />
+            <div class="slide-caption">
+              <h2 class="h3">2013: Looking to the Future</h2>
+              <p>
+                It took Tractor Supply 64 years to reach its first $1 billion in
+                sales. Just 11 years later, in 2013, TSC celebrated its 75th
+                anniversary by surpassing $5 billion. Still, its Team Members
+                look ahead to reaching $10 billion by better serving hundreds of
+                millions of satisfied customers. The catalog company that became
+                a store is today managing a thriving e-commerce business and
+                strengthening customer relationships through social media. TSC
+                headed west, opening its first stores in Colorado, Arizona,
+                Nevada and Wyoming in 2013 while continuing to grow in
+                California and the Great Northwest.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="time-buts">
+          <div class="container">
+            <ul class="carousel-picker" aria-label="Choose a year">
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-default red-but carousel-pick"
+                  data-goto="0"
+                  aria-current="true"
+                >
+                  <span class="sr-only">Show slide: </span>1938
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-default red-but carousel-pick"
+                  data-goto="1"
+                >
+                  <span class="sr-only">Show slide: </span>1946
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-default red-but carousel-pick"
+                  data-goto="2"
+                >
+                  <span class="sr-only">Show slide: </span>1960
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-default red-but carousel-pick"
+                  data-goto="3"
+                >
+                  <span class="sr-only">Show slide: </span>1969
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-default red-but carousel-pick"
+                  data-goto="4"
+                >
+                  <span class="sr-only">Show slide: </span>1982
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-default red-but carousel-pick"
+                  data-goto="5"
+                >
+                  <span class="sr-only">Show slide: </span>1994
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-default red-but carousel-pick"
+                  data-goto="6"
+                >
+                  <span class="sr-only">Show slide: </span>2001
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-default red-but carousel-pick"
+                  data-goto="7"
+                >
+                  <span class="sr-only">Show slide: </span>2013
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="white-section white-lower red-head">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+              <div class="embed-responsive embed-responsive-16by9">
+                <div class="embed-responsive-item video-placeholder">
+                  <span
+                    class="glyphicon glyphicon-film"
+                    aria-hidden="true"
+                  ></span>
+                  <p>
+                    <strong>Video removed in this demo</strong><br />Tractor
+                    Supply Company Life Out Here video
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="white-section-copy text-center">
+        <div class="container">
+          <p>
+            Tractor Supply believes a healthy environment, properly managed
+            resources and vibrant communities are keys to a secure and
+            prosperous future.
+          </p>
+
+          <p>
+            One of the great things about Tractor Supply is its intentional
+            interaction with people and organizations for the purpose of
+            circulating the concept of stewardship as a responsible part of
+            living the Out Here lifestyle. We view our Stewardship Program as a
+            process of continuous improvement as we look for ways to become more
+            efficient, eliminate waste and reduce our impact on the environment.
+          </p>
+        </div>
+      </div>
+
+      <div class="light-grey">
+        <div class="container-fluid">
+          <div class="row t-row">
+            <div class="col-sm-12 col-md-6">
+              <div class="sustain-sec01-img vcenter">
+                <p class="number-circle">#76</p>
+                <h2 class="h3">
+                  Most sustainable companies in America - Barron's
+                </h2>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <div class="sustain-sec02-img vcenter">
+                <h2 class="h1">The Environment</h2>
+                <p>
+                  We continuously work to improve our environmental impact by
+                  reducing resource consumption and waste, increasing efficiency
+                  and providing alternatives to customers and team members
+                  wherever appropriate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="white-section white-lower red-head white-board growth-headed sustain-icons"
+      >
+        <div class="container text-center">
+          <h2 class="h1">Sustainability</h2>
+          <h3 class="text-uppercase h4">
+            Corporate responsibility and doing the right thing
+          </h3>
+          <p>
+            Tractor Supply believes a healthy environment, properly managed
+            resources and vibrant communities are keys to a secure prosperous
+            future. We view our Stewardship Program as a process of continuous
+            improvement as we look for ways to become more efficient, eliminate
+            waste and reduce our impact on the environment.
+          </p>
+          <p>
+            Visit our corporate Sustainability page to see how we continue to
+            make progress toward our goal of becoming a more environmentally
+            sustainable company.
+          </p>
+
+          <div class="clearfix"></div>
+          <a
+            href="http://ir.tractorsupply.com/by-the-numbers/Index?KeyGenPage=333613"
+            class="btn btn-default"
+            >Learn More
+            <span
+              class="glyphicon glyphicon-chevron-right"
+              aria-hidden="true"
+            ></span
+          ></a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center foot-logo">
+            <img
+              src="assets/images/footer-logo.jpg"
+              alt="Tractor Supply Co."
+              class="center-block"
+            />
+            <p>
+              &copy;20XX Tractor Supply Co.
+              <span class="sample-tag">(sample year)</span>
+            </p>
+            <p>Portfolio demo, not accepting applications.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
