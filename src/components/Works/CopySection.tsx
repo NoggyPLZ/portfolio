@@ -106,8 +106,10 @@ export default function CopySection(props: CopyProps) {
                 : "bg-palegray-500 text-darkgray-500"
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
           >
-            Read the <span className="sr-only">{title}</span> Case Study{" "}
-            <ArrowUpRight size={30} strokeWidth={3} />
+            <span>
+              Read the <span className="sr-only">{title}</span> Case Study
+            </span>
+            <ArrowUpRight size={30} strokeWidth={3} aria-hidden="true" />
           </Link>
         </div>
       )}
@@ -123,8 +125,10 @@ export default function CopySection(props: CopyProps) {
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
             rel="noopener noreferrer"
           >
-            Listen <span className="sr-only">to {title}</span> on Spotify{" "}
-            <ArrowUpRight size={30} strokeWidth={3} />
+            <span>
+              Listen <span className="sr-only">to {title}</span> on Spotify
+            </span>
+            <ArrowUpRight size={30} strokeWidth={3} aria-hidden="true" />
           </Link>
         </div>
       )}
@@ -140,8 +144,10 @@ export default function CopySection(props: CopyProps) {
             }  p-10 rounded-2xl hover:bg-palered-500 hover:text-palegray-500`}
             rel="noopener noreferrer"
           >
-            Listen <span className="sr-only">to {title}</span> on Bandcamp{" "}
-            <ArrowUpRight size={30} strokeWidth={3} />
+            <span>
+              Listen <span className="sr-only">to {title}</span> on Bandcamp
+            </span>
+            <ArrowUpRight size={30} strokeWidth={3} aria-hidden="true" />
           </Link>
         </div>
       )}
