@@ -1,8 +1,8 @@
-import HeroAlchemySection from "./HeroAlchemySection";
 import { gsap } from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import SplitText from "gsap/SplitText";
+import HeroAlchemySectionCauldron from "./HeroAlchemySectionCauldron";
 gsap.registerPlugin(useGSAP, SplitText);
 
 export default function HeroSection() {
@@ -56,7 +56,7 @@ export default function HeroSection() {
           </h1>
         </div>
       </div>
-      <HeroAlchemySection
+      <HeroAlchemySectionCauldron
         head={""}
         body={
           "My name is Brett Hicks. I'm a designer and art director who ships his own code."
