@@ -33,7 +33,7 @@ export default function HeroSection() {
 
   return (
     <>
-      <div className="font-bigger text-palegray-500 bg-darkgray-500 px-8 pt-30 md:pt-60 z-10">
+      <div className="font-bigger text-palegray-500 bg-darkgray-500 px-8 pt-20 md:pt-60 z-10">
         <p
           ref={containerRef}
           className="xl:text-[9.8rem]/35 text-[2.8rem]/15 sm:text-[3.2rem]/17 md:text-[6.8rem]/15 inline-block relative md:pl-5 md:pr-5 pl-1 pr-1 antialiased lg:subpixel-antialiased"
@@ -57,7 +57,6 @@ export default function HeroSection() {
         </div>
       </div>
       <HeroAlchemySection
-        head={""}
         body={
           "My name is Brett Hicks. I'm a designer and art director who ships his own code."
         }

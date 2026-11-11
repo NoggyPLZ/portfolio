@@ -79,3 +79,11 @@ body {
   content: "⸺";
   padding-right: 5px;
 }
+
+@utility text-halo {
+  text-shadow:
+    0 0 4px var(--color-palered-500),
+    0 0 8px var(--color-palered-500),
+    0 0 12px var(--color-palered-500),
+    0 0 16px var(--color-palered-500);
+}
