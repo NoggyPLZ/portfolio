@@ -47,7 +47,7 @@ export default function HeroAlchemySection({
   return (
     <div
       ref={container}
-      className="bg-palered-500 h-80 md:h-110 xl:h-150 relative overflow-hidden"
+      className="bg-palered-500 h-80 md:h-110 xl:h-130 relative overflow-hidden"
     >
       <div className="flex h-full w-[80%] sm:w-[50%] md:w-[60%] xl:w-[50%] gap-2 pl-8 flex-col items-start">
         {head && (
@@ -67,7 +67,7 @@ export default function HeroAlchemySection({
       <svg
         viewBox="0 0 1010.296 1010.296"
         xmlns="http://www.w3.org/2000/svg"
-        className="left-10/12 xl:left-9/12 -translate-x-1/2 md:-translate-y-3/4 xl:-translate-y-9/12 -translate-y-9/12 w-10/12 md:w-8/12 xl:w-1/2 absolute"
+        className="absolute left-10/12 xl:left-9/12 -translate-x-1/2 -translate-y-9/12 md:-translate-y-3/4 xl:top-1/2 xl:-translate-y-1/2 w-10/12 md:w-8/12 xl:w-1/2"
       >
         <circle
           ref={outerCircle}

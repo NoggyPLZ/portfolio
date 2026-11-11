@@ -33,7 +33,7 @@ export default function HeroSection() {
 
   return (
     <>
-      <div className="font-bigger text-palegray-500 bg-darkgray-500 px-8 pt-20 md:pt-30 xl:pt-50 2xl:pt-60 z-10">
+      <div className="font-bigger text-palegray-500 bg-darkgray-500 px-8 pt-20 md:pt-30 xl:pt-50 2xl:pt-50 z-10">
         <p
           ref={containerRef}
           className="xl:text-[9.8rem]/35 text-[2.8rem]/15 sm:text-[3.2rem]/17 md:text-[6.8rem]/15 inline-block relative md:pl-5 md:pr-5 pl-1 pr-1 antialiased lg:subpixel-antialiased"
