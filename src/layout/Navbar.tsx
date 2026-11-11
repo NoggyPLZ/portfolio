@@ -28,8 +28,8 @@ export default function Navbar() {
             src={"/bh-logo.png"}
             className="max-w-[30px] md:max-w-[40px]"
             alt="Brett Hicks logo/mark"
-            width={40}
-            height={48}
+            width={611}
+            height={733}
           />{" "}
           <span
             className={`pt-2 hidden ${

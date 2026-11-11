@@ -13,6 +13,8 @@ export default function Footer() {
             src={"/bh-logo.png"}
             className="max-w-[50px]"
             alt="Brett Hicks logo/mark"
+            width={611}
+            height={733}
           />
           &copy; {date}
         </div>
