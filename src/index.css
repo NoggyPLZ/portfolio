@@ -11,7 +11,7 @@
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Bigger Display";
-    src: url(./assets/fonts/Bigger-Display.woff2) format("woff2");
+    src: url(/fonts/Bigger-Display.woff2) format("woff2");
   }
 }
 
