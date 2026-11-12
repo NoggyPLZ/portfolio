@@ -6,7 +6,7 @@ export const brandLogos = [
         width="180"
         height="44"
         viewBox="0 0 180 44"
-        aria-hidden="true"
+        aria-label="Tractor Supply Co. logo"
         focusable="false"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ export const brandLogos = [
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 303 52"
         data-t="crunchyroll-horizontal-svg"
-        aria-hidden="true"
+        aria-label="Crunchyroll logo"
         role="img"
       >
         <path

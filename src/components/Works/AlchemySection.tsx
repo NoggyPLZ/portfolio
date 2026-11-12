@@ -44,14 +44,14 @@ export default function AlchemySection(props: AlchemyProps) {
     >
       <div className="flex h-full gap-2 p-8 md:pl-8 justify-end md:justify-center flex-col md:items-start md:max-w-[50%]">
         {quote && (
-          <h4 className="text-white font-bold italic text-3xl/7 relative md:text-center p-5 quote-section mx-auto">
+          <blockquote className="text-white font-bold italic text-3xl/7 relative md:text-center p-5 quote-section mx-auto">
             {quote.body.toUpperCase()}
-          </h4>
+          </blockquote>
         )}
         {quote && (
-          <p className="text-white font-light capitalize text-xl text-center mx-auto author">
+          <figcaption className="text-white font-light capitalize text-xl text-center mx-auto author">
             {quote?.author}
-          </p>
+          </figcaption>
         )}
         {stats && (
           <>

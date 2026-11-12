@@ -75,20 +75,20 @@ export default function CopySection(props: CopyProps) {
       >
         {title}
       </h3>
-      <h4
+      <p
         className={`text-lg md:text-xl ${
           even ? `text-darkgray-500` : `text-palegray-500`
         }`}
       >
         <span className="font-bold">Client:</span> {client}
-      </h4>
-      <h4
+      </p>
+      <p
         className={`text-lg md:text-xl ${
           even ? `text-darkgray-500` : `text-palegray-500`
         }`}
       >
         <span className="font-bold">Skills:</span> {skills}
-      </h4>
+      </p>
       <p
         className={`text-base md:text-xl whitespace-pre-wrap ${
           even ? `text-darkgray-500` : `text-palegray-500`
