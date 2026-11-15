@@ -52,19 +52,19 @@ const projects: Project[] = [
         alt: "Image from the Ryman Careers site",
       },
       image_2: {
-        path: "/ryman/ryman02.webp",
-        height: "745",
-        width: "916",
+        path: "/ryman/ryman02n.webp",
+        height: "1550",
+        width: "1892",
         alt: "Image from the Ryman Careers site",
       },
       image_3: {
-        path: "/ryman/ryman03.webp",
-        height: "745",
-        width: "916",
+        path: "/ryman/ryman03n.webp",
+        height: "1550",
+        width: "1892",
         alt: "Image from the Ryman Careers site",
       },
     },
-    case: '/case/ryman',
+    case: "/case/ryman",
     link: "/sites/ryman/index.html",
     stats: {
       statNum: "16 years",
@@ -78,32 +78,32 @@ const projects: Project[] = [
     body: "Through my team at BlueTractor and in communication with the client Rite-Aid, we used the branding standard of Rite-Aid to bring their careers site into a more modern design. Keeping a clean aesthetic, I was able to accent items using their green brand color while letting the blue act as a more dominant color. Included on pages was an input field to search for Jobs using job title and search location as params.",
     images: {
       image_1: {
-        path: "/riteaid/rite-aid-site01.webp",
+        path: "/riteaid/rite-aid-site01n.webp",
         height: "1550",
         width: "1892",
         alt: "Image from the Rite Aid Career site",
       },
       image_2: {
-        path: "/riteaid/rite-aid-site02.webp",
-        height: "745",
-        width: "916",
+        path: "/riteaid/rite-aid-site02n.webp",
+        height: "1550",
+        width: "1892",
         alt: "Image from the Rite Aid Career site",
       },
       image_3: {
-        path: "/riteaid/rite-aid-site03.webp",
-        height: "745",
-        width: "916",
+        path: "/riteaid/rite-aid-site03n.webp",
+        height: "1550",
+        width: "1892",
         alt: "Image from the Rite Aid Career site",
       },
     },
     case: "/case/riteaid",
-    
+
     quote: {
       body: "As always, this looks awesome ... Thanks for the quick turnaround!",
       author: "TSC",
     },
   },
-  
+
   {
     title: "TSC CAREERS",
     client: "Tractor Supply Co.",
@@ -118,18 +118,18 @@ const projects: Project[] = [
       },
       image_2: {
         path: "/tsc-careers/tsc-careers02.webp",
-        height: "745",
-        width: "916",
+        height: "1550",
+        width: "1892",
         alt: "Image from the TSC Careers site",
       },
       image_3: {
         path: "/tsc-careers/tsc-careers03.webp",
-        height: "745",
-        width: "916",
+        height: "1550",
+        width: "1892",
         alt: "Image from the TSC Careers site",
       },
     },
-    case: 'case/tsccareers',
+    case: "case/tsccareers",
     link: "/sites/tsc/index.html",
     stats: {
       statNum: "Over 250+",
@@ -139,32 +139,32 @@ const projects: Project[] = [
   {
     title: "NJAM",
     client: "Chris 'N. Justice' Brown",
-    skills:
-      "Art Direction, Illustration, Packaging Design, Branding,",
+    skills: "Art Direction, Illustration, Packaging Design, Branding,",
     body: "A nostalgic laced illustrative style was called for when designing the album 'NJAM' from award-winning underground Nashville rapper, Chris 'N. Justice' Brown. Using tasteful homages to the 90's era of 16-bit graphic Sega Genesis box art, I was able to create a scene playing across front and back art depicting one of NBA JAM's most iconic mechanics of being on fire from a winning streak.\n\nUsing the same burning basketball for the design of the disc cover, was a play on both the tracks and the design being 'fire'.",
     images: {
       image_1: {
         path: "/njam/njam01.webp",
         height: "1550",
         width: "1892",
-        alt: "Image of the BACK.LOG app",
+        alt: "Image of the NJAM album cover",
       },
       image_2: {
-        path: "/njam/njam03.webp",
-        height: "745",
-        width: "916",
-        alt: "Image of the BACK.LOG app",
+        path: "/njam/njam02n.webp",
+        height: "1550",
+        width: "1892",
+        alt: "Image of the NJAM album back",
       },
       image_3: {
-        path: "/njam/njam02.webp",
-        height: "745",
-        width: "916",
-        alt: "Image of the BACK.LOG app",
+        path: "/njam/njam03n.webp",
+        height: "1550",
+        width: "1892",
+        alt: "Image of the NJAM album logo",
       },
     },
-    case: 'case/njam',
+    case: "case/njam",
     spotify: "https://open.spotify.com/album/2QS1H1kzzQppbHZzDLCpDP",
-    bandcamp: 'https://njustice.bandcamp.com/album/njam-negro-justice-appreciation-month',
+    bandcamp:
+      "https://njustice.bandcamp.com/album/njam-negro-justice-appreciation-month",
     quote: {
       body: "True alchemy lies in this formula: Your memory and your senses are but the nourishment of your creative impulse",
       author: "Arthur Rimbaud",
@@ -172,29 +172,29 @@ const projects: Project[] = [
   },
   {
     title: "SURLALUNE",
-      client: "Heidi Thomas",
-      skills: "Art Direction, Design, Branding, Front-End Development",
-      body: "The redesign of the SurLaLune site was an enormous challenge, but my team at BlueTractor was able to create a beautiful fairy tale themed site. The site featured a sprawling library of around 50 fairy tales each having 8 pages of annotations, illustrations, and more pages of related tales.",
-      images: {
-        image_1: {
-          path: "/surlalune/sur-la-lune01.webp",
-          height: "1550",
-          width: "1892",
-          alt: "Image from the SurLaLune site",
-        },
-        image_2: {
-          path: "/surlalune/sur-la-lune02.webp",
-          height: "745",
-          width: "916",
-          alt: "Image from the SurLaLune site",
-        },
-        image_3: {
-          path: "/surlalune/sur-la-lune03.webp",
-          height: "745",
-          width: "916",
-          alt: "Image from the SurLaLune site",
-        },
+    client: "Heidi Thomas",
+    skills: "Art Direction, Design, Branding, Front-End Development",
+    body: "The redesign of the SurLaLune site was an enormous challenge, but my team at BlueTractor was able to create a beautiful fairy tale themed site. The site featured a sprawling library of around 50 fairy tales each having 8 pages of annotations, illustrations, and more pages of related tales.",
+    images: {
+      image_1: {
+        path: "/surlalune/sur-la-lune01.webp",
+        height: "1550",
+        width: "1892",
+        alt: "Image from the SurLaLune site",
       },
+      image_2: {
+        path: "/surlalune/sur-la-lune02.webp",
+        height: "745",
+        width: "916",
+        alt: "Image from the SurLaLune site",
+      },
+      image_3: {
+        path: "/surlalune/sur-la-lune03.webp",
+        height: "745",
+        width: "916",
+        alt: "Image from the SurLaLune site",
+      },
+    },
     // title: "COGNITION STORE",
     // client: "Cognition",
     // skills:
@@ -273,14 +273,14 @@ const projects: Project[] = [
         alt: "Image of the TECH TRAP app",
       },
       image_2: {
-        path: "/techtrap/techtrap-site02.webp",
-        height: "979",
+        path: "/techtrap/techtrap-site02n.webp",
+        height: "1468",
         width: "1892",
         alt: "Image of the TECH TRAP app",
       },
       image_3: {
-        path: "/techtrap/techtrap-site03.webp",
-        height: "979",
+        path: "/techtrap/techtrap-site03n.webp",
+        height: "1468",
         width: "1892",
         alt: "Image of the TECH TRAP app",
       },
@@ -288,7 +288,7 @@ const projects: Project[] = [
     link: "https://www.techtrap.app/",
     git: "https://github.com/NoggyPLZ/fgc-notes",
   },
-  
+
   // {
   //   title: "SUR LA LUNE",
   //   client: "Heidi Thomas",
@@ -319,7 +319,6 @@ const projects: Project[] = [
   //     author: "Arthur Rimbaud",
   //   },
   // },
-  
 ];
 
 export default projects;

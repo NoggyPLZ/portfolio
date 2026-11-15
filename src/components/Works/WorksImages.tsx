@@ -17,7 +17,7 @@ export default function WorksImages(props: Pick<Project, "images">) {
     () => {
       gsap.set(
         [imageOneRef.current, imageTwoRef.current, imageThreeRef.current],
-        { opacity: 1 }
+        { opacity: 1 },
       );
       gsap.from(imageOneRef.current, {
         scrollTrigger: {
@@ -38,7 +38,7 @@ export default function WorksImages(props: Pick<Project, "images">) {
         ease: "power1.in",
       });
     },
-    { scope: containerRef }
+    { scope: containerRef },
   );
 
   return (
