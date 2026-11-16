@@ -44,7 +44,7 @@ export default function WorksImages(props: Pick<Project, "images">) {
   return (
     <div
       ref={containerRef}
-      className="flex flex-col gap-8 basis-8/12 lg:order-1 order-2"
+      className="flex flex-col gap-8 basis-8/12 lg:order-1 order-2 lg:col-span-2 lg:row-span-3"
     >
       <img
         ref={imageOneRef}

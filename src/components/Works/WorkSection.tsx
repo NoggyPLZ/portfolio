@@ -2,6 +2,7 @@ import projects from "../../data/projects";
 import CopySection from "./CopySection";
 import WorksImages from "./WorksImages";
 import AlchemySection from "./AlchemySection";
+import HeaderSection from "./HeaderSection";
 
 export default function WorkSection() {
   return (
@@ -13,9 +14,8 @@ export default function WorkSection() {
             index % 2 !== 0 ? "bg-darkgray-500" : "bg-palegray-500"
           }`}
         >
-          <div
-            className={`flex lg:flex-row flex-col gap-8 p-8 border-t-30 border-b-30 border-darkgray-500`}
-          >
+          <div className="grid lg:grid-cols-3 lg:grid-rows-[auto_auto_1fr] gap-4 lg:gap-x-8 lg:gap-y-0 p-8 border-t-30 border-b-30 border-darkgray-500">
+            <HeaderSection title={project.title} />
             <WorksImages images={project.images} />
             <CopySection
               copy={{

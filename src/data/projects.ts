@@ -40,10 +40,43 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    title: "TECH TRAP",
+    client: "FGC Community",
+    skills:
+      "Design, Branding, UI Design, Logo Design, Full-Stack Development, Next.js, PrismaORM, PostgreSQL, Tailwind CSS",
+    body: "A community notes app for fighting game players. Character knowledge is scattered across Discord servers, videos and spreadsheets, so I designed and built one place to share it: players post notes for each character, the community votes the best ones up, and liking a note saves it to your own collection.",
+    images: {
+      image_1: {
+        path: "/techtrap/techtrap-site01.webp",
+        height: "1468",
+        width: "1892",
+        alt: "Image of the TECH TRAP app",
+      },
+      image_2: {
+        path: "/techtrap/techtrap-site02n.webp",
+        height: "1468",
+        width: "1892",
+        alt: "Image of the TECH TRAP app",
+      },
+      image_3: {
+        path: "/techtrap/techtrap-site03n.webp",
+        height: "1468",
+        width: "1892",
+        alt: "Image of the TECH TRAP app",
+      },
+    },
+    link: "https://www.techtrap.app/",
+    git: "https://github.com/NoggyPLZ/fgc-notes",
+    quote: {
+      body: "Just signed up! This is awesome!!",
+      author: 'Thomas "TITO", FGC Member',
+    },
+  },
+  {
     title: "RYMAN CAREERS",
     client: "Ryman Hospitality Properties",
     skills: "Art Direction, Design, Branding, Front-End Development",
-    body: "Capturing the rustic typesetting theme of a Nashville printing press, my team at BlueTractor created a careers site for the Ryman properties. Covering around 6 different brands in locations all over Tennessee and even Florida, the site helped Ryman Hospitality Properties reach potential employees in properties such as Ole Red, Grand Ole Opry, Ryman Auditorium, and more.",
+    body: "A careers site for the company behind the Grand Ole Opry, Ryman Auditorium and Ole Red, recruiting across six brands in Tennessee and Florida. The design borrows from Nashville's letterpress poster tradition, so searching for a job feels like part of the show instead of an HR portal. As art director at BlueTractor, I led the design and built the front-end.",
     images: {
       image_1: {
         path: "/ryman/ryman01.webp",
@@ -72,75 +105,10 @@ const projects: Project[] = [
     },
   },
   {
-    title: "RITE AID CAREERS",
-    client: "Rite Aid",
-    skills: "Art Direction, Design, Branding, Front-End Development",
-    body: "Through my team at BlueTractor and in communication with the client Rite-Aid, we used the branding standard of Rite-Aid to bring their careers site into a more modern design. Keeping a clean aesthetic, I was able to accent items using their green brand color while letting the blue act as a more dominant color. Included on pages was an input field to search for Jobs using job title and search location as params.",
-    images: {
-      image_1: {
-        path: "/riteaid/rite-aid-site01n.webp",
-        height: "1550",
-        width: "1892",
-        alt: "Image from the Rite Aid Career site",
-      },
-      image_2: {
-        path: "/riteaid/rite-aid-site02n.webp",
-        height: "1550",
-        width: "1892",
-        alt: "Image from the Rite Aid Career site",
-      },
-      image_3: {
-        path: "/riteaid/rite-aid-site03n.webp",
-        height: "1550",
-        width: "1892",
-        alt: "Image from the Rite Aid Career site",
-      },
-    },
-    case: "/case/riteaid",
-
-    quote: {
-      body: "As always, this looks awesome ... Thanks for the quick turnaround!",
-      author: "TSC",
-    },
-  },
-
-  {
-    title: "TSC CAREERS",
-    client: "Tractor Supply Co.",
-    skills: "Art Direction, Design, Branding, Front-End Development",
-    body: "Starting with the day in the life of a Tractor Supply Team Member, the TSC Careers site introduces prospective applicants to the company and its culture. The comprehensive job search function matches the site's design, using API feeds from TSC's third party vendor to offer a cohesive site experience.",
-    images: {
-      image_1: {
-        path: "/tsc-careers/tsc-careers01.webp",
-        height: "1550",
-        width: "1892",
-        alt: "Image from the TSC Careers site",
-      },
-      image_2: {
-        path: "/tsc-careers/tsc-careers02.webp",
-        height: "1550",
-        width: "1892",
-        alt: "Image from the TSC Careers site",
-      },
-      image_3: {
-        path: "/tsc-careers/tsc-careers03.webp",
-        height: "1550",
-        width: "1892",
-        alt: "Image from the TSC Careers site",
-      },
-    },
-    case: "case/tsccareers",
-    link: "/sites/tsc/index.html",
-    stats: {
-      statNum: "Over 250+",
-      statName: "Sites + Projects Solved",
-    },
-  },
-  {
     title: "NJAM",
     client: "Chris 'N. Justice' Brown",
-    skills: "Art Direction, Illustration, Packaging Design, Branding,",
-    body: "A nostalgic laced illustrative style was called for when designing the album 'NJAM' from award-winning underground Nashville rapper, Chris 'N. Justice' Brown. Using tasteful homages to the 90's era of 16-bit graphic Sega Genesis box art, I was able to create a scene playing across front and back art depicting one of NBA JAM's most iconic mechanics of being on fire from a winning streak.\n\nUsing the same burning basketball for the design of the disc cover, was a play on both the tracks and the design being 'fire'.",
+    skills: "Art Direction, Illustration, Packaging Design, Logo Design,",
+    body: "Album packaging for NJAM by award-winning Nashville rapper Chris “N. Justice” Brown. I illustrated it as a tribute to 16-bit Sega Genesis box art and NBA Jam: the dunk on the front finishes through the hoop on the back, built around the game's iconic “on fire” streak. The flaming ball returns on the disc, because the tracks are fire too.",
     images: {
       image_1: {
         path: "/njam/njam01.webp",
@@ -171,10 +139,43 @@ const projects: Project[] = [
     },
   },
   {
+    title: "RITE AID CAREERS",
+    client: "Rite Aid",
+    skills: "Art Direction, Design System, UI Design, Front-End Development",
+    body: "A careers site for Rite Aid and its family of brands (Bartell Drugs, Elixir, Health Dialog), covering pharmacy, store, corporate and distribution roles across 2,400 locations. As the sole designer, with no style guide to work from, I built the site's design system from Rite Aid's logo and colors, designed the pages, and wrote the front-end code our developer integrated into the back end. \n\nRite Aid closed in 2025; the site is no longer live.",
+    images: {
+      image_1: {
+        path: "/riteaid/rite-aid-site01n.webp",
+        height: "1550",
+        width: "1892",
+        alt: "Image from the Rite Aid Career site",
+      },
+      image_2: {
+        path: "/riteaid/rite-aid-site02n.webp",
+        height: "1550",
+        width: "1892",
+        alt: "Image from the Rite Aid Career site",
+      },
+      image_3: {
+        path: "/riteaid/rite-aid-site03n.webp",
+        height: "1550",
+        width: "1892",
+        alt: "Image from the Rite Aid Career site",
+      },
+    },
+    case: "/case/riteaid",
+
+    stats: {
+      statNum: "Over 250+",
+      statName: "Sites + Projects Solved",
+    },
+  },
+  {
     title: "SURLALUNE",
     client: "Heidi Thomas",
-    skills: "Art Direction, Design, Branding, Front-End Development",
-    body: "The redesign of the SurLaLune site was an enormous challenge, but my team at BlueTractor was able to create a beautiful fairy tale themed site. The site featured a sprawling library of around 50 fairy tales each having 8 pages of annotations, illustrations, and more pages of related tales.",
+    skills:
+      "Art Direction, Information Architecture, Design, Front-End Development",
+    body: "A redesign of SurLaLune Fairy Tales, a reference site for fairy tale scholars, students and fans since 1998. The challenge was scale: 49 annotated tales, each with eight sections (the tale, annotations, history, illustrations, modern interpretations and more), plus a database of 5,000+ folktales. I led the design and set the visual direction, designing alongside the team and building the front end so readers could move through hundreds of pages without getting lost.",
     images: {
       image_1: {
         path: "/surlalune/sur-la-lune01.webp",
@@ -222,8 +223,8 @@ const projects: Project[] = [
     // },
     case: "case/surlalune",
     quote: {
-      body: "Just signed up! This is awesome!!",
-      author: 'Thomas "TITO", FGC Member',
+      body: "As always, this looks awesome ... Thanks for the quick turnaround!",
+      author: "TSC",
     },
   },
   // {
@@ -260,65 +261,33 @@ const projects: Project[] = [
   //   },
   // },
   {
-    title: "TECH TRAP",
-    client: "FGC Community",
-    skills:
-      "Design, Branding, UI, Next.js, Typescript, Zod, React Hook Form, Server Actions, Prisma, PostgreSQL, Tailwind CSS",
-    body: "TechTrap is a user-centric community notes application built for the fighting game community. Using Next.js, I developed an MPA that supports user authentication, note creation, and community sharing.\n\nEach character has a collective pool of notes contributed by users. When someone likes a note, it’s saved to their personal collection making it easy to curate useful information. Authentication is handled with JWT session tokens, while all user input is validated on the backend with Zod before being persisted via Prisma to a PostgreSQL database. \n\nThe goal was to create a pseudo-social platform that encourages the organic exchange of strategies and insights where accuracy and authenticity directly impact competitive performance.",
+    title: "TSC CAREERS",
+    client: "Tractor Supply Co.",
+    skills: "Art Direction, Design, Branding, Front-End Development",
+    body: "A careers site recruiting for Tractor Supply's 54,000+ team members across 2,100+ stores in 49 states. As art director at BlueTractor, I led the design and set the visual direction, designing alongside the team and building the front end. Instead of sending applicants to a generic vendor job board, I designed and built a job search that pulls listings from TSC's hiring platform via API, so browsing jobs felt like part of the brand. Store, distribution center and HQ roles each got their own color, so applicants always knew which path they were on.",
     images: {
       image_1: {
-        path: "/techtrap/techtrap-site01.webp",
-        height: "1468",
+        path: "/tsc-careers/tsc-careers01.webp",
+        height: "1550",
         width: "1892",
-        alt: "Image of the TECH TRAP app",
+        alt: "Image from the TSC Careers site",
       },
       image_2: {
-        path: "/techtrap/techtrap-site02n.webp",
-        height: "1468",
+        path: "/tsc-careers/tsc-careers02.webp",
+        height: "1550",
         width: "1892",
-        alt: "Image of the TECH TRAP app",
+        alt: "Image from the TSC Careers site",
       },
       image_3: {
-        path: "/techtrap/techtrap-site03n.webp",
-        height: "1468",
+        path: "/tsc-careers/tsc-careers03.webp",
+        height: "1550",
         width: "1892",
-        alt: "Image of the TECH TRAP app",
+        alt: "Image from the TSC Careers site",
       },
     },
-    link: "https://www.techtrap.app/",
-    git: "https://github.com/NoggyPLZ/fgc-notes",
+    case: "case/tsccareers",
+    link: "/sites/tsc/index.html",
   },
-
-  // {
-  //   title: "SUR LA LUNE",
-  //   client: "Heidi Thomas",
-  //   skills: "Art Direction, Design, Branding, Front-End Development",
-  //   body: "The redesign of the SurLaLune site was an enormous challenge, but my team at BlueTractor was able to create a beautiful fairy tale themed site. The site featured a sprawling library of around 50 fairy tales each having 8 pages of annotations, illustrations, and more pages of related tales.",
-  //   images: {
-  //     image_1: {
-  //       path: "/surlalune/sur-la-lune01.webp",
-  //       height: "1550",
-  //       width: "1892",
-  //       alt: "Image from the SurLaLune site",
-  //     },
-  //     image_2: {
-  //       path: "/surlalune/sur-la-lune02.webp",
-  //       height: "745",
-  //       width: "916",
-  //       alt: "Image from the SurLaLune site",
-  //     },
-  //     image_3: {
-  //       path: "/surlalune/sur-la-lune03.webp",
-  //       height: "745",
-  //       width: "916",
-  //       alt: "Image from the SurLaLune site",
-  //     },
-  //   },
-  //   quote: {
-  //     body: "True alchemy lies in this formula: Your memory and your senses are but the nourishment of your creative impulse",
-  //     author: "Arthur Rimbaud",
-  //   },
-  // },
 ];
 
 export default projects;

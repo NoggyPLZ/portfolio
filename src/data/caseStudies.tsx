@@ -172,240 +172,6 @@ export const caseStudiesArr: CaseStudyType[] = [
     ],
   },
   {
-    slug: "riteaid",
-    hero: {
-      name: "Rite Aid Careers",
-      image: "riteaid/rite-aid-hero.webp",
-      alt: "rite aid hero image",
-      width: 1691,
-      height: 1092,
-      mobile: {
-        image: "riteaid/rite-aid-hero-mobile.webp",
-        alt: "rite aid hero image",
-        width: 600,
-        height: 387,
-      },
-    },
-    topFacts: {
-      client: "Rite Aid",
-      role: "Art Director",
-      years: {
-        start: "2022",
-        end: "2024",
-      },
-    },
-    rows: [
-      {
-        header: "Four brands, one frame",
-        copy: [
-          "Rite Aid, Elixir, Health Dialog and Bartell were four companies hiring on four separate sites with nothing tying them together. A candidate had no way to tell they were looking at one employer.",
-          "The previous Rite Aid career site had the color somewhat, but it was being replaced by a slate off brand blue on various call to action buttons on pages. On top of that, the structure of the site components was a mess. For example: logo way too large, a bloated navigation, banners with type lacking any sort of hierarchy or composition, and severely lacking in photography.",
-          "However, the worst offender, the search bar was below the fold. This was a lesson hard won through TSC Careers and the Ryman, but thoroughly learned.",
-        ],
-        image: [
-          {
-            src: "riteaid/riteaid-inherited.webp",
-            alt: "The original Rite Aid Careers Site",
-            width: 1892,
-            height: 983,
-            caption: "Inherited career site, hiding the search below the fold.",
-          },
-        ],
-      },
-      {
-        header: "Restoring Structure",
-        copy: [
-          "I took the various elements of the site and rebuilt them as structured components. Bringing the logo to heel, separating the secondary navigation with Rite Aid brand blue, and creating hierarchy in the navigation reclaimed a lot of wasted real estate.",
-          "The banner had no composition, just stacked blocks of type. I gave it hierarchy and made it a cohesive unit.",
-        ],
-        image: [
-          {
-            src: "riteaid/rite-aid-problem.webp",
-            alt: "The original Rite Aid Careers Site",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "riteaid/rite-aid-after.webp",
-            alt: "The new Rite Aid Careers Site",
-            width: 1892,
-            height: 1550,
-          },
-        ],
-        beforeAndAfter: true,
-      },
-      {
-        header: "One page per brand",
-        copy: [
-          "Each brand got its own page with the banner carrying that brand's identity, an approach I brought over from Ryman Careers. Bartell was the exception, keeping its red at the client's request.",
-        ],
-        image: [
-          {
-            src: "riteaid/health-dialog-example.webp",
-            alt: "The new Health Dialog page",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "riteaid/elixir-example.webp",
-            alt: "The new Elixir page",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "riteaid/bartell-example.webp",
-            alt: "The new Bartell page",
-            width: 1892,
-            height: 1550,
-          },
-        ],
-      },
-      {
-        header: "Recognizably Rite Aid",
-        copy: [
-          "A fully responsive platform where four companies finally share a front door with renewed structure, hierarchy, and a search bar that's never more than a glance away. Consistent enough across brands that an applicant can tell at a glance they're on a real Rite Aid property, which matters more than it sounds when recruitment scams are as common as they are.",
-        ],
-        image: [
-          {
-            src: "riteaid/riteaid-bottom01.webp",
-            alt: "Image of the finished design for Rite Aid",
-            width: 1641,
-            height: 1030,
-          },
-          {
-            src: "riteaid/riteaid-bottom02.webp",
-            alt: "Image of the finished mobile design for Rite Aid",
-            width: 828,
-            height: 1030,
-          },
-        ],
-      },
-    ],
-    bottomFacts: [
-      { metric: "2,400+", description: "locations" },
-      { metric: "17", description: "states" },
-      { metric: "1,500", description: "open roles" },
-    ],
-  },
-  {
-    slug: "tsccareers",
-    hero: {
-      name: "TSC Careers",
-      image: "tsccareers/tsccareers-hero.webp",
-      alt: "tsc careers hero image",
-      width: 1691,
-      height: 1092,
-      mobile: {
-        image: "tsccareers/tsccareers-hero-mobile.webp",
-        alt: "tsc careers hero image",
-        width: 600,
-        height: 387,
-      },
-    },
-    topFacts: {
-      client: "Tractor Supply Co.",
-      role: "Art Director",
-      years: {
-        start: "2017",
-        end: "2023",
-      },
-    },
-    rows: [
-      {
-        header: "A new dawn for TSC",
-        copy: [
-          "Tractor Supply's careers site was built before the company's branding was, and it showed. The colors that define TSC today were simply absent. Navigation ran down the left side instead of across the top, with no collapse on mobile, and the whole thing was capped at 1170px. Combined with a dark theme, the effect was claustrophobic: a company built around open land and outdoor work, presenting itself through a narrow dark column.",
-          "Underneath the aesthetic problem was a structural one. TSC hires into three genuinely different worlds. Store, Store Support, and Distribution are different jobs, different environments, and different candidates, and the site treated them as one undifferentiated audience.",
-        ],
-        image: [
-          {
-            src: "tsccareers/tsccareers-inherited.webp",
-            alt: "The original TSC Careers Site",
-            width: 1892,
-            height: 983,
-            caption:
-              "A much darker and dated design we were tasked with redesigning.",
-          },
-        ],
-      },
-      {
-        header: "New Day, New Tractor",
-        copy: [
-          "I directed the redesign as TSC's new branding was taking shape, which meant designing against a standard that was still being written and staying in step with it as it developed over six years.",
-          "We dropped the dark theme for a clean white base, with off-white textures holding the rugged outdoor feel at low volume rather than shouting it.",
-        ],
-        image: [
-          {
-            src: "tsccareers/tsccareers-problem.webp",
-            alt: "The original TSC Careers Site",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "tsccareers/tsccareers-after.webp",
-            alt: "The new TSC Careers design",
-            width: 1892,
-            height: 1550,
-          },
-        ],
-        beforeAndAfter: true,
-      },
-      {
-        header: "Identity By Color",
-        copy: [
-          "The new palette did structural work: red, blue, and green each assigned to one of the three employment branches, so a candidate knew which world they were in before reading a word. Photographic banners showed more than just actual team members, it showed the culture of the area of employment. This gives candidates something concrete to picture themselves inside of.",
-        ],
-        image: [
-          {
-            src: "tsccareers/distro-example.webp",
-            alt: "Example of the distribution section of TSC Careers",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "tsccareers/store-support-example.webp",
-            alt: "Example of the store support section of TSC Careers",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "tsccareers/store-example.webp",
-            alt: "Example of the store section of TSC Careers",
-            width: 1892,
-            height: 1550,
-          },
-        ],
-      },
-      {
-        header: "Welcome to Life Out Here",
-        copy: [
-          "Mobile drove most of the decisions. Banners had to hold up at small sizes without pushing content off the screen, and navigation became collapsible and modern instead of a desktop pattern crammed into a phone. I designed the mobile pages almost exclusively, directed and reviewed another designer's work to keep it consistent with the system, and wrote the HTML and CSS.",
-          "The site went from a fixed narrow column to a layout that filled a desktop screen and fit a phone. It stayed in service for six years while the company grew from roughly 1,685 to 2,100+ stores, and we kept it current with TSC's branding as that standard matured around it.",
-        ],
-        image: [
-          {
-            src: "tsccareers/tsccareers-bottom01.webp",
-            alt: "Image of the finished design for TSC Careers",
-            width: 1892,
-            height: 1550,
-          },
-          {
-            src: "tsccareers/tsccareers-bottom02.webp",
-            alt: "Image of the finished mobile design for TSC Careers",
-            width: 828,
-            height: 1030,
-          },
-        ],
-      },
-    ],
-    bottomFacts: [
-      { metric: "2,100+", description: "stores" },
-      { metric: "49", description: "states" },
-      { metric: "4,500", description: "positions at any given time" },
-    ],
-  },
-
-  {
     slug: "njam",
     hero: {
       minorName: "N. Justice's",
@@ -521,6 +287,122 @@ export const caseStudiesArr: CaseStudyType[] = [
     bottomFacts: [
       { metric: "500,000+", description: "streams across the catalog" },
       { metric: "6", description: "years of collaboration" },
+    ],
+  },
+  {
+    slug: "riteaid",
+    hero: {
+      name: "Rite Aid Careers",
+      image: "riteaid/rite-aid-hero.webp",
+      alt: "rite aid hero image",
+      width: 1691,
+      height: 1092,
+      mobile: {
+        image: "riteaid/rite-aid-hero-mobile.webp",
+        alt: "rite aid hero image",
+        width: 600,
+        height: 387,
+      },
+    },
+    topFacts: {
+      client: "Rite Aid",
+      role: "Art Director",
+      years: {
+        start: "2022",
+        end: "2024",
+      },
+    },
+    rows: [
+      {
+        header: "Four brands, one frame",
+        copy: [
+          "Rite Aid, Elixir, Health Dialog and Bartell were four companies hiring on four separate sites with nothing tying them together. A candidate had no way to tell they were looking at one employer.",
+          "The previous Rite Aid career site had the color somewhat, but it was being replaced by a slate off brand blue on various call to action buttons on pages. On top of that, the structure of the site components was a mess. For example: logo way too large, a bloated navigation, banners with type lacking any sort of hierarchy or composition, and severely lacking in photography.",
+          "However, the worst offender, the search bar was below the fold. This was a lesson hard won through TSC Careers and the Ryman, but thoroughly learned.",
+        ],
+        image: [
+          {
+            src: "riteaid/riteaid-inherited.webp",
+            alt: "The original Rite Aid Careers Site",
+            width: 1892,
+            height: 983,
+            caption: "Inherited career site, hiding the search below the fold.",
+          },
+        ],
+      },
+      {
+        header: "Restoring Structure",
+        copy: [
+          "I took the various elements of the site and rebuilt them as structured components. Bringing the logo to heel, separating the secondary navigation with Rite Aid brand blue, and creating hierarchy in the navigation reclaimed a lot of wasted real estate.",
+          "The banner had no composition, just stacked blocks of type. I gave it hierarchy and made it a cohesive unit.",
+        ],
+        image: [
+          {
+            src: "riteaid/rite-aid-problem.webp",
+            alt: "The original Rite Aid Careers Site",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "riteaid/rite-aid-after.webp",
+            alt: "The new Rite Aid Careers Site",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+        beforeAndAfter: true,
+      },
+      {
+        header: "One page per brand",
+        copy: [
+          "Each brand got its own page with the banner carrying that brand's identity, an approach I brought over from Ryman Careers. Bartell was the exception, keeping its red at the client's request.",
+        ],
+        image: [
+          {
+            src: "riteaid/health-dialog-example.webp",
+            alt: "The new Health Dialog page",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "riteaid/elixir-example.webp",
+            alt: "The new Elixir page",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "riteaid/bartell-example.webp",
+            alt: "The new Bartell page",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+      },
+      {
+        header: "Recognizably Rite Aid",
+        copy: [
+          "A fully responsive platform where four companies finally share a front door with renewed structure, hierarchy, and a search bar that's never more than a glance away. Consistent enough across brands that an applicant can tell at a glance they're on a real Rite Aid property, which matters more than it sounds when recruitment scams are as common as they are.",
+        ],
+        image: [
+          {
+            src: "riteaid/riteaid-bottom01.webp",
+            alt: "Image of the finished design for Rite Aid",
+            width: 1641,
+            height: 1030,
+          },
+          {
+            src: "riteaid/riteaid-bottom02.webp",
+            alt: "Image of the finished mobile design for Rite Aid",
+            width: 828,
+            height: 1030,
+          },
+        ],
+      },
+    ],
+    bottomFacts: [
+      { metric: "2,400+", description: "locations" },
+      { metric: "17", description: "states" },
+      { metric: "1,500", description: "open roles" },
     ],
   },
 
@@ -649,6 +531,123 @@ export const caseStudiesArr: CaseStudyType[] = [
       { metric: "48", description: "catalogued fairy tales" },
       { metric: "1,500", description: "fairy tale illustrations" },
       { metric: "5,000+", description: "folktales in the database" },
+    ],
+  },
+  {
+    slug: "tsccareers",
+    hero: {
+      name: "TSC Careers",
+      image: "tsccareers/tsccareers-hero.webp",
+      alt: "tsc careers hero image",
+      width: 1691,
+      height: 1092,
+      mobile: {
+        image: "tsccareers/tsccareers-hero-mobile.webp",
+        alt: "tsc careers hero image",
+        width: 600,
+        height: 387,
+      },
+    },
+    topFacts: {
+      client: "Tractor Supply Co.",
+      role: "Art Director",
+      years: {
+        start: "2017",
+        end: "2023",
+      },
+    },
+    rows: [
+      {
+        header: "A new dawn for TSC",
+        copy: [
+          "Tractor Supply's careers site was built before the company's branding was, and it showed. The colors that define TSC today were simply absent. Navigation ran down the left side instead of across the top, with no collapse on mobile, and the whole thing was capped at 1170px. Combined with a dark theme, the effect was claustrophobic: a company built around open land and outdoor work, presenting itself through a narrow dark column.",
+          "Underneath the aesthetic problem was a structural one. TSC hires into three genuinely different worlds. Store, Store Support, and Distribution are different jobs, different environments, and different candidates, and the site treated them as one undifferentiated audience.",
+        ],
+        image: [
+          {
+            src: "tsccareers/tsccareers-inherited.webp",
+            alt: "The original TSC Careers Site",
+            width: 1892,
+            height: 983,
+            caption:
+              "A much darker and dated design we were tasked with redesigning.",
+          },
+        ],
+      },
+      {
+        header: "New Day, New Tractor",
+        copy: [
+          "I directed the redesign as TSC's new branding was taking shape, which meant designing against a standard that was still being written and staying in step with it as it developed over six years.",
+          "We dropped the dark theme for a clean white base, with off-white textures holding the rugged outdoor feel at low volume rather than shouting it.",
+        ],
+        image: [
+          {
+            src: "tsccareers/tsccareers-problem.webp",
+            alt: "The original TSC Careers Site",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "tsccareers/tsccareers-after.webp",
+            alt: "The new TSC Careers design",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+        beforeAndAfter: true,
+      },
+      {
+        header: "Identity By Color",
+        copy: [
+          "The new palette did structural work: red, blue, and green each assigned to one of the three employment branches, so a candidate knew which world they were in before reading a word. Photographic banners showed more than just actual team members, it showed the culture of the area of employment. This gives candidates something concrete to picture themselves inside of.",
+        ],
+        image: [
+          {
+            src: "tsccareers/distro-example.webp",
+            alt: "Example of the distribution section of TSC Careers",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "tsccareers/store-support-example.webp",
+            alt: "Example of the store support section of TSC Careers",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "tsccareers/store-example.webp",
+            alt: "Example of the store section of TSC Careers",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+      },
+      {
+        header: "Welcome to Life Out Here",
+        copy: [
+          "Mobile drove most of the decisions. Banners had to hold up at small sizes without pushing content off the screen, and navigation became collapsible and modern instead of a desktop pattern crammed into a phone. I designed the mobile pages almost exclusively, directed and reviewed another designer's work to keep it consistent with the system, and wrote the HTML and CSS.",
+          "The site went from a fixed narrow column to a layout that filled a desktop screen and fit a phone. It stayed in service for six years while the company grew from roughly 1,685 to 2,100+ stores, and we kept it current with TSC's branding as that standard matured around it.",
+        ],
+        image: [
+          {
+            src: "tsccareers/tsccareers-bottom01.webp",
+            alt: "Image of the finished design for TSC Careers",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "tsccareers/tsccareers-bottom02.webp",
+            alt: "Image of the finished mobile design for TSC Careers",
+            width: 828,
+            height: 1030,
+          },
+        ],
+      },
+    ],
+    bottomFacts: [
+      { metric: "2,100+", description: "stores" },
+      { metric: "49", description: "states" },
+      { metric: "4,500", description: "positions at any given time" },
     ],
   },
 ];
