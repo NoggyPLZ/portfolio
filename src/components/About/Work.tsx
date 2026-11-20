@@ -16,9 +16,14 @@ export default function Work() {
       </div>
       <ul className="list-disc pl-4 flex flex-col gap-2 pt-2">
         <li>
-          Directed brand and web design for clients across music, retail, and
-          professional services, handling engagements end to end from strategy
-          and design through build and ongoing maintenance.
+          Designed and built brand and web work for clients across music,
+          retail, and professional services, handling engagements end to end
+          from discovery through build and ongoing maintenance.
+        </li>
+        <li>
+          Audited and remediated client and portfolio sites against WCAG 2.2 AA,
+          testing with VoiceOver, keyboard-only navigation and automated tools
+          such as Lighthouse and Stark.
         </li>
         <li>
           Used AI-assisted design tooling, including Claude Design, to produce
