@@ -1,14 +1,22 @@
-export type CaseImageType = {
-  src: string;
-  alt: string;
-  width: number;
-  height: number;
+export type CaseMediaType = {
+  src?: string;
+  alt?: string;
+  width?: number;
+  height?: number;
   caption?: string;
+  video?: string;
+  title?: string;
+  poster?: string;
+};
+
+export type CaseStudyVideo = {
+  video: string;
+  title: string;
 };
 
 export type CaseStudyRowType = {
   header?: string;
-  image?: CaseImageType[];
+  image?: CaseMediaType[];
   copy?: string[];
   beforeAndAfter?: boolean;
 };
@@ -54,6 +62,144 @@ export type CaseStudyType = {
 };
 
 export const caseStudiesArr: CaseStudyType[] = [
+  {
+    slug: "techtrap",
+    hero: {
+      name: "TechTrap",
+      image: "techtrap/techtrap-hero.webp",
+      alt: "techtrap hero image",
+      width: 1691,
+      height: 1092,
+      mobile: {
+        image: "techtrap/techtrap-hero-mobile.webp",
+        alt: "techtrap hero image",
+        width: 600,
+        height: 387,
+      },
+    },
+    topFacts: {
+      client: "Fighting Game Community",
+      role: "Designer, Full-Stack Developer",
+      years: {
+        start: "2025",
+        end: "PRESENT",
+      },
+    },
+    rows: [
+      {
+        header: "Here Comes a New Challenger!",
+        copy: [
+          "To truly compete in competitive fighting games, you must become a student of the game in a literal sense. Practice must be partnered with studying, and the community becomes stronger when knowledge is shared. However, these days that knowledge can be elusive. It hides in Discord servers, Google Docs, wiki pages, ancient forums, and social media sites.",
+          "I set out to create TechTrap to gather that knowledge into one repository: a web app built on text-only entries so it loads fast, because anyone who's been to a major knows how spotty venue Wi-Fi can be. And one guarded against bot misinformation as well as I could make it.",
+          "TechTrap became a place where players could write down their notes before they vanish from memory. An app where users decide as a community which knowledge has true value, and where they can collaborate to each create their own catalog of notes for competition.",
+        ],
+        image: [
+          {
+            src: "techtrap/techtrap-brand.webp",
+            alt: "techtrap branding evolution",
+            width: 1892,
+            height: 1550,
+            caption:
+              "The new logo for TechTrap, losing the old bear trap icon, and refining the lettering.",
+          },
+        ],
+      },
+      {
+        header: "The Wheel of Fate is Turning...",
+        copy: [
+          "Originally, the project was more focused on function over form. I built the full-stack app in Next.js App Router, PrismaORM for a PostgreSQL database, and TailwindCSS for styling. The auth was written by me as a simple JWT in an HTTP-only cookie, with signature checks in the middleware and every server action contained deep checks against the database.",
+          "All inputs from the front were treated as venom until validated using Zod in the backend. To combat bots I used Google reCAPTCHA v3 and email verification before note creation. For each game, I created a special notation helper that would mimic that particular game's button layout, and tried to bring together different schools of notation into a new one that uses arrows.",
+          "After putting the database on Supabase and the rest of the stack on Vercel, I realized the whole thing needed a new design. Using a dog-ear motif in the top-right corner, a halftone pattern, and clipped buttons and elements, I redesigned the app in high-contrast rose, gray and black for a bold, dynamic look.",
+        ],
+        image: [
+          {
+            src: "techtrap/techtrap-index02.webp",
+            alt: "The desktop view of TechTrap index",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "techtrap/techtrap-mobile-view01.webp",
+            alt: "Mobile view of TechTrap index",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "techtrap/techtrap-desktop-dashboard01.webp",
+            alt: "Desktop view of the dashboard and account settings page",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "techtrap/desktop-character-select01.webp",
+            alt: "Desktop view of the character select screen and game select screen",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "techtrap/techtrap-mobile-dashboard01.webp",
+            alt: "Mobile view of the TechTrap dashboard",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "techtrap/techtrap-mobile-notes01.webp",
+            alt: "Mobile view of the TechTrap note section",
+            width: 1892,
+            height: 1550,
+          },
+        ],
+      },
+      {
+        header: "What do you see beyond your fist?",
+        copy: [
+          "When I got the new design into a decent spot, I decided to slowly reach out for more users. Originally, I kept the project user count low to catch issues before a potential spike in users could happen. I wanted to make sure that the allowance I got from Supabase and Vercel would handle the load without the site going down and to keep costs under control. So I set up social media accounts and created custom images for social media as well as stinger animations for local tournaments in Middle Tennessee.",
+        ],
+        image: [
+          {
+            src: "techtrap/techtrap-social01.webp",
+            alt: "TechTrap bluesky account with social media image",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            video: "techtrap/techtrap-logo-stinger.mp4",
+            title: "TechTrap Twitch Stinger",
+            src: "techtrap/techtrap-storyboard.webp",
+            width: 1656,
+            height: 417,
+            poster: "techtrap/techtrap-vid-poster.webp",
+          },
+        ],
+      },
+      {
+        header: "The Answer Lies in the Heart of Battle",
+        copy: [
+          "The project was an intense learning experience. I found that while the app did as I wanted, most people want to read notes as opposed to contribute. This behavior of the users fell in line with the 90-9-1 rule. In my attempt to keep bots off the site, I had gated reading the notes behind registration, and potentially put a huge blocker on users becoming more frequent.",
+          "Given what I learned, I've started opening notes up to everyone, beginning with a public section on the new landing page, and I plan to build that out into a full non-gated view. Just like in competition, I plan to use the lessons TechTrap taught me to become a stronger developer and designer.",
+        ],
+        image: [
+          {
+            src: "techtrap/techtrap-bottom01.webp",
+            alt: "Image of TechTrap dashboard",
+            width: 1892,
+            height: 1550,
+          },
+          {
+            src: "techtrap/techtrap-bottom02.webp",
+            alt: "Mobile view of the notation helper",
+            width: 828,
+            height: 1030,
+          },
+        ],
+      },
+    ],
+    bottomFacts: [
+      { metric: "4", description: "games available" },
+      { metric: "76", description: "characters" },
+      { metric: "0", description: "bot sign-ups" },
+    ],
+  },
   {
     slug: "ryman",
     hero: {

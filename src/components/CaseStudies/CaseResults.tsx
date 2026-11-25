@@ -50,7 +50,7 @@ export default function CaseResults({ header, copy, image }: CaseStudyRowType) {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col">
             <h4 className="flex gap-4 text-gray-600 uppercase pb-4">
-              <span className="text-red-700">04</span>The Result
+              The Result
             </h4>
             <div className="flex flex-col md:flex-row gap-4">
               <h3

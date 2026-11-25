@@ -62,10 +62,9 @@ export default function CaseSecondarySection({
             <h4
               className={`${light ? "text-gray-600" : "text-gray-400"} pb-4 flex gap-4  uppercase`}
             >
-              <span className={`${light ? "text-red-700" : "text-red-400"}`}>
-                {light ? "02" : "03"}
-              </span>
-              {light ? "The Solution" : "The System"}
+              {light
+                ? "The Solution"
+                : `${header === "What do you see beyond your fist?" ? "Outreach" : "The System"}`}
             </h4>
             <div className="flex flex-col md:flex-row gap-4">
               <h3
@@ -87,9 +86,11 @@ export default function CaseSecondarySection({
               </div>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row gap-2">
+          <div
+            className={` gap-2 ${image && image?.length > 3 ? "grid md:grid-cols-2" : "flex flex-col md:flex-row"}`}
+          >
             {image?.map((el, i) => (
-              <div key={el.src} className="basis-1/2">
+              <div key={el.src} className={`basis-1/2`}>
                 {beforeAndAfter && (
                   <p
                     className={`
@@ -100,14 +101,39 @@ export default function CaseSecondarySection({
                     {i % 2 === 0 ? "Before" : "After"}
                   </p>
                 )}
-
-                <img
-                  src={`/casestudies/${el.src}`}
-                  alt={el.alt}
-                  width={el.width}
-                  height={el.height}
-                  className="case-image"
-                />
+                {el.video ? (
+                  <>
+                    <img
+                      src={`/casestudies/${el.src}`}
+                      width={el.width}
+                      height={el.height}
+                      alt={el.title}
+                      className="pb-1"
+                    />
+                    <video
+                      className="aspect-video"
+                      poster={`/casestudies/${el.poster}`}
+                      controls
+                      muted
+                      playsInline
+                    >
+                      <source
+                        src={`/casestudies/${el.video}`}
+                        type="video/mp4"
+                        title={el.title}
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                  </>
+                ) : (
+                  <img
+                    src={`/casestudies/${el.src}`}
+                    alt={el.alt}
+                    width={el.width}
+                    height={el.height}
+                    className="case-image"
+                  />
+                )}
               </div>
             ))}
           </div>

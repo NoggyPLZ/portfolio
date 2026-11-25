@@ -55,7 +55,7 @@ export default function CaseIntroSection({
       <div className="flex flex-col md:flex-row gap-8">
         <div className="basis-6/12">
           <h4 className="pb-4 flex gap-4 text-gray-400 uppercase">
-            <span className="text-red-400">01</span>The Problem
+            The Problem
           </h4>
           <h3
             ref={titleRef}

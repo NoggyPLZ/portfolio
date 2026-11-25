@@ -65,6 +65,7 @@ const projects: Project[] = [
         alt: "Image of the TECH TRAP app",
       },
     },
+    case: "/case/techtrap",
     link: "https://www.techtrap.app/",
     git: "https://github.com/NoggyPLZ/fgc-notes",
     quote: {
