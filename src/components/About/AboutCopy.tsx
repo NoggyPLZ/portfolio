@@ -23,9 +23,9 @@ export default function AboutCopy() {
           </h3>
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 xl:pb-2 md:mb-5">
             I direct the work and ship it, so intent survives implementation.
-            Experienced mentoring designers, presenting to enterprise
-            stakeholders, and building systems that stay maintainable by
-            non-designers long after launch.
+            Moved from html/css + flash &#62; responsive css &#62;
+            JavaScript/JQuery &#62; React.js/Next.js and Typescript. A digital
+            chimera combing a designer's eye with full-stack development.
           </p>
           <p className="text-palegray-500  md:text-2xl/12 border-b-1 border-b-darkgray-500 pb-10 md:mb-5">
             When I'm not designing and coding, I enjoy reading scifi novels,
